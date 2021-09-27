@@ -104,6 +104,7 @@
 .team-social-profile ul li a {
 	font-size: 14px;
 	color: #a0aab1;
+	text-decoration: none;
 }
 .team-social-profile ul li a:hover {
 	color: #ce1b28;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './doctor.css';
+import '..styles/doctor.css';
 function Doctor() {
     return (
         <div>
