@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/services.css';
 
-function Services() {
+function Services3() {
     return (
         <div>
         <section class="services-area services-border pos-rel pt-185 pb-160">
@@ -85,4 +85,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Services3

@@ -32,7 +32,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service1.png" alt="" />
+                                <img src={require("../img/services/service1.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Body Surgery</a></h3>
@@ -44,7 +44,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service2.png" alt="" />
+                                <img src={require("../img/services/service2.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Dental Care</a></h3>
@@ -56,7 +56,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service3.png" alt="" />
+                                <img src={require("../img/services/service3.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Eye Care</a></h3>
@@ -68,7 +68,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service4.png" alt="" />
+                                <img src={require("../img/services/service4.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Blood Cancer</a></h3>
@@ -80,7 +80,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service5.png" alt="" />
+                                <img src={require("../img/services/service5.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Neurology Sargery</a></h3>
@@ -92,7 +92,7 @@ function Services2() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="service-box service-box-border text-center mb-30">
                             <div class="service-thumb">
-                                <img src="img/services/service6.png" alt="" />
+                                <img src={require("../img/services/service6.png").default} alt="" />
                             </div>
                             <div class="service-content">
                                 <h3><a href="#">Allergic Issue</a></h3>
