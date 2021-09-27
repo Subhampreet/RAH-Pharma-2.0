@@ -1,7 +1,7 @@
 import './App.css';
-import Footer from './Components/footer';
-import Latest from './Components/latest'
-import './styles/responsive.css'
+import Footer from './landingPage/Components/footer';
+import Latest from './landingPage/Components/latest'
+import './landingPage/styles/responsive.css'
 import './fontAwesome'
 
 function App() {
