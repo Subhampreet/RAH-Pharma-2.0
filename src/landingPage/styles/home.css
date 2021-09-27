@@ -225,7 +225,8 @@
 }
 .slider-height-2 {
 	min-height: 950px;
-	background: url('../img/slider/slider-bg-2.jpg');
+	background: url('../img/banner.jpg');
+	background-size: cover;
 }
 .slider-height-3 {
 	min-height: 780px;
@@ -380,15 +381,7 @@
 	background-color: rgb(225, 36, 84);
 	box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
 }
-.btn-icon-red{
-	border-radius: 30px;
-	padding-left: 84px;
-	padding-right: 50px;
-	padding-top: 24px;
-	padding-bottom: 22px;
-	background-color: rgb(225, 36, 84);
-	box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
-}
+
 .btn-icon-green {
 	background-color: rgb(143, 181, 105);
 	box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
@@ -598,4 +591,16 @@
 	-webkit-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
 	width: 8px;
+}
+.logo{
+	margin-bottom: 20px;
+}
+.submenu{
+	margin-top: 30px;
+}
+.f-right{
+	display: flex;
+	width: 20vw;
+	justify-content: space-evenly;
+	align-items: center;
 }
