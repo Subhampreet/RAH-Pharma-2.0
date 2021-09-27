@@ -111,3 +111,12 @@
 .team-social-profile ul li a:hover {
 	color: #ce1b28;
 }
+.team-activation{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.team-activation .col-xl-12{
+	width: 200px;
+}

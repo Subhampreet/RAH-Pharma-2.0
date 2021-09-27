@@ -10,14 +10,14 @@ function latest() {
                     <div className="col-xl-6 col-lg-7">
                         <div className="section-title pos-rel mb-75">
                             <div className="section-icon">
-                                <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt=""/>
+                                <img className="section-back-icon back-icon-left" src={require('../img/section/section-back-icon.png').default} alt=""/>
                             </div>
                             <div className="section-text pos-rel">
                                 <h5>News</h5>
                                 <h1>Get Every Single Updates Here.</h1>
                             </div>
                             <div className="section-line pos-rel">
-                                <img src="img/shape/section-title-line.png" alt=""/>
+                                <img src={require("../img/shape/section-title-line.png").default} alt=""/>
                             </div>
                         </div>
                     </div>
