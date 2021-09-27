@@ -5,17 +5,18 @@ import './landingPage/styles/responsive.css'
 import './fontAwesome'
 import Home from './landingPage/components/home'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Services from './landingPage/components/services';
+import Services1 from './landingPage/components/services1';
 import Services2 from './landingPage/components/services2';
+import Services3 from './landingPage/components/services3';
 // import './landingPage/styles/bootstrap-min.css'
 
 function App() {
   return (
     <>
       <Home />
-      <Services/>
+      <Services1/>
       <Services2/>
-      <Services/>
+      <Services3/>
       <Latest />
       <Footer />  
     </>
