@@ -17,11 +17,7 @@ function App() {
   return (
     <>
       <Home />
-<<<<<<< HEAD
       <Doctor/>
-=======
-
->>>>>>> 91500f8b33cf036e079685528d23565aa2ce8e37
       <Services1/>
       <Services2/>
       <Services3/>
