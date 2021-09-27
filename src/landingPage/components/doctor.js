@@ -1,5 +1,5 @@
 import React from 'react'
-import '..styles/doctor.css';
+import '../styles/doctor.css';
 function Doctor() {
     return (
         <div>
@@ -9,14 +9,14 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="section-title text-center pos-rel mb-70">
                             <div class="section-icon">
-                                <img class="section-back-icon" src="img/section/section-back-icon.png" alt="" />
+                                <img class="section-back-icon" src={require('../img/section/section-back-icon.png').default} alt="" />
                             </div>
                             <div class="section-text pos-rel">
                                 <h5>Angels</h5>
                                 <h1>Our Doctors</h1>
                             </div>
                             <div class="section-line pos-rel">
-                                <img src="img/shape/section-title-line.png" alt="" />
+                                <img src="" alt="" />
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-1.jpg" alt="" />
+                                <img src= {require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
@@ -36,7 +36,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-2.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
@@ -47,7 +47,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-3.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info mb-30">
                                 <span>Founder</span>
@@ -58,7 +58,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-4.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info mb-30">
                                 <span>Founder</span>
@@ -69,7 +69,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-5.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
@@ -80,7 +80,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-6.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
@@ -91,7 +91,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-3.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default}alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
@@ -102,7 +102,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src="img/team/team-member-4.jpg" alt="" />
+                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
                             </div>
                             <div class="team-author-info">
                                 <span>Founder</span>
