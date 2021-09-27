@@ -15,7 +15,7 @@ import Doctor from './landingPage/components/doctor';
 
 function App() {
   return (
-    <>
+    <div className="landingPage">
       <Home />
       <Doctor/>
       <Services1/>
@@ -25,7 +25,7 @@ function App() {
       <Counter />
       <Latest />
       <Footer />  
-    </>
+    </div>
   );
 }
 
