@@ -1,5 +1,6 @@
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Rubik:400,500,700');
 .mt-5 {
   margin-top: 5px;
 }
@@ -949,7 +950,6 @@
 .list-inline li {
   display: inline-block;
 }
-@charset "UTF-8";
 
 
 /*!
