@@ -159,7 +159,7 @@
 .footer-map::before {
 	position: absolute;
 	content: "";
-	/* background-image: url(../img/footer/footer-map.png); */
+	background-image: url(../img/footer/footer-map.png);
 	left: 0;
 	right: 0;
 	top: 0;
