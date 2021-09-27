@@ -68,9 +68,10 @@
 .header__menu.header-menu-white ul li a:hover {
 	color: #E12454;
 }
-.header__menu.menu-dark ul li a {
+.header__menu ul li a {
 	padding: 20px 0;
 	color: #b2bfcf;
+	text-decoration: none;
 }
 .header__menu ul li a:hover {
 	color: #223645;
@@ -99,11 +100,12 @@
 .header__menu.header-menu-white ul li ul.submenu {
 	background: #001D26;
 }
-.header__menu.menu-dark ul li ul.submenu {
+.header__menu ul li ul.submenu {
 	background: #223645;
 }
-.header__menu.menu-dark ul li ul.submenu li a {
+.header__menu ul li ul.submenu li a {
 	color: #b2bfcf;
+	text-decoration: none;
 }
 .header__menu.menu-dark ul li ul.submenu li a:hover {
 	color: #fff;
@@ -223,6 +225,7 @@
 }
 .slider-height-2 {
 	min-height: 950px;
+	background: url('../img/slider/slider-bg-2.jpg');
 }
 .slider-height-3 {
 	min-height: 780px;
@@ -236,11 +239,11 @@
 	padding-right: 66px;
 }
 .hero-slider-caption h5 {
-	color: #0a1121;
+	color: #ffffff;
 	margin-bottom: 25px;
 }
 .hero-slider-caption h1 {
-	color: #303030;
+	color: #ffffff;
 	font-size: 80px;
 	margin-bottom: 20px;
 	letter-spacing: -2.3px;

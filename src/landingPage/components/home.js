@@ -11,7 +11,7 @@ function home() {
                 <div class="row d-flex align-items-center">
                     <div class="col-xl-2 col-lg-2 col-md-3">
                         <div class="logo pos-rel">
-                            <a href="index.html"><img src="img/logo/logo-2.png" alt=""/></a>
+                            <a href="index.html"><img src={require("../img/logo/logo-2.png").default}/></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-8 col-md-6">
@@ -99,7 +99,7 @@ function home() {
         {/* Hero-section */}
         <div class="hero-slider">
                 <div class="slider-active">
-                    <div class="single-slider slider-height slider-height-2 d-flex align-items-center" data-background="img/slider/slider-bg-2.jpg">
+                    <div class="single-slider slider-height slider-height-2 d-flex align-items-center" data-background='../img/slider/slider-bg-2.jpg'>
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-xl-6 col-lg-6 col-md-10">
@@ -125,7 +125,7 @@ function home() {
                                                 <div class="col-xl-12">
                                                     <div class="appoinment-form-box appoinment-form-box-option d-flex mb-40">
                                                         <div class="appoint-ment-icon">
-                                                            <img src="img/icon/caregive-option-icon-2.png" alt="" />
+                                                            <img src="img/icon/caregive-option-icon-2.png" alt=""/>
                                                         </div>
                                                         <form class="appointment-form-2" action="#">
                                                             <label for="input">select your location</label>
