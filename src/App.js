@@ -1,6 +1,8 @@
 import './App.css';
 import Footer from './landingPage/components/footer';
 import Latest from './landingPage/components/latest'
+import Counter from './landingPage/components/counter'
+import Appointment from './landingPage/components/appointment'
 import './landingPage/styles/responsive.css'
 import './fontAwesome'
 import Home from './landingPage/components/home'
@@ -14,9 +16,11 @@ function App() {
   return (
     <>
       <Home />
+
       <Services1/>
       <Services2/>
       <Services3/>
+      <Counter />
       <Latest />
       <Footer />  
     </>
