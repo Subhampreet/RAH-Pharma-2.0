@@ -1,0 +1,347 @@
+.services-border {
+	border-top: 1px solid #ececec;
+}
+
+.h4services-bg {
+	position: absolute;
+	width: 100%;
+	min-height: 516px;
+	bottom: 0;
+	background: #223645;
+}
+
+.section-title h5 {
+	margin-bottom: 28px;
+}
+
+.section-title h1 {
+	margin-bottom: 18px;
+	line-height: 1.2;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.section-back-icon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -50px;
+}
+
+.section-text.section-text-green h1 {
+	margin-bottom: 24px;
+}
+.section-text-white h5 {
+	color: #899dab;
+}
+.section-text-green h5 {
+	color: #8fb569;
+	font-weight: 400;
+}
+.section-text-small h5 {
+	color: #e12454;
+	text-transform: uppercase;
+}
+.calculate-section .section-text-white h5 {
+	color: #b1c5d3;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+.section-text-green p {
+	color: #899dab;
+	padding-right: 90px;
+}
+.section-title h1 {
+	margin-bottom: 18px;
+	line-height: 1.2;
+}
+.section-back-icon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -50px;
+}
+.section-text-small h1 {
+	font-size: 50px;
+}
+.back-icon-left {
+	margin: 0;
+}
+.back-icon-right {
+	margin: inherit;
+	left: inherit;
+}
+
+.h4service-active .slick-arrow,
+.h4gallery-active .slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	border: 0;
+	font-size: 18px;
+	color: #fff;
+	background: #8fb569;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	left: -5%;
+	transition: .4s;
+}
+.h4service-active .slick-next.slick-arrow {
+	left: auto;
+	right: -5%;
+}
+.h4service-active .slick-arrow:hover {
+	background: #e12454;
+}
+.h4service-active .slick-dots,
+.h4gallery-active .slick-dots {
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
+	bottom: -52px;
+}
+.h4service-active .slick-dots li,
+.h4gallery-active .slick-dots li {
+	display: inline-block;
+}
+.h4service-active .slick-dots li button,
+.h4gallery-active .slick-dots li button {
+	height: 15px;
+	width: 15px;
+	text-indent: -9999px;
+	background: #85949e;
+	border: 0;
+	padding: 0;
+	border-radius: 50%;
+	margin: 0 5px;
+	transition: .4s;
+}
+.h4service-active .slick-dots li.slick-active button {
+	background: #8fb569;
+}
+
+.service-thumb {
+	margin-bottom: 45px;
+}
+.service-box-3 .service-content-box {
+	padding: 0 15px;
+	margin-top: -30px;
+	position: relative;
+}
+.service-box-3 .service-content {
+	padding: 40px;
+	background: #fff;
+	padding-bottom: 20px;
+	transition: .4s;
+}
+.service-box-3:hover .service-content {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 16px 32px 0px rgba(181, 179, 255, 0.2);
+}
+.service-box-3 .service-thumb {
+	margin-bottom: 0;
+}
+.service-box-2 .service-thumb {
+	margin-bottom: 37px;
+}
+.service-content h3 {
+	margin-bottom: 22px;
+}
+.service-content h3 {
+	font-size: 40px;
+}
+.service-box.service-box-2 .service-content h3 a:hover {
+	color: #E12454;
+}
+
+.service-content h3 a {
+	padding-bottom: 23px;
+	display: block;
+	position: relative;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.service-content h3 a::after, .service-content h3 a::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 50px;
+	left: 0;
+	background: #e2e0ff;
+	bottom: 0;
+	transition: .4s;
+}
+.service-content h3 a::before {
+	background: #E12454;
+	z-index: 9;
+	width: 0;
+	width: 0px;
+	visibility: hidden;
+	opacity: 0;
+}
+.service-content h3 a:hover::before {
+	transition: .6s;
+	width: 50px;
+	visibility: visible;
+	opacity: 1;
+}
+.service-content.service-content p {
+	padding-right: 30px;
+}
+.service-box {
+	padding: 53px;
+    background: #fff;
+    transition: .4s;
+}
+.service-box-2 {
+	padding: 80px;
+	padding-bottom: 72px;
+}
+.service-box.service-box-border {
+	border: 2px solid #f4f4f4;
+}
+.service-link {
+	color: #647589;
+	font-weight: 500;
+	margin-top: 5px;
+	display: inline-block;
+    text-decoration: none;
+}
+.service-box-3 .service-link {
+	display: block;
+	background: #e8f1f7;
+	margin: 0;
+	padding: 16px;
+	transition: .4s;
+}
+.service-box-3  a.service-link:hover {
+	background: #e12454;
+	color: #fff;
+}
+.service-content a.service-link {
+	color: #9ca8b6;
+}
+.service-box-2 .service-content a.service-link:hover {
+	color: #e12454;
+}
+.service-content a.service-link i {
+	margin-right: 5px;
+}
+.service-box .service-content h3 a:hover {
+    color: #8fb569;
+}
+.service-box .service-link:hover {
+    color: #8fb569;
+}
+.service-box:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 16px 32px 0px rgba(196, 203, 255, 0.3);
+}
+.service-box.service-box-border:hover {
+	border: 2px solid transparent;
+}
+.service-big-number {
+	position: absolute;
+	top: 0;
+	right: 19px;
+	font-size: 200px;
+	color: #f7f7ff;
+}
+.service-details-text p {
+	line-height: 26px;
+	padding-right: 16px;
+}
+.service-details-thumb img {
+	width: 100%;
+}
+
+.h4services-bg {
+	position: absolute;
+	width: 100%;
+	min-height: 516px;
+	bottom: 0;
+	/* background: #223645; */
+    z-index: -1;
+}
+.h4services-tag {
+	padding: 6.5px 20px;
+	display: inline-block;
+	position: absolute;
+	left: 40px;
+	bottom: -15px;
+	letter-spacing: 0.2em;
+    text-decoration: none;
+}
+.h4services-content {
+	padding: 50px 40px;
+	padding-right: 77px;
+}
+.h4services-content .service-link {
+	padding: 0;
+	margin-top: 0;
+}
+.h4services-content .service-link i {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.h4service-active .slick-arrow,
+.h4gallery-active .slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	border: 0;
+	font-size: 18px;
+	color: #fff;
+	background: #8fb569;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	left: -5%;
+	transition: .4s;
+}
+.h4service-active .slick-next.slick-arrow {
+	left: auto;
+	right: -5%;
+}
+.h4service-active .slick-arrow:hover {
+	background: #e12454;
+}
+.h4service-active .slick-dots,
+.h4gallery-active .slick-dots {
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
+	bottom: -52px;
+}
+.h4service-active .slick-dots li,
+.h4gallery-active .slick-dots li {
+	display: inline-block;
+}
+.h4service-active .slick-dots li button,
+.h4gallery-active .slick-dots li button {
+	height: 15px;
+	width: 15px;
+	text-indent: -9999px;
+	background: #85949e;
+	border: 0;
+	padding: 0;
+	border-radius: 50%;
+	margin: 0 5px;
+	transition: .4s;
+}
+.h4service-active .slick-dots li.slick-active button {
+	background: #8fb569;
+}
+
