@@ -1,6 +1,6 @@
 import './App.css';
-import Footer from './landingPage/Components/footer';
-import Latest from './landingPage/Components/latest'
+import Footer from './landingPage/components/footer';
+import Latest from './landingPage/components/latest'
 import './landingPage/styles/responsive.css'
 import './fontAwesome'
 
