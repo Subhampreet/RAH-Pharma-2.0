@@ -91,7 +91,6 @@
 }
 .testimonials-activation{
 	display: flex;
-	/* flex-wrap: wrap; */
 	align-items: center;
 	justify-content: center;
 }
@@ -103,5 +102,9 @@
 @media(max-width: 1200px){
 	.testimonials-activation{
 		flex-wrap: wrap;
+	}
+	.testimonials-activation .col-xl-12{
+		margin: 5vw;
+		width: 960px;
 	}
 }
