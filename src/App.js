@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './landingPage/components/footer';
 import Latest from './landingPage/components/latest'
 import Counter from './landingPage/components/counter'
-import Appointment from './landingPage/components/appointment'
+import Testimonials from './landingPage/components/testimonials';
 import './landingPage/styles/responsive.css'
 import './fontAwesome'
 import Home from './landingPage/components/home'
@@ -20,6 +20,7 @@ function App() {
       <Services1/>
       <Services2/>
       <Services3/>
+      <Testimonials />
       <Counter />
       <Latest />
       <Footer />  
