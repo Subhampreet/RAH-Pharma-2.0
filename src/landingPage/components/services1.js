@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/services.css';
 
+
 function Services1() {
     return (
         <div>
@@ -32,7 +33,7 @@ function Services1() {
                                 <img src={require("../img/home4/services/h4__services__thumb1.png").default} alt=""  />
                                 <a class="h4services-tag green-bg white-color text-uppercase f-700" href="#">surgery</a>
                             </div>
-                            <div class="service-content h4services-content">
+                            <div class="service-content h4services-content" >
                                 <h3><a href="#">Body Surgery</a></h3>
                                 <p class="mb-20">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
                                 <a class="service-link" href="services-details.html">Read More <i class="fal fa-long-arrow-right"></i></a>

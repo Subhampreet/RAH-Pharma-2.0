@@ -1,6 +1,10 @@
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Rubik:400,500,700');
+.landingPage{
+  overflow-x: hidden;
+}
+
 .mt-5 {
   margin-top: 5px;
 }
