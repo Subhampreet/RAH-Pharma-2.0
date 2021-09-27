@@ -22,7 +22,7 @@ function footer() {
                                     </div>
                                 </div>
                                 <div className="footer-logo mb-35">
-                                    <a href="_blank"><img src="img/logo/footer-logo.png" alt=""/></a>
+                                <a href="_blank"><img src= {require('../img/logo/footer-logo.png').default} alt=""/></a>
                                 </div>
                                 <div className="footer-contact-content mb-25">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
