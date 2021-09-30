@@ -100,7 +100,7 @@ function counter() {
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="appoinment-right f-right">
-                                        <img src={require('../img/appoinment/appoinment-right-img.jpg').default} alt="" />
+                                        <img src={require('../img/rah-assets/appointment.png').default} alt="" />
                                     </div>
                                 </div>
                             </div>
