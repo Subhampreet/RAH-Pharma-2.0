@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import '../styles/nice-select.css'
 
 
-function home() {
+function Home() {
+    const[navOpen, setNavOpen] = useState(false);
     return (
         <div>
             <div class="header-menu-area header-padding transparrent-header">
@@ -12,6 +13,7 @@ function home() {
                     <div class="col-xl-2 col-lg-2 col-md-3">
                         <div class="logo pos-rel">
                             <a href="index.html"><img src={require("../img/rah-assets/logo.png").default}/></a>
+                            <div className="hamburger" onClick={ () => setNavOpen(!navOpen)}><i class="fas fa-bars"></i></div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-8 col-md-6">
@@ -19,64 +21,16 @@ function home() {
                             <nav id="mobile-menu">
                                 <ul>
                                     <li><a href="index.html">Hospitals</a>
-                                        <ul class="submenu">
-                                            <li><a href="index.html">Home style 1</a></li>
-                                            <li><a href="index-2.html">Home style 2</a></li>
-                                            <li><a href="index-3.html">Home style 3</a></li>
-                                            <li><a href="index-4.html">Home style 4</a></li>
-                                            <li><a href="index-5.html">Home style 5</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="services.html">Consultance</a>
-                                        <ul class="submenu">
-                                            <li><a href="services.html">Services 01</a></li>
-                                            <li><a href="services-2.html">Services 02</a></li>
-                                            <li><a href="services-details.html">Services Details</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="doctor.html">Blood banks</a>
-                                        <ul class="submenu">
-                                            <li><a href="doctor.html">Doctors 01</a></li>
-                                            <li><a href="doctor-2.html">Doctors 02</a></li>
-                                            <li><a href="doctor-details.html">Doctors Details</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="shop.html">Diagnostics</a>
-                                        <ul class="submenu">
-                                            <li><a href="shop.html">Shop Page</a></li>
-                                            <li><a href="product-details.html">Shop Details</a></li>
-                                            <li><a href="cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="blog.html">Ambulance</a>
-                                        <ul class="submenu">
-                                            <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                                            <li><a href="blog-2-col.html">Blog 2 Column</a></li>
-                                            <li><a href="blog-2-col-mas.html">Blog 2 Col Masonry</a></li>
-                                            <li><a href="blog-3-col.html">Blog 3 Column</a></li>
-                                            <li><a href="blog-3-col-mas.html">Blog 3 Col Masonry</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                            <li><a href="blog-details-left-sidebar.html">Details Left Sidebar</a></li>
-                                            <li><a href="blog-details-audio.html">Details Audio</a></li>
-                                            <li><a href="blog-details-video.html">Details Video</a></li>
-                                            <li><a href="blog-details-gallery.html">Details Gallery</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="#">Emergency</a>
-                                        <ul class="submenu">
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="appoinment.html">Appoinment</a></li>
-                                            <li><a href="portfolio-2-col.html">Portfolio 2 column</a></li>
-                                            <li><a href="portfolio.html">Portfolio 3 column</a></li>
-                                            <li><a href="portfolio-slider.html">Portfolio Slider</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
                                     </li>
                                 </ul>
                             </nav>
@@ -84,12 +38,29 @@ function home() {
                     </div>
                     <div class="col-xl-4 col-lg-2 d-none d-lg-block d-xl-block">
                         <div class="header-right f-right">
-                            <a data-animation="fadeInLeft" data-delay=".6s" href="#" class="btn btn-icon btn-icon-green"><span>+</span>contact
-                                us</a>
+                        <i class="fas fa-search"></i>
+                            <a data-animation="fadeInLeft" data-delay=".6s" href="#" className="login-btn">Login/Signup</a>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="mobile-menu mobile-menu-white"></div>
+                    </div>
+                    <div className={ navOpen ? 'mobile-nav' : 'none'}>
+                                <ul>
+                                    <li><a href="index.html">Hospitals</a>
+                                    </li>
+                                    <li><a href="services.html">Consultance</a>
+                                    </li>
+                                    <li><a href="doctor.html">Blood banks</a>
+                                    </li>
+                                    <li><a href="shop.html">Diagnostics</a>
+                                    </li>
+                                    <li><a href="blog.html">Ambulance</a>
+                                    </li>
+                                    <li><a href="#">Emergency</a>
+                                    </li>
+                                    <li>Login/Signup</li>
+                                </ul>
                     </div>
                 </div>
             </div>
@@ -164,4 +135,4 @@ function home() {
     )
 }
 
-export default home
+export default Home

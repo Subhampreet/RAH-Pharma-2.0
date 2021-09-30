@@ -1,3 +1,9 @@
+*{
+	transition: 0.3s all ease;
+}
+.hamburger{
+	display: none;
+}
 .top-bar {
 	background: #f3f6ff;
 }
@@ -20,6 +26,31 @@
 	left: 0;
 	top: 0;
 	z-index: 9;
+}
+.mobile-nav{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 50vw;
+	height: 100vh;
+	z-index: 99;
+	display: none;
+	background-color: #2F4F4F;
+	transition: .5s all ease;
+}
+.mobile-nav li{
+	/* width: 100%; */
+	padding: 20px 0;
+	text-align: center;
+	list-style: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+.mobile-nav li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
 }
 .header-cta-info {
 	margin-right: 45px;
@@ -49,7 +80,7 @@
 }
 .header__menu ul li {
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 25px;
 	position: relative;
 }
 .header__menu.menu-dark ul li:first-child {
@@ -60,7 +91,7 @@
 	font-weight: 500;
 	padding: 48px 0;
 	display: block;
-	font-size: 20px;
+	font-size: 14px;
 }
 .header__menu.header-menu-white ul li a {
 	color: #ffff;
@@ -604,4 +635,51 @@
 	width: 20vw;
 	justify-content: space-evenly;
 	align-items: center;
+}
+.login-btn{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 10px;
+	box-shadow: 2px 5px 20px #000;
+	padding: 20px;
+	background-color: #000;
+}
+.f-right i{
+	font-size: 24px;
+	cursor: pointer;
+}
+@media(max-width:1200px){
+	.f-right{
+	    display: none;
+	}
+	.header__menu{
+		display: none;
+	}
+	.mobile-nav{
+		display: block;
+	}
+	.logo{
+		display: flex;
+		width: 80vw;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.hamburger{
+		display: block;
+		opacity: 1;
+		width: 50px;
+		height: 50px;
+		background-color: #2F4F4F;
+		font-size: 24px;
+		color: #fff;
+		text-align: center;
+	}
+	.hamburger i{
+		padding-top: 10px;
+	}
+}
+.none{
+	display: none;
 }
