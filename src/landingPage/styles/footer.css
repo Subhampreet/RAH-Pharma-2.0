@@ -74,11 +74,13 @@
 }
 .footer-menu ul li {
 	margin-bottom: 30px;
+	list-style: none;
 }
 .footer-menu-2 ul li {
 	float: left;
 	width: 50%;
 	margin-bottom: 21px;
+	
 }
 .footer-menu ul li a {
 	color: #899dab;
