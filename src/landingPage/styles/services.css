@@ -199,6 +199,15 @@
 .service-content.service-content p {
 	padding-right: 30px;
 	font-size: 20px;
+	display: inline;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.service-content.service-content .location{
+	padding-left: 25px;
+}
+.service-content-img-div{
+	margin-bottom: 10px;
 }
 .service-content.service-content .number{
 	color: #00ACB2;
@@ -353,3 +362,6 @@
 	background: #8fb569;
 }
 
+.h4-services-content-img{
+	display: inline;
+}
