@@ -168,6 +168,7 @@
 	position: relative;
     text-decoration: none;
     font-size: smaller;
+	color: #2C2F30;
 }
 
 .service-content h3 a::after, .service-content h3 a::before {
@@ -194,8 +195,13 @@
 	visibility: visible;
 	opacity: 1;
 }
+
 .service-content.service-content p {
 	padding-right: 30px;
+	font-size: 20px;
+}
+.service-content.service-content .number{
+	color: #00ACB2;
 }
 .service-box {
 	padding: 53px;
