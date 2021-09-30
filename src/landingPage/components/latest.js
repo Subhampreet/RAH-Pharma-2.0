@@ -9,12 +9,9 @@ function latest() {
                 <div className="row">
                     <div className="col-xl-6 col-lg-7">
                         <div className="section-title pos-rel mb-75">
-                            <div className="section-icon">
-                                <img className="section-back-icon back-icon-left" src={require('../img/section/section-back-icon.png').default} alt=""/>
-                            </div>
                             <div className="section-text pos-rel">
-                                <h5>News</h5>
-                                <h1>Get Every Single Updates Here.</h1>
+                                <h1>Blogs & Newsletters</h1>
+                                <h5>Get access to recent health related tips and precautions along with healthcare articles and medical journals. Everything at one place.</h5>
                             </div>
                             <div className="section-line pos-rel">
                                 <img src={require("../img/shape/section-title-line.png").default} alt=""/>
@@ -23,7 +20,6 @@ function latest() {
                     </div>
                     <div className="col-xl-6 col-lg-5 d-none d-lg-block">
                         <div className="section-button text-right pt-80">
-                            <a data-animation="fadeInLeft" data-delay=".6s" href="blog.html" className="btn btn-icon ml-0"><span>+</span>our blog</a>
                         </div>
                     </div>
                 </div>
@@ -35,13 +31,10 @@ function latest() {
                             </div>
                             <div className="latest-news-content">
                                 <div className="news-meta mb-10">
-                                    <span><a href="#" className="news-tag">Medical,</a></span>
-                                    <span><a href="#" className="news-tag">Medicine</a></span>
+                                    <h3>DR. RHITU CHATTERJEE</h3>
                                 </div>
-                                <h3><a href="news-details.html">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna
-                                    aliqua. Ut enim ad minim veniam.</p>
+                                <h3><a href="news-details.html">Why swat is a human superpower?</a></h3>
+                                <p>Sweat is 99% water combined with a tiny amount of salt proteins carbohydrates and urea says the salt, proteins, carbohydrates...</p>
                             </div>
                         </div>
                     </div>
@@ -52,30 +45,27 @@ function latest() {
                             </div>
                             <div className="latest-news-content">
                                 <div className="news-meta mb-10">
-                                    <span><a href="#" className="news-tag">Medical,</a></span>
-                                    <span><a href="#" className="news-tag">Medicine</a></span>
+                                    <h3>DR. JON HAMILTON</h3>
                                 </div>
-                                <h3><a href="news-details.html">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</a></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna
-                                    aliqua. Ut enim ad minim veniam.</p>
+                                <h3><a href="news-details.html">Alzeimer's Drugs comes with queries</a></h3>
+                                <p>The Alzheimer's drug Aduhelm, doctors are still debating how, and whether, it should be used. Doctors say they have no plans to...</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-12 col-md-12">
                         <div className="recent-news-list mb-120">
                             <div className="latest-news-content singl-news news-border-bottom">
-                                <h3><a href="news-details.html">Lorem ipsum dolor sit amet, consectetur adidis.</a></h3>
+                                <h3><a href="news-details.html">COVID symptoms may linger in some patients.</a></h3>
                                 <span className="meta-date"><FontAwesomeIcon icon="calendar" className="i"/>23rd Jan 2019</span>
                                 <span className="meta-date"><a href="#"><FontAwesomeIcon icon="comments" className="i"/>33 Comments</a></span>
                             </div>
                             <div className="latest-news-content singl-news news-border-bottom">
-                                <h3><a href="news-details.html">Lorem ipsum dolor sit amet, consectetur adidis.</a></h3>
+                                <h3><a href="news-details.html">Proposed law would end health insurance</a></h3>
                                 <span className="meta-date"><FontAwesomeIcon icon="calendar" className="i"/>23rd Jan 2019</span>
                                 <span className="meta-date"><a href="#"><FontAwesomeIcon icon="comments" className="i"/>33 Comments</a></span>
                             </div>
                             <div className="latest-news-content singl-news ">
-                                <h3><a href="news-details.html">Lorem ipsum dolor sit amet, consectetur adidis.</a></h3>
+                                <h3><a href="news-details.html">Latest science shows about breakthrough</a></h3>
                                 <span className="meta-date"><FontAwesomeIcon icon="calendar" className="i"/>23rd Jan 2019</span>
                                 <span className="meta-date"><a href="#"><FontAwesomeIcon icon="comments" className="i"/>33 Comments</a></span>
                             </div>

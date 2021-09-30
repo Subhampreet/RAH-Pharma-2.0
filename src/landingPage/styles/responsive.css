@@ -69,6 +69,9 @@
     .logo-circle::before {
         display: none;
     }
+    .f-right img{
+        display: none;
+    }
     .breadcrumb-bg {
         padding: 100px 0;
     }
@@ -93,9 +96,9 @@
     .section-text-small h1 {
         font-size: 40px;
     }
-    .header-cta-info.header-cta-info-3 {
+    /* .header-cta-info.header-cta-info-3 {
         margin-right: 43px;
-    }
+    } */
     .slider-right-2 {
         padding-top: 90px;
     }
@@ -734,10 +737,6 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .appoint-ment-icon {
-        margin-right: 25px;
-        display: none;
-    }
     
     .caregive-box {
         padding: 30px;
@@ -809,7 +808,7 @@
         display: none;
     }
     .meta-date {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .about-text-list ul li i {
         float: left;
@@ -974,7 +973,7 @@
         padding: 18px 10px;
     }
     .download-area a img {
-        margin-right: 16px;
+        margin-right: 0px;
     }
     .banner-widget img {
         width: 100%;
@@ -1056,7 +1055,7 @@
         padding-right: 0;
     }
     .testi-author-icon-2 {
-        margin-right: 15px;
+        margin-right: 0px;
     }
     .footer-co-content {
         overflow: hidden;
