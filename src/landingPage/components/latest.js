@@ -27,7 +27,7 @@ function latest() {
                     <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="latest-news-box mb-30">
                             <div className="latest-news-thumb mb-35">
-                            <img src={require('../img/blog/blog-thumb-1.jpg').default} alt=""/>
+                            <img src={require('../img/rah-assets/Rectangle 607.png').default} alt=""/>
                             </div>
                             <div className="latest-news-content">
                                 <div className="news-meta mb-10">
@@ -41,7 +41,7 @@ function latest() {
                     <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="latest-news-box mb-30">
                             <div className="latest-news-thumb mb-35">
-                                <img src={require('../img/blog/blog-thumb-2.jpg').default} alt=""/>
+                                <img src={require('../img/rah-assets/Rectangle 708.png').default} alt=""/>
                             </div>
                             <div className="latest-news-content">
                                 <div className="news-meta mb-10">

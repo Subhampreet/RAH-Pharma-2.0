@@ -31,9 +31,11 @@ function footer() {
                                 </div>
                                 <div className="footer-emailing">
                                     <ul>
-                                        <li><i><FontAwesomeIcon icon="envelope" className="i"/></i>rah1234@gmail.com</li>
-                                        <li><FontAwesomeIcon icon="clone" className="i"/>fdgkjsndx@gmail.com</li>
-                                        <li><FontAwesomeIcon icon="flag" className="i"/>fdgkjsndx@gmail.com</li>
+
+                                        <li><img src={require("../img/rah-assets/fi_mail.png").default}/><span className="footer-span">info@examplemedical.com</span></li>
+                                        <li><img src={require("../img/rah-assets/folder.png").default}/><span className="footer-span">examplemedical.com</span></li>
+                                        <li><img src={require("../img/rah-assets/plus.png").default}/><span className="footer-span">227 Marion Street, Columbia</span></li>
+
                                     </ul>
                                 </div>
                             </div>
