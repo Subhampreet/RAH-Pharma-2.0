@@ -8,9 +8,6 @@ function testimonials() {
                 <div class="row">
                     <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 col-md-10 offset-md-1">
                         <div class="section-title text-center pos-rel mb-70">
-                            <div class="section-icon">
-                                <img class="section-back-icon" src={require('../img/section/section-back-icon.png').default} />
-                            </div>
                             <div class="section-text pos-rel">
                                 <h5>Testimonials</h5>
                                 <h1>Our Happy Clients Says About Us.</h1>
@@ -39,17 +36,16 @@ function testimonials() {
                                 </div>
                             </div>
                             <div class="testi-content-2">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipil sicing elit, sed do eiusmod tempor.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                <h3>Our Happy Client Say About us Our Happy Client Say About us Our...</h3>
+                                <p>Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us, Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us </p>
                             </div>
                             <div class="testi-author d-flex align-items-center mt-30">
                                 <div class="testi-author-icon-2">
-                                    <img src={require('../img/icon/tesit-author-icon-1.png').default} alt="" />
+                                    <img src={require('../img/rah-assets/user1.png').default} alt="" />
                                 </div>
                                 <div class="testi-author-desination-2">
                                     <h4>Rosalina D. Williamson</h4>
-                                    <span>Founder At <span class="f-500 green-color">MinimalDesign</span></span>
+                                    <span>Working At <span class="f-500 green-color">Fleongo</span></span>
                                 </div>
                             </div>
                         </div>
@@ -71,17 +67,16 @@ function testimonials() {
                                 </div>
                             </div>
                             <div class="testi-content-2">
-                                <h3>Lorem ipsum dolor sit amet, consectetur adipil sicing elit, sed do eiusmod tempor.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                <h3>Our Happy Client Say About us Our Happy Client Say About us Our...</h3>
+                                <p>Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us Our Happy Client Say About us </p>
                             </div>
                             <div class="testi-author d-flex align-items-center mt-30">
                                 <div class="testi-author-icon-2">
-                                    <img src={require('../img/icon/tesit-author-icon-2.png').default} alt="" />
+                                    <img src={require('../img/rah-assets/user2.png').default} alt="" />
                                 </div>
                                 <div class="testi-author-desination-2">
                                     <h4>Hiliam D. Wanakanda</h4>
-                                    <span>Founder At <span class="f-500 green-color">MinimalDesign</span></span>
+                                    <span>Working At <span class="f-500 green-color">AMNS</span></span>
                                 </div>
                             </div>
                         </div>
