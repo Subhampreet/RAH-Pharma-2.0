@@ -22,7 +22,7 @@ function counter() {
                     </div>
                     <div class="col-lg-2 col-md-3">
                         <div class="single-couter counter-box text-center mb-180">
-                            <img src={require('../img/counter/counter-icon-6.png').default} alt="" />
+                            <img src={require('../img/rah-assets/member.png').default} alt="" />
                             <h1><span class="counter">200</span>+</h1>
                             <h6 class="green-color">members</h6>
                         </div>
