@@ -70,7 +70,7 @@ function Services3() {
                                 <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ function Services3() {
                                 <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ function Services3() {
                                 <p class="mb-20 f-600">4 kms away</p>
                                 <p class="mb-20 f-600">400 Hospital Beds</p>
                                 <p class="mb-20 f-600">+91 9000000000</p>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div> */}

@@ -48,7 +48,7 @@ function Services1() {
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
                                 
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ function Services1() {
                                 <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ function Services1() {
                                 <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ function Services1() {
                                 <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
                                 </div>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div> */}
