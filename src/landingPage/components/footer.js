@@ -23,7 +23,7 @@ function footer() {
                                 </div>
                                 <div className="footer-logo mb-35">
 
-                                    <a href="_blank"><img src={require("../img/logo/footer-logo.png").default}/></a>
+                                    <a href="_blank"><img src={require("../img/rah-assets/footerlogo.png").default}/></a>
 
                                 </div>
                                 <div className="footer-contact-content mb-25">
@@ -42,16 +42,15 @@ function footer() {
                         <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                             <div className="footer-widget mb-30">
                                 <div className="footer-title">
-                                    <h3>Departments</h3>
+                                    <h3>Company</h3>
                                 </div>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="#">Surgery and Radiology</a></li>
-                                        <li><a href="#">Family Medicine</a></li>
-                                        <li><a href="#">Women’s Health</a></li>
-                                        <li><a href="#">Optician</a></li>
-                                        <li><a href="#">Pediatrics</a></li>
-                                        <li><a href="#">Dermatology</a></li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Testimonials</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -59,16 +58,15 @@ function footer() {
                         <div className="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
                             <div className="footer-widget mb-30">
                                 <div className="footer-title">
-                                    <h3>Quick Links</h3>
+                                    <h3>Support</h3>
                                 </div>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="#">Departments</a></li>
-                                        <li><a href="#">Our Doctors</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Shop</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Book an Appointment</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                        <li><a href="#">Terms of services</a></li>
+                                        <li><a href="#">Legal</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Status</a></li>
                                     </ul>
                                 </div>
                             </div>
