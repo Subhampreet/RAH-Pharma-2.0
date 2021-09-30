@@ -14,7 +14,7 @@ function footer() {
                             <div className="footer-contact-info mb-30">
                                 <div className="emmergency-call fix">
                                     <div className="emmergency-call-icon f-left">
-                                        <i><FontAwesomeIcon icon="phone" className="i" /></i>
+                                        <img src={require('../img/rah-assets/phoneno.png').default} alt="" />
                                     </div>
                                     <div className="emmergency-call-text f-left">
                                         <h6>Emergency number</h6>
@@ -27,14 +27,13 @@ function footer() {
 
                                 </div>
                                 <div className="footer-contact-content mb-25">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                                    <p>Sweat is 99% water combined with a tiny amount of salt, proteins Sweat in 99% water combined...</p>
                                 </div>
                                 <div className="footer-emailing">
                                     <ul>
-                                        <li><i><FontAwesomeIcon icon="envelope" className="i"/></i>info@examplemedical.com</li>
-                                        <li><FontAwesomeIcon icon="clone" className="i"/>examplemedical.com</li>
-                                        <li><FontAwesomeIcon icon="flag" className="i"/>227 Marion Street, Columbia</li>
+                                        <li><i><FontAwesomeIcon icon="envelope" className="i"/></i>rah1234@gmail.com</li>
+                                        <li><FontAwesomeIcon icon="clone" className="i"/>fdgkjsndx@gmail.com</li>
+                                        <li><FontAwesomeIcon icon="flag" className="i"/>fdgkjsndx@gmail.com</li>
                                     </ul>
                                 </div>
                             </div>
