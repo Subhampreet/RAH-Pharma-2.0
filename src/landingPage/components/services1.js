@@ -34,11 +34,21 @@ function Services1() {
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
                             <div class="service-content h4services-content" >
-                                <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
-                                <p class="mb-20 f-600">4 kms away</p>
+                            <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
+                                <div className="service-content-img-div">
+                                <img className="h4-services-content-img" src= {require("../img/rah-assets/location.png").default} alt=""/>
+                                <p class="mb-20 location f-600">4 kms away</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/bed.png").default} alt=""/>
                                 <p class="mb-20 f-600">400 Hospital Beds</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                                
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -48,12 +58,21 @@ function Services1() {
                                 <img src= {require("../img/rah-assets/sumhospital.png").default} alt=""/>
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
-                            <div class="service-content h4services-content">
-                                <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
-                                <p class="mb-20 f-600">4 kms away</p>
+                            <div class="service-content h4services-content" >
+                            <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
+                                <div className="service-content-img-div">
+                                <img className="h4-services-content-img" src= {require("../img/rah-assets/location.png").default} alt=""/>
+                                <p class="mb-20 location f-600">4 kms away</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/bed.png").default} alt=""/>
                                 <p class="mb-20 f-600">400 Hospital Beds</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -64,11 +83,20 @@ function Services1() {
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
                             <div class="service-content h4services-content">
-                                <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
-                                <p class="mb-20 f-600">4 kms away</p>
+                            <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
+                                <div className="service-content-img-div">
+                                <img className="h4-services-content-img" src= {require("../img/rah-assets/location.png").default} alt=""/>
+                                <p class="mb-20 location f-600">4 kms away</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/bed.png").default} alt=""/>
                                 <p class="mb-20 f-600">400 Hospital Beds</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/call.png").default} alt=""/>
                                 <p class="mb-20 f-600 number">+91 9000000000</p>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -79,11 +107,20 @@ function Services1() {
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">neurology</a>
                             </div>
                             <div class="service-content h4services-content">
-                                <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
-                                <p class="mb-20 f-600">4 kms away</p>
+                            <h3 class="f-700"><a href="#">Sum Hospital</a></h3>
+                                <div className="service-content-img-div">
+                                <img className="h4-services-content-img" src= {require("../img/rah-assets/location.png").default} alt=""/>
+                                <p class="mb-20 location f-600">4 kms away</p>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/bed.png").default} alt=""/>
                                 <p class="mb-20 f-600">400 Hospital Beds</p>
-                                <p class="mb-20 f-600">+91 9000000000</p>
-                                <a class="service-link" href="services-details.html">Explore <i class="fal fa-long-arrow-right"></i></a>
+                                </div>
+                                <div className="service-content-img-div">
+                                <img src= {require("../img/rah-assets/call.png").default} alt=""/>
+                                <p class="mb-20 f-600 number">+91 9000000000</p>
+                                </div>
+                                <a class="service-link" href="services-details.html">Explore  <img src= {require("../img/rah-assets/arrow-down.png").default} alt=""/></a>
                             </div>
                         </div>
                     </div> */}
