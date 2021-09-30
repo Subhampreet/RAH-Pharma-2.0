@@ -68,3 +68,13 @@
 .appoinment-right{
 	padding-left: 100px;
 }
+.appointment-form-2 select{
+	font-size: 25px;
+	margin-bottom: 9px;
+	top: 10px;
+	font-weight: 700;
+	color: #263544;
+}
+.appointment-form-2 .level-0{
+	font-size: 20px;
+}
