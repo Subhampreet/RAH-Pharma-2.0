@@ -29,7 +29,7 @@ function Services1() {
                 <div class="row h4service-active">
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
-                            <div class="service-thumb pos-rel mb-0">
+                            <div class="service-thumb service1 pos-rel mb-0">
                                 <img src={require("../img/rah-assets/sumhospital.png").default} alt=""  />
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
@@ -44,7 +44,7 @@ function Services1() {
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
-                            <div class="service-thumb pos-rel mb-0">
+                            <div class="service-thumb service1 pos-rel mb-0">
                                 <img src= {require("../img/rah-assets/sumhospital.png").default} alt=""/>
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
@@ -59,7 +59,7 @@ function Services1() {
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
-                            <div class="service-thumb pos-rel mb-0">
+                            <div class="service-thumb service1 pos-rel mb-0">
                                 <img src={require("../img/rah-assets/sumhospital.png").default} alt="" />
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">Cardiology</a>
                             </div>
