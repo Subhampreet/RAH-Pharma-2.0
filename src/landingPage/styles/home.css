@@ -225,7 +225,7 @@
 }
 .slider-height-2 {
 	min-height: 950px;
-	background: url('../img/banner.jpg');
+	background: url('../img/rah-assets/banner.png');
 	background-size: cover;
 }
 .slider-height-3 {
@@ -460,7 +460,7 @@
 .btn.green-bg-btn {
 	padding: 23px 60px;
 	border-radius: 30px;
-	background: #8fb569;
+	background: #69b5ab;
 	color: #fff;
 }
 .btn.green-bg-btn:hover {
