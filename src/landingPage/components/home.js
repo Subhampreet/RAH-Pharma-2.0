@@ -11,14 +11,14 @@ function home() {
                 <div class="row d-flex align-items-center">
                     <div class="col-xl-2 col-lg-2 col-md-3">
                         <div class="logo pos-rel">
-                            <a href="index.html"><img src={require("../img/logo/logo-2.png").default}/></a>
+                            <a href="index.html"><img src={require("../img/rah-assets/logo.png").default}/></a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-8 col-md-6">
                         <div class="header__menu header-menu-white">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li><a href="index.html">Home +</a>
+                                    <li><a href="index.html">Hospitals</a>
                                         <ul class="submenu">
                                             <li><a href="index.html">Home style 1</a></li>
                                             <li><a href="index-2.html">Home style 2</a></li>
@@ -27,21 +27,21 @@ function home() {
                                             <li><a href="index-5.html">Home style 5</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="services.html">Department +</a>
+                                    <li><a href="services.html">Consultance</a>
                                         <ul class="submenu">
                                             <li><a href="services.html">Services 01</a></li>
                                             <li><a href="services-2.html">Services 02</a></li>
                                             <li><a href="services-details.html">Services Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="doctor.html">Doctors +</a>
+                                    <li><a href="doctor.html">Blood banks</a>
                                         <ul class="submenu">
                                             <li><a href="doctor.html">Doctors 01</a></li>
                                             <li><a href="doctor-2.html">Doctors 02</a></li>
                                             <li><a href="doctor-details.html">Doctors Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.html">Shop</a>
+                                    <li><a href="shop.html">Diagnostics</a>
                                         <ul class="submenu">
                                             <li><a href="shop.html">Shop Page</a></li>
                                             <li><a href="product-details.html">Shop Details</a></li>
@@ -52,7 +52,7 @@ function home() {
                                             <li><a href="register.html">Register</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">News +</a>
+                                    <li><a href="blog.html">Ambulance</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog Right Sidebar</a></li>
                                             <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
@@ -68,7 +68,7 @@ function home() {
                                             <li><a href="blog-details-gallery.html">Details Gallery</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Pages +</a>
+                                    <li><a href="#">Emergency</a>
                                         <ul class="submenu">
                                             <li><a href="about.html">About</a></li>
                                             <li><a href="appoinment.html">Appoinment</a></li>
@@ -86,8 +86,6 @@ function home() {
                         <div class="header-right f-right">
                             <a data-animation="fadeInLeft" data-delay=".6s" href="#" class="btn btn-icon btn-icon-green"><span>+</span>contact
                                 us</a>
-                            <a data-animation="fadeInLeft" data-delay=".6s" href="#" class="btn btn-icon btn-icon-white"><i class="fas fa-phone"></i>Make
-                                A Call</a>
                         </div>
                     </div>
                     <div class="col-12">
@@ -105,13 +103,9 @@ function home() {
                                 <div class="col-xl-6 col-lg-6 col-md-10">
                                     <div class="hero-text hero-text-2 pt-35">
                                         <div class="hero-slider-caption hero-slider-caption-2">
-                                            <h5 /*class="white-color"*/ data-animation="fadeInUp" data-delay=".2s">We are here for your care.</h5>
-                                            <h1 /*class="white-color"*/ data-animation="fadeInUp" data-delay=".4s">Best Care & Better Doctor.</h1>
+                                            <h1 /*class="white-color"*/ data-animation="fadeInUp" data-delay=".4s">Best Doctor & Better Care</h1>
                                         </div>
-                                        <div class="hero-slider-btn">
-                                            <a data-animation="fadeInLeft" data-delay=".6s" href="about.html" class="btn btn-icon btn-icon-blue ml-0"><span>+</span>about us</a>
-                                            <a data-animation="fadeInRight" data-delay="1.0s" href="https://www.youtube.com/watch?v=eXQgPCsd83c" class="play-btn popup-video"><i class="fas fa-play"></i></a>
-                                        </div>
+                                      
                                     </div>
                                 </div>
                                 <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-12">

@@ -12,8 +12,7 @@ function Doctor() {
                                 <img class="section-back-icon" src={require('../img/section/section-back-icon.png').default} alt="" />
                             </div>
                             <div class="section-text pos-rel">
-                                <h5>Angels</h5>
-                                <h1>Our Doctors</h1>
+                                <h1>Choose your department</h1>
                             </div>
                             <div class="section-line pos-rel">
                                 <img src="" alt="" />
@@ -25,88 +24,42 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src= {require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src= {require('../img/rah-assets/Cardiology.png').default} alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src={require('../img/rah-assets/Odontology.png').default} alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info mb-30">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src={require('../img/rah-assets/Gynaecology.png').default} alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info mb-30">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src={require('../img/rah-assets/Pulmology.png').default} alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src={require('../img/rah-assets/Pedistric.png').default} alt="" />
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-12">
                         <div class="team-box pos-rel mb-50">
                             <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="team-box pos-rel mb-50">
-                            <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default}alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="team-box pos-rel mb-50">
-                            <div class="team-thumb">
-                                <img src={require('../img/team/team-member-1.jpg').default} alt="" />
-                            </div>
-                            <div class="team-author-info">
-                                <span>Founder</span>
-                                <h6>Rosalina D. Williamson</h6>
+                                <img src={require('../img/rah-assets/Dermatology.png').default} alt="" />
                             </div>
                         </div>
                     </div>

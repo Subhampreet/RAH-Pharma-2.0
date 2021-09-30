@@ -17,8 +17,8 @@ function Services1() {
                                 <img class="section-back-icon" src={require("../img/section/section-back-icon.png").default} alt="" />
                             </div>
                             <div class="section-text pos-rel">
-                                <h5>Departments</h5>
-                                <h1>Managed Your <br/> Heathcare Services</h1>
+                                <h1>Hospitals near you</h1>
+                                <h5>Fetch details of all the hospitals nearby you and select the best <br/> services from a wide range of options.</h5>
                             </div>
                             <div class="section-line pos-rel">
                                 <img src="img/shape/section-title-line.png" alt="" />
@@ -30,7 +30,7 @@ function Services1() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb pos-rel mb-0">
-                                <img src={require("../img/home4/services/h4__services__thumb1.png").default} alt=""  />
+                                <img src={require("../img/rah-assets/sumhospital.png").default} alt=""  />
                                 <a class="h4services-tag green-bg white-color text-uppercase f-700" href="#">surgery</a>
                             </div>
                             <div class="service-content h4services-content" >
@@ -43,7 +43,7 @@ function Services1() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb pos-rel mb-0">
-                                <img src= {require("../img/home4/services/h4__services__thumb2.png").default} alt=""/>
+                                <img src= {require("../img/rah-assets/sumhospital.png").default} alt=""/>
                                 <a class="h4services-tag green-bg white-color text-uppercase f-700" href="#">dental</a>
                             </div>
                             <div class="service-content h4services-content">
@@ -56,7 +56,7 @@ function Services1() {
                     <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb pos-rel mb-0">
-                                <img src={require("../img/home4/services/h4__services__thumb3.png").default} alt="" />
+                                <img src={require("../img/rah-assets/sumhospital.png").default} alt="" />
                                 <a class="h4services-tag green-bg white-color text-uppercase f-700" href="#">neurology</a>
                             </div>
                             <div class="service-content h4services-content">

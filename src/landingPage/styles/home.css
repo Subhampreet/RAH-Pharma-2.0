@@ -60,7 +60,7 @@
 	font-weight: 500;
 	padding: 48px 0;
 	display: block;
-	font-size: 14px;
+	font-size: 20px;
 }
 .header__menu.header-menu-white ul li a {
 	color: #ffff;
@@ -225,7 +225,7 @@
 }
 .slider-height-2 {
 	min-height: 950px;
-	background: url('../img/banner.jpg');
+	background: url('../img/rah-assets/banner.png');
 	background-size: cover;
 }
 .slider-height-3 {
@@ -383,8 +383,9 @@
 }
 
 .btn-icon-green {
-	background-color: rgb(143, 181, 105);
-	box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
+	background-color: #1FB6BA;
+	box-shadow: 0px 4px 12px rgba(31, 182, 186, 0.5);
+	border-radius: 48px;
 }
 
 .btn-icon:hover {
@@ -459,7 +460,7 @@
 .btn.green-bg-btn {
 	padding: 23px 60px;
 	border-radius: 30px;
-	background: #8fb569;
+	background: #69b5ab;
 	color: #fff;
 }
 .btn.green-bg-btn:hover {
