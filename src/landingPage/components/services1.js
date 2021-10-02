@@ -14,7 +14,7 @@ function Services1() {
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                         <div class="section-title text-center pos-rel mb-75">
                             <div class="section-icon">
-                                <img class="section-back-icon" src={require("../img/section/section-back-icon.png").default} alt="" />
+                                {/* <img class="section-back-icon" src={require("../img/section/section-back-icon.png").default} alt="" /> */}
                             </div>
                             <div class="section-text pos-rel">
                                 <h1>Hospitals near you</h1>
