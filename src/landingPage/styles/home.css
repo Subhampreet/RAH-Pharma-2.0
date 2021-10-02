@@ -289,6 +289,7 @@
 	margin-bottom: 35px;
 }
 .caregive-box {
+	width: 480px;
 	border-radius: 16px;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 16px 32px 0px rgba(227, 220, 255, 0.4);

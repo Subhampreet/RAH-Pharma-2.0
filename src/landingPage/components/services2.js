@@ -78,7 +78,7 @@ blood type</p>
                             <div class="service-content">
                                 <h3><a href="#">Ambulance</a></h3>
                                 <p>Check for ambulance and pick 
-                                up duratio</p>
+                                up duration</p>
                             </div>
                         </div>
                     </div>

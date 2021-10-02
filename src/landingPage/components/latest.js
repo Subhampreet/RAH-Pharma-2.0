@@ -9,12 +9,9 @@ function latest() {
                 <div className="row">
                     <div className="col-xl-6 col-lg-7">
                         <div className="section-title pos-rel mb-75">
-                            <div className="section-text pos-rel">
+                            <div className="latest-text pos-rel">
                                 <h1>Blogs & Newsletters</h1>
                                 <h5>Get access to recent health related tips and precautions along with healthcare articles and medical journals. Everything at one place.</h5>
-                            </div>
-                            <div className="section-line pos-rel">
-                                <img src={require("../img/shape/section-title-line.png").default} alt=""/>
                             </div>
                         </div>
                     </div>

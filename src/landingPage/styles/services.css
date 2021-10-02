@@ -174,7 +174,8 @@
 
 .service-content.service-content p {
 	padding-right: 30px;
-	font-size: 20px;
+	font-size: 16px;
+	text-align: center;
 	display: inline;
 	padding-top: 5px;
 	padding-left: 20px;
