@@ -8,23 +8,17 @@ function Services2() {
                 <div class="row ">
                     <div class="col-xl-6 col-lg-6 col-md-12">
                         <div class="section-title section-title-m-0 pos-rel mb-50 text-right">
-                            <div class="section-icon">
-                                <img class="section-back-icon back-icon-right" src={require("../img/section/section-back-icon.png").default} alt="" />
-                            </div>
                             <div class="section-text section-text-small pos-rel">
-                                <h5>health care facility</h5>
-                                <h1>Would you rather stay at home than go into a health care facility?</h1>
+                                <h1>Broad Range of info available at ease</h1>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12">
                         <div class="facalty-text mb-50">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nost rud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
-                            omnis iste natus error sit voluptatem accusantium.</p>
+                            <p>All the neccessary details & features to rely upon 
+                            during critical times. All the neccessary details & 
+                            features to rely upon during critical times. All the 
+                            neccessary details.</p>
                         </div>
                     </div>
                 </div>
@@ -35,9 +29,9 @@ function Services2() {
                                 <img src={require("../img/rah-assets/247.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Body Surgery</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">24*7 services</a></h3>
+                                <p>24hrs access to Informartion 
+service</p>
                             </div>
                         </div>
                     </div>
@@ -47,9 +41,8 @@ function Services2() {
                                 <img src={require("../img/rah-assets/verified.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Dental Care</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">Verified</a></h3>
+                                <p>100% verified information</p>
                             </div>
                         </div>
                     </div>
@@ -59,9 +52,9 @@ function Services2() {
                                 <img src={require("../img/rah-assets/blood.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Eye Care</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">Blood Banks</a></h3>
+                                <p>Check availaibility of desired 
+blood type</p>
                             </div>
                         </div>
                     </div>
@@ -71,9 +64,9 @@ function Services2() {
                                 <img src={require("../img/rah-assets/patientfriendly.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Blood Cancer</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">Patient Friendly</a></h3>
+                                <p>Designed to deliver optimum 
+                                medical support </p>
                             </div>
                         </div>
                     </div>
@@ -83,9 +76,9 @@ function Services2() {
                                 <img src={require("../img/rah-assets/ambulance.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Neurology Sargery</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">Ambulance</a></h3>
+                                <p>Check for ambulance and pick 
+                                up duration</p>
                             </div>
                         </div>
                     </div>
@@ -95,9 +88,9 @@ function Services2() {
                                 <img src={require("../img/rah-assets/volunteers.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Allergic Issue</a></h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                                <a class="service-link" href="services-details.html">Read More</a>
+                                <h3><a href="#">Volunteers</a></h3>
+                                <p>Easily contact a volunteer or 
+                                choose to be one</p>
                             </div>
                         </div>
                     </div>

@@ -12,15 +12,10 @@ function Services3() {
                 <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                         <div class="section-title text-center pos-rel mb-75">
-                            <div class="section-icon">
-                                <img class="section-back-icon" src={require("../img/section/section-back-icon.png").default} alt="" />
-                            </div>
                             <div class="section-text pos-rel">
-                                <h5>Departments</h5>
-                                <h1>Managed Your <br/> Heathcare Services</h1>
-                            </div>
-                            <div class="section-line pos-rel">
-                                <img src="img/shape/section-title-line.png" alt="" />
+                                <h1>Best Rated Hospitals</h1>
+                                <h5>Know all the top ranking hospitals in your state with detailed overview 
+                                and patients reviews, at a glance.</h5>
                             </div>
                         </div>
                     </div>
