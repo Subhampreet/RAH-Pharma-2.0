@@ -69,6 +69,9 @@
 .footer-emailing ul li .i {
 	margin-right: 14px;
 }
+.footer-emailing ul{
+	padding-left: 0 !important;
+}
 .footer-title h3 {
 	font-size: 24px;
 	color: #fff;

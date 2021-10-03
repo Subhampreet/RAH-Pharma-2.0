@@ -14,7 +14,7 @@ function footer() {
                             <div className="footer-contact-info mb-30">
                                 <div className="emmergency-call fix">
                                     <div className="emmergency-call-icon f-left">
-                                        <img src={require('../img/rah-assets/phoneno.png').default} alt="" />
+                                        <img src={require('../img/rah-assets/phonecall Green.png').default} alt="" />
                                     </div>
                                     <div className="emmergency-call-text f-left">
                                         <h6>Emergency number</h6>

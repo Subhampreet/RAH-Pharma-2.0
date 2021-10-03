@@ -76,3 +76,8 @@
 .appointment-form-2 .level-0{
 	font-size: 20px;
 }
+.no-gutters{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}

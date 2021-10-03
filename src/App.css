@@ -4093,3 +4093,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
 }
+.emergency-phone {
+  position: sticky;
+  top: 100px;
+}
+.emergency-phone img{
+  margin-left: 96vw;
+}

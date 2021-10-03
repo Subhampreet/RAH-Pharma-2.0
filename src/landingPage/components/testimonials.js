@@ -23,7 +23,7 @@ function testimonials() {
                         <div class="testi-box-2">
                             <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
                                 <div class="testi-quato-icon testi-quato-icon-green m-0">
-                                    <img src={require("../img/testimonials/testi-quato-icon.png").default} alt="" />
+                                    <img src={require("../img/rah-assets/quotes.png").default} alt="" />
                                 </div>
                                 <div class="testi-rating-list">
                                     <ul>
@@ -54,7 +54,7 @@ function testimonials() {
                         <div class="testi-box-2">
                             <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
                                 <div class="testi-quato-icon testi-quato-icon-green m-0">
-                                    <img src={require('../img/testimonials/testi-quato-icon.png').default} alt="" />
+                                    <img src={require('../img/rah-assets/quotes.png').default} alt="" />
                                 </div>
                                 <div class="testi-rating-list">
                                     <ul>

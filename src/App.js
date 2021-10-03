@@ -16,6 +16,9 @@ import Doctor from './landingPage/components/doctor';
 function App() {
   return (
     <div className="landingPage">
+      <div className="emergency-phone">
+        <img src={require('./landingPage/img/rah-assets/phonecall White.png').default} />
+      </div>
       <Home />
       <Doctor/>
       <Services1/>
