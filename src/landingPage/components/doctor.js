@@ -69,5 +69,4 @@ function Doctor() {
         </div>
     )
 }
-
 export default Doctor
