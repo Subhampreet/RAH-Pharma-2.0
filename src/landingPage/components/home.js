@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import '../styles/nice-select.css'
+import Emergency_call from './emergency_call';
 
 
 function Home() {
@@ -62,6 +63,7 @@ function Home() {
                                     <li>Login/Signup</li>
                                 </ul>
                     </div>
+                    <Emergency_call/>
                 </div>
             </div>
         </div>

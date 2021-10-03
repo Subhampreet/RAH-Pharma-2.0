@@ -1,0 +1,15 @@
+.emergency-call{
+	position: ;
+	top: 100px;
+    left: 100%;
+	right: 0%;
+    margin-left: 86vw;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(121, 34, 121);
+	border-radius: 10px;
+}
+
+.emergency-call img{
+    padding: 15px 12px;
+}
