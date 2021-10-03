@@ -9,7 +9,7 @@ function Doctor() {
                     <div class="col-xl-12">
                         <div class="section-title text-center pos-rel mb-70">
                             <div class="section-icon">
-                                <img class="section-back-icon" src={require('../img/section/section-back-icon.png').default} alt="" />
+                                {/* <img class="section-back-icon" src={require('../img/section/section-back-icon.png').default} alt="" /> */}
                             </div>
                             <div class="section-text pos-rel">
                                 <h1>Choose your department</h1>
