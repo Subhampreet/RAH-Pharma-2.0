@@ -431,7 +431,7 @@
 	color: #fff;
 }
 .btn-icon-green:hover {
-	background-color: rgb(225, 36, 84);
+	background-color: #8f49a0;
 	box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
 }
 .btn-icon span {
@@ -490,18 +490,18 @@
 	text-transform: capitalize;
 }
 .btn.gray-btn-border:hover {
-	background: #E12454;
+	background: #8f49a0;
 	color: #fff;
 	border: 2px solid transparent;
 }
 .btn.green-bg-btn {
 	padding: 23px 60px;
 	border-radius: 30px;
-	background: #69b5ab;
+	background: #1FB6BA;
 	color: #fff;
 }
 .btn.green-bg-btn:hover {
-	background: #E12454;
+	background: #8f49a0;
 }
 .play-btn {
 	height: 60px;
