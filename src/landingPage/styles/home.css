@@ -262,6 +262,7 @@
 .slider-height-2 {
 	min-height: 950px;
 	background: url('../img/rah-assets/banner.png');
+	background-position: top;
 	background-size: cover;
 }
 .slider-height-3 {
@@ -591,9 +592,6 @@
 	font-weight: 600;
 	font-family: poppins;
 }
-.appoint-ment-icon {
-	margin-right: 40px;
-}
 .appointment-form-2 label {
 	font-size: 12px;
 	text-transform: uppercase;
@@ -696,4 +694,27 @@
 	width: 50vw;
 	justify-content: space-between;
 	padding: -30px;
+}
+
+.home-form{
+	display: flex;
+	width: 100%;
+}
+.home-form i{
+	font-size: 30px;
+	padding: 5px 20px;
+
+}
+.emergency-call{
+	position: sticky;
+	top: 100px;
+    left: 100%;
+	margin-left: 300px;
+	width: 60px;
+	height: 60px;
+	background-color: rgb(121, 34, 121);
+	border-radius: 10px;
+}
+.emergency-call img{
+	padding-top: 40%;
 }

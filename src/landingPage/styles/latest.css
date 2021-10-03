@@ -7,12 +7,14 @@
 	font-weight: 500;
 }
 .latest-news-content h3 {
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1.3;
 	margin-bottom: 19px;
 }
-.latest-news-content h3 a{
+.latest-news-content h2 a{
+	font-size: 22px;
 	color: #000;
+	font-weight: 800;
 	text-decoration: none;
 }
 .latest-news-content h3 a:hover {
@@ -73,4 +75,14 @@
 .latest-text {
 	width: 50vw;
 	text-align: left;
+}
+.news-meta h3{
+	color: rgb(5, 183, 196);
+	font-weight: 700;
+}
+.latest-news-content i{
+	margin-right: 10px;
+}
+.latest-news-content span a{
+	color: #647589;
 }
