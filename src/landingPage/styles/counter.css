@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 .counter{
 	/* padding-top: 50px; */
-	background:  #223645;
+	background:  #16292A;
 	height: 700px;
+
 }
 .content {
 	padding-top: 100px;
@@ -52,7 +53,7 @@
 	bottom: 0;
 }
 .counter-box-white h6::before {
-	background: #E12454;
+	background: #8F49A0;
 	z-index: 9;
 	width: 0px;
 	transition: .3s;
