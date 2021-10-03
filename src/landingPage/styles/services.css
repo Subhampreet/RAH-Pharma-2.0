@@ -75,7 +75,9 @@
 	margin: inherit;
 	left: inherit;
 }
-
+.h4service-active{
+margin-left: 80px;
+}
 .h4service-active .slick-arrow,
 .h4gallery-active .slick-arrow {
 	position: absolute;
@@ -126,6 +128,11 @@
 }
 .h4service-active .slick-dots li.slick-active button {
 	background: #8fb569;
+}
+
+.h4service-main{
+	height: 504px;
+	width: 380px;
 }
 
 .service-thumb {
@@ -276,7 +283,7 @@
     text-decoration: none;
 }
 .h4services-content {
-	padding: 50px 40px;
+	padding: 20px 40px;
 	padding-right: 77px;
 }
 .h4services-content .service-link {

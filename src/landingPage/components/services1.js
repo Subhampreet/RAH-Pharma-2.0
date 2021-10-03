@@ -27,7 +27,7 @@ function Services1() {
                     </div>
                 </div>
                 <div class="row h4service-active">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb service1 pos-rel mb-0">
                                 <img src={require("../img/rah-assets/sumhospital.png").default} alt=""  />
@@ -52,7 +52,7 @@ function Services1() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb service1 pos-rel mb-0">
                                 <img src= {require("../img/rah-assets/sumhospital.png").default} alt=""/>
@@ -76,7 +76,7 @@ function Services1() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb service1 pos-rel mb-0">
                                 <img src={require("../img/rah-assets/sumhospital.png").default} alt="" />
@@ -100,10 +100,10 @@ function Services1() {
                             </div>
                         </div>
                     </div>
-                    {/* <div class="col-xl-4 col-lg-6 col-md-6">
+                    {/* <div class="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div class="h4service-box white-bg mb-30">
                             <div class="service-thumb pos-rel mb-0">
-                                <img src={require("../img/home4/services/h4__services__thumb3.png").default} alt="" />
+                                <img src={require("../img/rah-assets/sumhospital.png").default} alt="" />
                                 <a class="h4services-tag blue-bg white-color text-uppercase f-700" href="#">neurology</a>
                             </div>
                             <div class="service-content h4services-content">
