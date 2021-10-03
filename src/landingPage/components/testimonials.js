@@ -9,11 +9,7 @@ function testimonials() {
                     <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 col-md-10 offset-md-1">
                         <div class="section-title text-center pos-rel mb-70">
                             <div class="section-text pos-rel">
-                                <h5>Testimonials</h5>
                                 <h1>Our Happy Clients Says About Us.</h1>
-                            </div>
-                            <div class="section-line pos-rel">
-                                <img src={require("../img/shape/section-title-line.png").default} />
                             </div>
                         </div>
                     </div>
@@ -23,7 +19,7 @@ function testimonials() {
                         <div class="testi-box-2">
                             <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
                                 <div class="testi-quato-icon testi-quato-icon-green m-0">
-                                    <img src={require("../img/testimonials/testi-quato-icon.png").default} alt="" />
+                                    <img src={require("../img/rah-assets/quotes.png").default} alt="" />
                                 </div>
                                 <div class="testi-rating-list">
                                     <ul>
@@ -54,7 +50,7 @@ function testimonials() {
                         <div class="testi-box-2">
                             <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
                                 <div class="testi-quato-icon testi-quato-icon-green m-0">
-                                    <img src={require('../img/testimonials/testi-quato-icon.png').default} alt="" />
+                                    <img src={require('../img/rah-assets/quotes.png').default} alt="" />
                                 </div>
                                 <div class="testi-rating-list">
                                     <ul>

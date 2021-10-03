@@ -11,11 +11,13 @@ import Services1 from './landingPage/components/services1';
 import Services2 from './landingPage/components/services2';
 import Services3 from './landingPage/components/services3';
 import Doctor from './landingPage/components/doctor';
-// import './landingPage/styles/bootstrap-min.css'
 
 function App() {
   return (
     <div className="landingPage">
+      {/* <div className="emergency-call">
+          <img src={require('./landingPage/img/rah-assets/phonecall White.png').default}/>
+      </div> */}
       <Home />
       <Doctor/>
       <Services1/>
