@@ -7,7 +7,7 @@
 	width: 100%;
 	min-height: 516px;
 	bottom: 0;
-	background: #223645;
+	background: #16292A;
 }
 
 .section-title h5 {
@@ -75,7 +75,9 @@
 	margin: inherit;
 	left: inherit;
 }
-
+.h4service-active{
+margin-left: 80px;
+}
 .h4service-active .slick-arrow,
 .h4gallery-active .slick-arrow {
 	position: absolute;
@@ -128,6 +130,11 @@
 	background: #8fb569;
 }
 
+.h4service-main{
+	height: 504px;
+	width: 380px;
+}
+
 .service-thumb {
 	margin-bottom: 45px;
 }
@@ -163,7 +170,7 @@
 }
 
 .service-content h3 a {
-	padding-bottom: 23px;
+	/* padding-bottom: 23px; */
 	display: block;
 	position: relative;
     text-decoration: none;
@@ -171,34 +178,11 @@
 	color: #2C2F30;
 }
 
-.service-content h3 a::after, .service-content h3 a::before {
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 50px;
-	left: 0;
-	background: #e2e0ff;
-	bottom: 0;
-	transition: .4s;
-}
-.service-content h3 a::before {
-	background: #E12454;
-	z-index: 9;
-	width: 0;
-	width: 0px;
-	visibility: hidden;
-	opacity: 0;
-}
-.service-content h3 a:hover::before {
-	transition: .6s;
-	width: 50px;
-	visibility: visible;
-	opacity: 1;
-}
 
 .service-content.service-content p {
 	padding-right: 30px;
-	font-size: 20px;
+	font-size: 16px;
+	text-align: center;
 	display: inline;
 	padding-top: 5px;
 	padding-left: 20px;
@@ -299,7 +283,7 @@
     text-decoration: none;
 }
 .h4services-content {
-	padding: 50px 40px;
+	padding: 20px 40px;
 	padding-right: 77px;
 }
 .h4services-content .service-link {
@@ -365,13 +349,29 @@
 .h4-services-content-img{
 	display: inline;
 }
-.facalty-text{
-	margin: 80px 0;
+.section-title{
+	text-align: right;
+	font-size: 60px;
+	margin-bottom: 100px;
 }
-.service-content{
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	align-items: center;
-	justify-content: space-between;
+.section-title h1{
+	font-size: 55px;
+}
+.facalty-text{
+	margin-bottom: 100px;
+	margin-left: 30px;
+	width: 30vw;
+	margin-top: 15px;
+	text-align: left;
+	font-size: 20px;
+}
+@media(max-width: 990px){
+	.section-title{
+		text-align: center;
+	}
+	.facalty-text{
+		text-align: center;
+		width: 50vw;
+		margin: auto !important;
+	}
 }

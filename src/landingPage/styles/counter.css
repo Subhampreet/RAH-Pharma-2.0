@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 .counter{
 	/* padding-top: 50px; */
-	background:  #223645;
+	background:  #16292A;
+	height: 700px;
+
 }
 .content {
 	padding-top: 100px;
@@ -50,7 +53,7 @@
 	bottom: 0;
 }
 .counter-box-white h6::before {
-	background: #E12454;
+	background: #8F49A0;
 	z-index: 9;
 	width: 0px;
 	transition: .3s;
@@ -63,10 +66,8 @@
 	opacity: 1;
 }
 .appointment{
-	margin-top: 160px;
-}
-.appoinment-right{
-	padding-left: 100px;
+	font-family: 'Inter', sans-serif !important;
+	margin-top: 100px;
 }
 .appointment-form-2 select{
 	font-size: 25px;
@@ -75,6 +76,22 @@
 	font-weight: 700;
 	color: #263544;
 }
+.appoint-ment-icon img{
+	margin-right: 20px;
+}
 .appointment-form-2 .level-0{
 	font-size: 20px;
+}
+.no-gutters{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.content .row .justify-content-around{
+	position: relative;
+}
+@media(max-width: 768px) {
+	.counter{
+		height: 1100px;
+	}
 }

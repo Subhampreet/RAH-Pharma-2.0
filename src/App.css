@@ -1,8 +1,16 @@
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Rubik:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+::placeholder{
+   font-family: 'Inter', sans-serif !important;
+}
 .landingPage{
   overflow-x: hidden;
+  height: 100%;
 }
 
 .mt-5 {

@@ -63,9 +63,13 @@
 	margin-bottom: 10px;
 }
 /* header menu area */
+.logo{
+	width: max-content;
+}
 .logo img {
 	position: relative;
 	z-index: 2;
+	/* background-color: #000; */
 }
 .logo-circle::before {
 	position: absolute;
@@ -82,6 +86,7 @@
 	display: inline-block;
 	margin-left: 25px;
 	position: relative;
+	left: -60px;
 }
 .header__menu.menu-dark ul li:first-child {
 	margin-left: 0;
@@ -89,9 +94,9 @@
 .header__menu ul li a {
 	color: #647589;
 	font-weight: 500;
-	padding: 48px 0;
+	padding: 30px 0;
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 }
 .header__menu.header-menu-white ul li a {
 	color: #ffff;
@@ -100,7 +105,7 @@
 	color: #E12454;
 }
 .header__menu ul li a {
-	padding: 20px 0;
+	padding: 15px 0;
 	color: #b2bfcf;
 	text-decoration: none;
 }
@@ -257,6 +262,7 @@
 .slider-height-2 {
 	min-height: 950px;
 	background: url('../img/rah-assets/banner.png');
+	background-position: top;
 	background-size: cover;
 }
 .slider-height-3 {
@@ -284,6 +290,7 @@
 	margin-bottom: 35px;
 }
 .caregive-box {
+	width: 480px;
 	border-radius: 16px;
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 16px 32px 0px rgba(227, 220, 255, 0.4);
@@ -425,7 +432,7 @@
 	color: #fff;
 }
 .btn-icon-green:hover {
-	background-color: rgb(225, 36, 84);
+	background-color: #8f49a0;
 	box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
 }
 .btn-icon span {
@@ -484,18 +491,18 @@
 	text-transform: capitalize;
 }
 .btn.gray-btn-border:hover {
-	background: #E12454;
+	background: #8f49a0;
 	color: #fff;
 	border: 2px solid transparent;
 }
 .btn.green-bg-btn {
 	padding: 23px 60px;
 	border-radius: 30px;
-	background: #69b5ab;
+	background: #1FB6BA;
 	color: #fff;
 }
 .btn.green-bg-btn:hover {
-	background: #E12454;
+	background: #8f49a0;
 }
 .play-btn {
 	height: 60px;
@@ -585,9 +592,6 @@
 	font-weight: 600;
 	font-family: poppins;
 }
-.appoint-ment-icon {
-	margin-right: 40px;
-}
 .appointment-form-2 label {
 	font-size: 12px;
 	text-transform: uppercase;
@@ -635,6 +639,8 @@
 	width: 20vw;
 	justify-content: space-evenly;
 	align-items: center;
+	margin-left: 120px;
+	margin-bottom: 12px;
 }
 .login-btn{
 	text-decoration: none;
@@ -643,7 +649,7 @@
 	font-weight: 500;
 	border-radius: 10px;
 	box-shadow: 2px 5px 20px #000;
-	padding: 20px;
+	padding: 10px 20px;
 	background-color: #000;
 }
 .f-right i{
@@ -682,4 +688,23 @@
 }
 .none{
 	display: none;
+}
+#mobile-menu ul{
+	display: flex;
+	width: 50vw;
+	justify-content: space-between;
+	padding: -30px;
+}
+
+.home-form{
+	display: flex;
+	width: 100%;
+}
+.home-form i{
+	font-size: 30px;
+	padding: 5px 20px;
+
+}
+.row .d-flex .align-items-center{
+	position: absolute;
 }

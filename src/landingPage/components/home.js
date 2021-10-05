@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import '../styles/nice-select.css'
+import Emergency_call from './emergency_call';
 
 
 function Home() {
@@ -62,6 +63,7 @@ function Home() {
                                     <li>Login/Signup</li>
                                 </ul>
                     </div>
+                    <Emergency_call/>
                 </div>
             </div>
         </div>
@@ -84,7 +86,7 @@ function Home() {
                                         <div class="caregive-box">
                                             <div class="search-form">
                                                 <span class="sub-heading">We are here for you</span>
-                                                <h3>Find A Care Giver</h3>
+                                                <h3>Search Service</h3>
                                             </div>
                                             <div class="row">
                                                 <div class="col-xl-12">
@@ -92,13 +94,16 @@ function Home() {
                                                         <div class="appoint-ment-icon">
                                                             <img src="img/icon/caregive-option-icon-2.png" alt=""/>
                                                         </div>
-                                                        <form class="appointment-form-2" action="#">
-                                                            <label for="input">select your location</label>
+                                                        <form class="appointment-form-2 home-form" action="#">
+                                                            <i class="fas fa-map-marker-alt"></i>
+                                                            <div>
+                                                            <label for="input">search your area</label>
                                                             <select name="lc" id="lc" class="postform">
                                                                 <option value="-1">Choose A Location</option>
                                                                 <option class="level-0" value="36">Chicago, United States</option>
                                                                 <option class="level-0" value="37">California, United States</option>
                                                             </select>
+                                                            </div>
                                                         </form>
                                                     </div>
                                                 </div>
@@ -107,19 +112,22 @@ function Home() {
                                                         <div class="appoint-ment-icon">
                                                             <img src="img/icon/caregive-option-icon-2.png" alt="" />
                                                         </div>
-                                                        <form class="appointment-form-2" action="#">
-                                                            <label for="input">select your services</label>
+                                                        <form class="appointment-form-2 home-form" action="#">
+                                                        <i class="fas fa-map-marker-alt"></i>
+                                                        <div>
+                                                            <label for="input">Search</label>
                                                             <select name="lc" id="lc" class="postform">
-                                                                <option value="-1">Choose A Service</option>
+                                                                <option value="-1">Clinics, doctors, hospitals</option>
                                                                 <option class="level-0" value="36">Chicago, United States</option>
                                                                 <option class="level-0" value="37">California, United States</option>
                                                             </select>
+                                                            </div>
                                                         </form>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-12 mb-35">
                                                     <div class="inner caregive-btn text-center">
-                                                        <a href="appoinment.html" class="btn gray-btn-border">Make Appointment</a>
+                                                        <a href="appoinment.html" class="btn gray-btn-border">Search</a>
                                                     </div>
                                                 </div>
                                             </div>
