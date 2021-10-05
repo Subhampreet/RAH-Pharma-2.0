@@ -8,81 +8,31 @@ function Home() {
     const[navOpen, setNavOpen] = useState(false);
     return (
         <div>
-            <div class="header-menu-area header-padding transparrent-header">
-            <div class="container-fluid">
-                <div class="row d-flex align-items-center">
-                    <div class="col-xl-2 col-lg-2 col-md-3">
-                        <div class="logo pos-rel">
-                            <a href="index.html"><img src={require("../img/rah-assets/logo.png").default}/></a>
-                            <div className="hamburger" onClick={ () => setNavOpen(!navOpen)}><i class="fas fa-bars"></i></div>
-                        </div>
+            <div className="home__container">
+                <div className="navbar">
+                    <div className="logo">
+                        <a href="index.html"><img src={require("../img/rah-assets/logo.png").default}/></a>
                     </div>
-                    <div class="col-xl-6 col-lg-8 col-md-6">
-                        <div class="header__menu header-menu-white">
-                            <nav id="mobile-menu">
-                                <ul>
-                                    <li><a href="index.html">Hospitals</a>
-                                    </li>
-                                    <li><a href="services.html">Consultance</a>
-                                    </li>
-                                    <li><a href="doctor.html">Blood banks</a>
-                                    </li>
-                                    <li><a href="shop.html">Diagnostics</a>
-                                    </li>
-                                    <li><a href="blog.html">Ambulance</a>
-                                    </li>
-                                    <li><a href="#">Emergency</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                    <div className="nav-links">
+                        <ul>
+                            <li><a href="index.html">Hospitals</a></li>
+                            <li><a href="services.html">Consultance</a></li>
+                            <li><a href="doctor.html">Blood banks</a></li>
+                            <li><a href="shop.html">Diagnostics</a></li>
+                            <li><a href="blog.html">Ambulance</a></li>
+                            <li><a href="#">Emergency</a></li>
+                        </ul>
                     </div>
-                    <div class="col-xl-4 col-lg-2 d-none d-lg-block d-xl-block">
-                        <div class="header-right f-right">
+                    <div className="login-section">
                         <i class="fas fa-search"></i>
-                            <a data-animation="fadeInLeft" data-delay=".6s" href="#" className="login-btn">Login/Signup</a>
-                        </div>
+                        <a data-animation="fadeInLeft" data-delay=".6s" href="#" className="login-btn">Login / Signup</a>
                     </div>
-                    <div class="col-12">
-                        <div class="mobile-menu mobile-menu-white"></div>
-                    </div>
-                    <div className={ navOpen ? 'mobile-nav' : 'none'}>
-                                <ul>
-                                    <li><a href="index.html">Hospitals</a>
-                                    </li>
-                                    <li><a href="services.html">Consultance</a>
-                                    </li>
-                                    <li><a href="doctor.html">Blood banks</a>
-                                    </li>
-                                    <li><a href="shop.html">Diagnostics</a>
-                                    </li>
-                                    <li><a href="blog.html">Ambulance</a>
-                                    </li>
-                                    <li><a href="#">Emergency</a>
-                                    </li>
-                                    <li>Login/Signup</li>
-                                </ul>
-                    </div>
-                    <Emergency_call/>
                 </div>
-            </div>
-        </div>
-        {/* Hero-section */}
-        <div class="hero-slider">
-                <div class="slider-active">
-                    <div class="single-slider slider-height slider-height-2 d-flex align-items-center" data-background='../img/slider/slider-bg-2.jpg'>
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-xl-6 col-lg-6 col-md-10">
-                                    <div class="hero-text hero-text-2 pt-35">
-                                        <div class="hero-slider-caption hero-slider-caption-2">
-                                            <h1 /*class="white-color"*/ data-animation="fadeInUp" data-delay=".4s">Best Doctor & Better Care</h1>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                                <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-12">
-                                    <div class="slider-right-2">
+                <div className="page-content">
+                    <div class="hero-slider-caption hero-slider-caption-2">
+                        <h1 class="white-color" data-animation="fadeInUp" data-delay=".4s">Best Doctor & <br/> Better Care</h1>
+                    </div>
+                    <div class="slider-right-2">
                                         <div class="caregive-box">
                                             <div class="search-form">
                                                 <span class="sub-heading">We are here for you</span>
@@ -91,9 +41,6 @@ function Home() {
                                             <div class="row">
                                                 <div class="col-xl-12">
                                                     <div class="appoinment-form-box appoinment-form-box-option d-flex mb-40">
-                                                        <div class="appoint-ment-icon">
-                                                            <img src="img/icon/caregive-option-icon-2.png" alt=""/>
-                                                        </div>
                                                         <form class="appointment-form-2 home-form" action="#">
                                                             <i class="fas fa-map-marker-alt"></i>
                                                             <div>
@@ -109,9 +56,6 @@ function Home() {
                                                 </div>
                                                 <div class="col-xl-12">
                                                     <div class="appoinment-form-box appoinment-form-box-option d-flex mb-40">
-                                                        <div class="appoint-ment-icon">
-                                                            <img src="img/icon/caregive-option-icon-2.png" alt="" />
-                                                        </div>
                                                         <form class="appointment-form-2 home-form" action="#">
                                                         <i class="fas fa-map-marker-alt"></i>
                                                         <div>
@@ -131,13 +75,12 @@ function Home() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
+            </div>
+            <div className="emergency-call">
+          <img src={require('../img/rah-assets/phonecall White.png').default}/>
+         </div>
             </div>
         </div>
     )
