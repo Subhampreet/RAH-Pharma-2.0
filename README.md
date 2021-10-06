@@ -1,4 +1,4 @@
-<h1 align="center">RAH Pharma Front-End 🚨🏥</h1>
+<h1 align="center">RAH Front-End 🚨🏥</h1>
 
 ## Getting Started with Create React App 
 
