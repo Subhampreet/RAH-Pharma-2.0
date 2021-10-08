@@ -30,9 +30,10 @@ function App() {
       <Route exact path="/" component={Latest} />
       <Route exact path="/" component={Footer} />
       <Route exact path="/hospital" component={Department} /> 
+      <Route exact path="/hospital" component={Review} />  
       <Route exact path="/hospital" component={AppointmentHospital} />
       <Route exact path="/hospital" component={FooterHospital} />
-      <Route exact path="/hospital" component={Review} />   
+       
     </div>
   );
 }
