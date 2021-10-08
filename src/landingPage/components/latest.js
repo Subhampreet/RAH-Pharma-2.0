@@ -67,12 +67,13 @@ function latest() {
                                 <span className="meta-date"><a href="#"><i class="far fa-comments"></i>33 Comments</a></span>
                             </div>
                         </div>
-                        <div className="mk-call-btn f-right mb-30">
-                            <a data-animation="fadeInLeft" data-delay=".6s" href="contact.html" className="btn btn-icon btn-icon-green ml-0"><span><img src={require('../img/rah-assets/phonecall Green.png').default} alt="" /></span>make call</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
+            <div className="mk-call-btn f-right mb-30">
+                            <a data-animation="fadeInLeft" data-delay=".6s" href="contact.html" className="btn btn-icon btn-icon-green ml-0"><span><img src={require('../img/rah-assets/phonecall Green.png').default} alt="" /></span>make call</a>
+                        </div>
         </div>
     )
 }
