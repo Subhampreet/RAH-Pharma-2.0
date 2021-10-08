@@ -16,7 +16,7 @@ import FooterHospital from './hospitalPage/components/footer';
 import AppointmentHospital from './hospitalPage/components/apppointment';
 import Review from './hospitalPage/components/review'
 import Department from './hospitalPage/components/department';
-import HospitalDoctor from './hospitalPage/components/hospitalDoctor';
+import HospitalDoctor from './hospitalPage/components/hospitaldoctor';
 
 function App() {
   return (
