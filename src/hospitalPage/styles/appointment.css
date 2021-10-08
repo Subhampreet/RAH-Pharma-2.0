@@ -67,9 +67,9 @@
 }
 .appointment{
 	font-family: 'Inter', sans-serif !important;
-	margin-top: 300px;
     margin-bottom: 150px;
 }
+
 .appointment-form-2 select{
 	font-size: 25px;
 	margin-bottom: 9px;
@@ -96,4 +96,12 @@
 	.counter{
 		height: 1100px;
 	}
+}
+.appoinment-box-content{
+	width: 100%!important;
+}
+.appoinment-right {
+	background-color: #e12454;
+	margin-right: 0!important;
+	padding-right: 0!important;
 }
