@@ -18,6 +18,8 @@ import Review from './hospitalPage/components/review'
 import Department from './hospitalPage/components/department';
 import HospitalDoctor from './hospitalPage/components/hospitaldoctor';
 import Procedure from './hospitalPage/components/procedure';
+import ValueService from './hospitalPage/components/valueservices';
+
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
       <Route exact path="/hospital" component={Department} /> 
       <Route exact path="/hospital" component={HospitalDoctor} />
       <Route exact path="/hospital" component={Procedure} />
+      <Route exact path="/hospital" component={ValueService} />
       <Route exact path="/hospital" component={Review} />  
       <Route exact path="/hospital" component={AppointmentHospital} />
       <Route exact path="/hospital" component={FooterHospital} />

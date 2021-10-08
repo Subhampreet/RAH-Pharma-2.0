@@ -1,0 +1,40 @@
+.vas-cont{
+    height: 540px;
+    width: 100vw;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+.vas-body{
+    height: 400px;
+    width: 100vw;
+}
+
+.vas-services{
+    display: flex;
+    padding-left: 400px;
+}
+
+.vas-title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 51.96px;
+    line-height: 63px;
+    color: #262626;
+    padding-top: 50px;
+}
+
+.vas-title-text{
+margin-bottom: 55px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 36px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+}
+
+.vas-service{
+    margin-right: 210px;
+}
