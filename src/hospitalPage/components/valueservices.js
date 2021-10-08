@@ -14,41 +14,41 @@ function ValueService() {
                 <div className="vas-services">
                     <div className="vas-service">
                              <div className="service-img">
-                                 <img src={require('../img/rah-assets/folder.png').default} />
+                                 <img src={require('../img/rah-assets/2424.png').default} />
                              </div>
                              <div className="service-title">
                                          24/7 services
                              </div>
                              <div>
-                                 <p>1 point</p>
-                                 <p>2 point</p>
-                                 <p>3 point</p>
+                             <p>24 hrs CCTV surveilance</p>
+                                 <p>24x7 observation</p>
+                                 <p>24hrs open pharmacy</p>
                              </div>
                     </div>
                     <div className="vas-service">
                              <div className="service-img">
-                                 <img src={require('../img/rah-assets/folder.png').default} />
+                                 <img src={require('../img/rah-assets/2424.png').default} />
                              </div>
                              <div className="service-title">
                                          24/7 services
                              </div>
                              <div>
-                             <p>1 point</p>
-                                 <p>2 point</p>
-                                 <p>3 point</p>
+                             <p>24 hrs CCTV surveilance</p>
+                                 <p>24x7 observation</p>
+                                 <p>24hrs open pharmacy</p>
                              </div>
                     </div>
                     <div className="vas-service">
                              <div className="service-img">
-                                 <img src={require('../img/rah-assets/folder.png').default} />
+                                 <img src={require('../img/rah-assets/2424.png').default} />
                              </div>
                              <div className="service-title">
                                          24/7 services
                              </div>
                              <div>
-                             <p>1 point</p>
-                                 <p>2 point</p>
-                                 <p>3 point</p>
+                                 <p>24 hrs CCTV surveilance</p>
+                                 <p>24x7 observation</p>
+                                 <p>24hrs open pharmacy</p>
                              </div>
                     </div>
 

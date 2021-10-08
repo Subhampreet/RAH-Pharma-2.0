@@ -18,7 +18,7 @@ function HospitalDoctor() {
                     <div className="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div className="h4service-box white-bg mb-30">
                             <div className="service-thumb service1 pos-rel mb-0">
-                                <img src={require("../img/rah-assets/folder.png").default} alt=""  />
+                                <img src={require("../img/rah-assets/doctor.png").default} alt=""  />
                             </div>
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Sum Hospital</a></h3>
@@ -44,7 +44,7 @@ function HospitalDoctor() {
                     <div className="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div className="h4service-box white-bg mb-30">
                             <div className="service-thumb service1 pos-rel mb-0">
-                                <img src={require("../img/rah-assets/folder.png").default} alt=""  />
+                                <img src={require("../img/rah-assets/doctor.png").default} alt=""  />
                             </div>
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Sum Hospital</a></h3>
@@ -70,7 +70,7 @@ function HospitalDoctor() {
                     <div className="col-xl-4 col-lg-6 col-md-6 h4service-main">
                         <div className="h4service-box white-bg mb-30">
                             <div className="service-thumb service1 pos-rel mb-0">
-                                <img src={require("../img/rah-assets/folder.png").default} alt=""  />
+                                <img src={require("../img/rah-assets/doctor.png").default} alt=""  />
                             </div>
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Sum Hospital</a></h3>

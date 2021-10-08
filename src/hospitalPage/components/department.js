@@ -15,7 +15,23 @@ function Department() {
                 <div className="department-grid">
                      <div className="grid-item">
                        <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
+                        <img src={require('../img/rah-assets/cardio.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                           Cardiology
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/bed.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       7000+ Beds
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/blood.png').default} />
                        </div>
                        <div className="grid-item-text">
                            Blood Bank
@@ -23,7 +39,15 @@ function Department() {
                      </div>
                      <div className="grid-item">
                        <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
+                        <img src={require('../img/rah-assets/ambulance.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       Ambulance
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/blood.png').default} />
                        </div>
                        <div className="grid-item-text">
                            Blood Bank
@@ -31,7 +55,31 @@ function Department() {
                      </div>
                      <div className="grid-item">
                        <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
+                        <img src={require('../img/rah-assets/ambulance.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       Ambulance
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/cardio.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       Cardiology
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/bed.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       7000+ Beds
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/blood.png').default} />
                        </div>
                        <div className="grid-item-text">
                            Blood Bank
@@ -39,7 +87,15 @@ function Department() {
                      </div>
                      <div className="grid-item">
                        <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
+                        <img src={require('../img/rah-assets/ambulance.png').default} />
+                       </div>
+                       <div className="grid-item-text">
+                       Ambulance
+                       </div>
+                     </div>
+                     <div className="grid-item">
+                       <div className="grid-item-img">
+                        <img src={require('../img/rah-assets/blood.png').default} />
                        </div>
                        <div className="grid-item-text">
                            Blood Bank
@@ -47,66 +103,10 @@ function Department() {
                      </div>
                      <div className="grid-item">
                        <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
+                        <img src={require('../img/rah-assets/bed.png').default} />
                        </div>
                        <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../../landingPage/img/rah-assets/call.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
+                       7000+ Beds
                        </div>
                      </div>
                 </div>
