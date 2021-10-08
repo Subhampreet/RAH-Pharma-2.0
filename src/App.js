@@ -16,6 +16,7 @@ import FooterHospital from './hospitalPage/components/footer';
 import AppointmentHospital from './hospitalPage/components/apppointment';
 import Review from './hospitalPage/components/review'
 import Department from './hospitalPage/components/department';
+import HospitalDoctor from './hospitalPage/components/hospitalDoctor';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route exact path="/" component={Latest} />
       <Route exact path="/" component={Footer} />
       <Route exact path="/hospital" component={Department} /> 
+      <Route exact path="/hospital" component={HospitalDoctor} />
       <Route exact path="/hospital" component={Review} />  
       <Route exact path="/hospital" component={AppointmentHospital} />
       <Route exact path="/hospital" component={FooterHospital} />
