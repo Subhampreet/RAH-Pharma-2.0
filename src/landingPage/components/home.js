@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import '../styles/nice-select.css'
 import Emergency_call from './emergency_call';
+import {Link} from "react-router-dom";
 
 
 function Home() {
@@ -15,7 +16,7 @@ function Home() {
                     </div>
                     <div className="nav-links">
                         <ul>
-                            <li><a href="index.html">Hospitals</a></li>
+                            <li><Link to="/hospital"><a href="index.html">Hospitals</a></Link></li>
                             <li><a href="services.html">Consultance</a></li>
                             <li><a href="doctor.html">Blood banks</a></li>
                             <li><a href="shop.html">Diagnostics</a></li>

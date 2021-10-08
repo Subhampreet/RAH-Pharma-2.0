@@ -1,4 +1,5 @@
 import './App.css';
+import {Route, Link} from "react-router-dom";
 import Footer from './landingPage/components/footer';
 import Latest from './landingPage/components/latest'
 import Counter from './landingPage/components/counter'
@@ -11,19 +12,25 @@ import Services1 from './landingPage/components/services1';
 import Services2 from './landingPage/components/services2';
 import Services3 from './landingPage/components/services3';
 import Doctor from './landingPage/components/doctor';
+import FooterHospital from './hospitalPage/components/footer';
+import AppointmentHospital from './hospitalPage/components/apppointment';
+import Review from './hospitalPage/components/review'
 
 function App() {
   return (
     <div className="landingPage">
-      <Home />
-      <Doctor/>
-      <Services1/>
-      <Services2/>
-      <Services3/>
-      <Testimonials />
-      <Counter />
-      <Latest />
-      <Footer />  
+      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={Doctor} />
+      <Route exact path="/" component={Services1} />
+      <Route exact path="/" component={Services2} />
+      <Route exact path="/" component={Services3} />
+      <Route exact path="/" component={Testimonials} />
+      <Route exact path="/" component={Counter} />
+      <Route exact path="/" component={Latest} />
+      <Route exact path="/" component={Footer} />
+      <Route exact path="/hospital" component={AppointmentHospital} />
+      <Route exact path="/hospital" component={FooterHospital} />
+      <Route exact path="/hospital" component={Review} />   
     </div>
   );
 }
