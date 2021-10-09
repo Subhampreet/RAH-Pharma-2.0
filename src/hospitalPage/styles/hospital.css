@@ -1,0 +1,165 @@
+*{
+    font-family: 'Inter', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2vh 6vw;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    overflow: hidden;
+}
+nav .nav-links{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 700;
+    /* padding-right: 4vw; */
+    margin-right: 10vw;
+    /* background-color: aqua; */
+}
+nav .nav-links a{
+    text-decoration: none;
+    color: #000;
+    transition: .2s all ease;
+}
+nav .nav-links a:hover{
+    color: #008489;
+}
+nav .search-login{
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .search-login i{
+    font-size: 20px;
+}
+nav .search-login a{
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.content{
+    margin: 8vh 0 0 6vw;
+    display: flex;
+    width: max-content;
+}
+.content .side-images {
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+    width: 10vw;
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.hospital-details{
+    width: 40vw;
+    margin-left: 40px;
+}
+.hospital-details h1{
+    font-size: 34px;
+}
+.hospital-details .features-head{
+    width: 90%;
+    border-bottom: 1px solid rgba(146, 146, 146, 0.384);
+    margin-bottom: 40px;
+}
+.features{
+    margin-top: 50px;
+}
+.features .items{
+    width: 100%;
+    display: flex;
+}
+.features .items div{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 12vw;
+    background-color: #e2f8fa;
+}
+.features .items div img{
+    width: 40px;
+    height: 40px;
+}
+.features .contacts{
+    margin-top: 20px;
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.more-photos{
+    text-align: center;
+    height: 170px;
+    background: url('../components/rah-assets/Rectangle 716.png'); 
+    overflow: hidden;
+}
+.load-more{
+    font-size: 26px;
+    margin-top: 0 !important;
+    height: 100%;
+    padding-top: 60px;
+    background: #bfc0c06b;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(24, 24, 24);
+    /* text-align: center; */
+}
+.modal{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.modal-content{
+    width: 80vw;
+    /* height: 80vh; */
+    margin: 10vh 10vw;
+    z-index: 99;
+    /* text-align: center; */
+    background-color: #fff;
+    border-radius: 10px;
+}
+.modal-content .modal-title {
+    display: flex;
+    padding: 0 20px;
+    width: 96%;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    height: 40px;
+}
+.modal-content .modal-title img{
+    width: 20px;
+    position: relative;
+    top: -60px;
+}
+.modal-content .images{
+    margin-top: 50px;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.modal-content img{
+    height: 200px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+.none{
+    display: none;
+}

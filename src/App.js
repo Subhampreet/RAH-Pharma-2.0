@@ -19,6 +19,8 @@ import Department from './hospitalPage/components/department';
 import HospitalDoctor from './hospitalPage/components/hospitaldoctor';
 import Procedure from './hospitalPage/components/procedure';
 import ValueService from './hospitalPage/components/valueservices';
+import Facilities from './hospitalPage/components/facilities';
+import Hospital from './hospitalPage/components/hospital';
 
 
 function App() {
@@ -33,6 +35,11 @@ function App() {
       <Route exact path="/" component={Counter} />
       <Route exact path="/" component={Latest} />
       <Route exact path="/" component={Footer} />
+      <div className="emergency-call">
+            <img src={require('./hospitalPage/components/rah-assets/Group 7117 (1).png').default} alt="" />
+      </div>
+      <Route exact path="/hospital" component={Hospital} />
+      <Route exact path="/hospital" component={Facilities} />
       <Route exact path="/hospital" component={Department} /> 
       <Route exact path="/hospital" component={HospitalDoctor} />
       <Route exact path="/hospital" component={Procedure} />
@@ -40,6 +47,7 @@ function App() {
       <Route exact path="/hospital" component={Review} />  
       <Route exact path="/hospital" component={AppointmentHospital} />
       <Route exact path="/hospital" component={FooterHospital} />
+      
        
     </div>
   );
