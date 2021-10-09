@@ -35,6 +35,9 @@ function App() {
       <Route exact path="/" component={Counter} />
       <Route exact path="/" component={Latest} />
       <Route exact path="/" component={Footer} />
+      <div className="emergency-call">
+            <img src={require('./hospitalPage/components/rah-assets/Group 7117 (1).png').default} alt="" />
+      </div>
       <Route exact path="/hospital" component={Hospital} />
       <Route exact path="/hospital" component={Facilities} />
       <Route exact path="/hospital" component={Department} /> 

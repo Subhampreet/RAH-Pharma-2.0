@@ -5,7 +5,7 @@
 
 nav{
     display: flex;
-    width: 86.9vw;
+    width: 100%;
     justify-content: space-between;
     padding: 2vh 6vw;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -105,9 +105,8 @@ nav .search-login a{
 }
 .more-photos{
     text-align: center;
-    background-color: red;
     height: 170px;
-    /* background: url('../rah-assets/Rectangle 716.png'); */
+    background: url('../components/rah-assets/Rectangle 716.png'); 
     overflow: hidden;
 }
 .load-more{

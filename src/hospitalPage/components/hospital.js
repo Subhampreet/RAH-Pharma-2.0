@@ -14,12 +14,12 @@ function Hospital() {
                     {/* <img src={require('./rah-assets/Layer 2 (4).svg').default} alt="" onClick={e=>setModal(false)}/> */}
                     </div>
                    <div className="images">
-                    {/* <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
-                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />
                     <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
                     <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />
                     <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
-                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" /> */}
+                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />
+                    <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
+                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />
                    </div>
                 </div>
             </div>
@@ -43,14 +43,14 @@ function Hospital() {
             </nav>
             <div className="content">
                 <div className="side-images">
-                    {/* <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
-                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" /> */}
+                    <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
+                    <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />
                     <div className="more-photos" onClick={ () => setModal(true)}>
                         <p className="load-more">+14 more</p>
                     </div>
                 </div>
                 <div className="main-img">
-                    {/* <img src={require('./rah-assets/Rectangle 626.png').default} alt="" /> */}
+                    <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
                 </div>
                 <div className="hospital-details">
                     <div className="features-head">
