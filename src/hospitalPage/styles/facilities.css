@@ -1,0 +1,21 @@
+.facilities{
+    padding: 12vh;
+}
+.facilities h1{
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.facilities-content {
+    display: flex;
+    width: 84vw;
+    justify-content: space-between;
+}
+.facilities-content p{
+    line-height: 1rem;
+}
+.facilities-content h2{
+    color: rgb(235, 47, 78)
+}
+.facilities-content .box-3{
+    margin-top: 10px;
+}
