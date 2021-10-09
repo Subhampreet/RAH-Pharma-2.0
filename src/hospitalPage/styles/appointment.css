@@ -101,7 +101,14 @@
 	width: 100%!important;
 }
 .appoinment-right {
-	background-color: #e12454;
+	align-content: center;
+	width: fit-content;
 	margin-right: 0!important;
 	padding-right: 0!important;
+}
+.appoinment-box-2{
+	height: fit-content;
+}
+.btn-icon-green{
+	align-self: right;
 }
