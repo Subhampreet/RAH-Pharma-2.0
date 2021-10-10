@@ -6,12 +6,14 @@ function Hospital() {
     const [modal, setModal] = useState(false);
     return (
         <div>
+            <div className="emergency-call">
+            <img src={require('./rah-assets/Group 7117.png').default} alt="" />
+            </div>
             <Modal open={modal}> 
             <div className='modal'>
                 <div className="modal-content">
                     <div className="modal-title">
                    <h2>Images</h2>
-                    {/* <img src={require('./rah-assets/Layer 2 (4).svg').default} alt="" onClick={e=>setModal(false)}/> */}
                     </div>
                    <div className="images">
                     <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
@@ -24,7 +26,7 @@ function Hospital() {
                 </div>
             </div>
             </Modal>
-            <nav>
+            <nav className="nav">
                 <div className="logo">
                     <img src={require('./rah-assets/logo.png').default} alt="" />
                 </div>
@@ -41,7 +43,7 @@ function Hospital() {
                         <a href="#login">Login / Signup</a>
                     </div>
             </nav>
-            <div className="content">
+            <div className="content1">
                 <div className="side-images">
                     <img src={require('./rah-assets/Rectangle 626.png').default} alt="" />
                     <img src={require('./rah-assets/Rectangle 715.png').default} alt="" />

@@ -1,45 +1,48 @@
 *{
     font-family: 'Inter', sans-serif;
-    /* overflow-x: hidden; */
 }
 
-nav{
+.nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 2vh 6vw;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
-nav .nav-links{
+.nav .logo{
+    margin: 0 !important;
+}
+.nav .nav-links{
     display: flex;
     width: 50vw;
     justify-content: space-between;
+    padding-top: 20px;
     list-style: none;
     font-weight: 700;
     /* padding-right: 4vw; */
     margin-right: 10vw;
     /* background-color: aqua; */
 }
-nav .nav-links a{
+.nav .nav-links a{
     text-decoration: none;
     color: #000;
     transition: .2s all ease;
 }
-nav .nav-links a:hover{
+.nav .nav-links a:hover{
     color: #008489;
 }
-nav .search-login{
+.nav .search-login{
     display: flex;
     width: 12vw;
     justify-content: space-between;
     align-items: center;
 }
-nav .search-login i{
+.nav .search-login i{
     font-size: 20px;
 }
-nav .search-login a{
+.nav .search-login a{
     padding: 12px;
     border-radius: 6px;
     text-decoration: none;
@@ -48,12 +51,12 @@ nav .search-login a{
     font-size: 16px;
     font-weight: 600;
 }
-.content{
+.content1{
     margin: 8vh 0 0 6vw;
     display: flex;
     width: max-content;
 }
-.content .side-images {
+.content1 .side-images {
     display: flex;
     flex-direction: column;
     height: 82vh;
@@ -91,6 +94,9 @@ nav .search-login a{
     height: 40px;
     width: 12vw;
     background-color: #e2f8fa;
+}
+.features .items div p{
+    margin-bottom: 0 !important;
 }
 .features .items div img{
     width: 40px;
@@ -162,4 +168,10 @@ nav .search-login a{
 }
 .none{
     display: none;
+}
+.emergency-call {
+    position: sticky !important;
+    top: 50vh;
+    margin-left: 94vw;
+    height: 0;
 }
