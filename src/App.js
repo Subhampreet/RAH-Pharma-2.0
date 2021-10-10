@@ -35,8 +35,11 @@ function App() {
       <Route exact path="/" component={Counter} />
       <Route exact path="/" component={Latest} />
       <Route exact path="/" component={Footer} />
+
        <Route exact path="/hospital" component={Hospital} />
-      <Route exact path="/hospital" component={Facilities} /> 
+      <Route exact path="/hospital" component={Facilities} />
+  
+
       <Route exact path="/hospital" component={Department} /> 
       <Route exact path="/hospital" component={HospitalDoctor} />
       <Route exact path="/hospital" component={Procedure} />

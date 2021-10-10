@@ -72,7 +72,7 @@ function apppointment() {
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
-                                    <div class="appoinment-right f-right">
+                                    <div class="appoinment-right f-right" className="app_banner">
                                         <img src={require('../img/rah-assets/appointmentbanner.png').default} alt="" />
                                     </div>
                                 </div>

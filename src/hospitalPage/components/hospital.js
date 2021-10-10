@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { Modal } from '@material-ui/core';
-import '../styles/hospital.css'
+ import React, { useState } from 'react';
+ import { Modal } from '@material-ui/core';
+ import '../styles/hospital.css'
+
 
 function Hospital() {
     const [modal, setModal] = useState(false);
@@ -91,5 +92,6 @@ function Hospital() {
         </div>
     )
 }
+
 
 export default Hospital
