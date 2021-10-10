@@ -93,22 +93,6 @@ function Department() {
                        Ambulance
                        </div>
                      </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/blood.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/bed.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       7000+ Beds
-                       </div>
-                     </div>
                 </div>
 
             </div>

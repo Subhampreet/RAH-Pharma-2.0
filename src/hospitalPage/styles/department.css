@@ -47,7 +47,7 @@ color: #9D9D9D;
 
 .department-grid{
     display: grid;
-    grid-template-columns: 237px 237px 237px 237px 237px 237px;
+    grid-template-columns: 237px 237px 237px 237px 237px;
 }
 
 .grid-item{
