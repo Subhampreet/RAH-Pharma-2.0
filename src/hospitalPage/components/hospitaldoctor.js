@@ -23,15 +23,15 @@ function HospitalDoctor() {
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Dr. Srinivas Reddy</a></h3>
                                 <div className="service-content-img-div">
-                                <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 location f-600">30yrs Clinical Experience.</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">Best Doctor Award 2020</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">People’s Choice Award</p>
                                 </div>
                                 
@@ -49,15 +49,15 @@ function HospitalDoctor() {
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Dr. Srinivas Reddy</a></h3>
                                 <div className="service-content-img-div">
-                                <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 location f-600">30yrs Clinical Experience.</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">Best Doctor Award 2020</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">People’s Choice Award</p>
                                 </div>
                                 
@@ -75,15 +75,15 @@ function HospitalDoctor() {
                             <div className="service-content h4services-content" >
                             <h3 className="f-700"><a href="#">Dr. Srinivas Reddy</a></h3>
                                 <div className="service-content-img-div">
-                                <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img className="h4-services-content-img" src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 location f-600">30yrs Clinical Experience.</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">Best Doctor Award 2020</p>
                                 </div>
                                 <div className="service-content-img-div">
-                                <img src= {require("../img/rah-assets/folder.png").default} alt=""/>
+                                {/* <img src= {require("../img/rah-assets/folder.png").default} alt=""/> */}
                                 <p className="mb-20 f-600">People’s Choice Award</p>
                                 </div>
                                 

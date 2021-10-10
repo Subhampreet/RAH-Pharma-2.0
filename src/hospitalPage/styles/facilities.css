@@ -19,3 +19,6 @@
 .facilities-content .box-3{
     margin-top: 10px;
 }
+.box-1 img, .box-2 img, .box-3 img, .box-4 img{
+    padding-bottom: 20px;
+}
