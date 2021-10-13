@@ -22,23 +22,23 @@ function Home() {
         </div>
         <div className="Nav-menu">
             {openLinks?<div class="Testing">
-            <a href="#home">Hospitals</a>
-                       <a href="#news">Consultance</a>
-                       <a href="#contact">Blood Banks</a>
-                       <a href="#about">Diagnostics</a>
-                       <a href="#about">Ambulance</a>
-                       <a href="#about">Emergency</a>
+            <a href="/hospital">Hospitals</a>
+                       <a href="/">Consultance</a>
+                       <a href="/">Blood Banks</a>
+                       <a href="/">Diagnostics</a>
+                       <a href="/">Ambulance</a>
+                       <a href="/">Emergency</a>
                        <a><button class="search-btn"> <i class="fas fa-search"></i></button></a>
                        <a> <button href="#" className="login-btn">Login / Signup</button></a>
   </div>:    <div className="Nav-cont">
                    
                    <div className="topnav">
-                       <a href="#home">Hospitals</a>
-                       <a href="#news">Consultance</a>
-                       <a href="#contact">Blood Banks</a>
-                       <a href="#about">Diagnostics</a>
-                       <a href="#about">Ambulance</a>
-                       <a href="#about">Emergency</a>
+                       <a href="/hospital">Hospitals</a>
+                       <a href="/">Consultance</a>
+                       <a href="/">Blood Banks</a>
+                       <a href="/">Diagnostics</a>
+                       <a href="/">Ambulance</a>
+                       <a href="/">Emergency</a>
                        </div>
                        
 
