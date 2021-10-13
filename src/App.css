@@ -9,8 +9,8 @@
    font-family: 'Inter', sans-serif !important;
 }
 .landingPage{
-  overflow-x: hidden;
-  height: 100%;
+   overflow-x: hidden;
+  /* height: 100%;  */
 }
 
 .mt-5 {

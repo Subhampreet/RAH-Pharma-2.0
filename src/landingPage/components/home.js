@@ -2,88 +2,123 @@ import React, { useEffect, useState } from 'react'
 import '../styles/home.css'
 import '../styles/nice-select.css'
 import Emergency_call from './emergency_call';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Home() {
-    const[navOpen, setNavOpen] = useState(false);
+    const [openLinks, setOpenLinks] = useState(false);
+
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  };
+  {console.log(openLinks)}
     return (
-        <div>
+       
+        <>
             <div className="home__container">
-                <div className="navbar">
-                    <div className="logo">
-                        <a href="index.html"><img src={require("../img/rah-assets/logo.png").default}/></a>
-                    </div>
-                    <div className="nav-links">
-                        <ul>
-                            <li><Link to="/hospital"><a href="index.html">Hospitals</a></Link></li>
-                            <li><a href="services.html">Consultance</a></li>
-                            <li><a href="doctor.html">Blood banks</a></li>
-                            <li><a href="shop.html">Diagnostics</a></li>
-                            <li><a href="blog.html">Ambulance</a></li>
-                            <li><a href="#">Emergency</a></li>
-                        </ul>
-                    </div>
-                    <div className="login-section">
-                        <i class="fas fa-search"></i>
-                        <a data-animation="fadeInLeft" data-delay=".6s" href="#" className="login-btn">Login / Signup</a>
-                    </div>
+                <div className="Navbar">
+        <div className="logo">
+        <img src={require("../img/rah-assets/logo.png").default} />
+        </div>
+        <div className="Nav-menu">
+            {openLinks?<div class="Testing">
+            <a href="#home">Hospitals</a>
+                       <a href="#news">Consultance</a>
+                       <a href="#contact">Blood Banks</a>
+                       <a href="#about">Diagnostics</a>
+                       <a href="#about">Ambulance</a>
+                       <a href="#about">Emergency</a>
+                       <a><button class="search-btn"> <i class="fas fa-search"></i></button></a>
+                       <a> <button href="#" className="login-btn">Login / Signup</button></a>
+  </div>:    <div className="Nav-cont">
+                   
+                   <div className="topnav">
+                       <a href="#home">Hospitals</a>
+                       <a href="#news">Consultance</a>
+                       <a href="#contact">Blood Banks</a>
+                       <a href="#about">Diagnostics</a>
+                       <a href="#about">Ambulance</a>
+                       <a href="#about">Emergency</a>
+                       </div>
+                       
+
+                       <div className="login-section">
+
+
+                           <button class="search-btn"> <i class="fas fa-search"></i></button>
+                           <button href="#" className="login-btn">Login / Signup</button>
+
+                       </div>
+                      
+                       </div> }
+      
+                       <button className="ham" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>
+                       </div>
+
+
+
                 </div>
                 <div className="page-content">
-                    <div class="hero-slider-caption hero-slider-caption-2">
-                        <h1 class="white-color" data-animation="fadeInUp" data-delay=".4s">Best Doctor & <br/> Better Care</h1>
+                    <div className="leftslide">
+                        Best Doctor & <br /> Better Care
                     </div>
-                    <div class="slider-right-2">
-                                        <div class="caregive-box">
-                                            <div class="search-form">
-                                                <span class="sub-heading">We are here for you</span>
-                                                <h3>Search Service</h3>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xl-12">
-                                                    <div class="appoinment-form-box appoinment-form-box-option d-flex mb-40">
-                                                        <form class="appointment-form-2 home-form" action="#">
-                                                            <i class="fas fa-map-marker-alt"></i>
-                                                            <div>
-                                                            <label for="input">search your area</label>
-                                                            <select name="lc" id="lc" class="postform">
-                                                                <option value="-1">Choose A Location</option>
-                                                                <option class="level-0" value="36">Chicago, United States</option>
-                                                                <option class="level-0" value="37">California, United States</option>
-                                                            </select>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12">
-                                                    <div class="appoinment-form-box appoinment-form-box-option d-flex mb-40">
-                                                        <form class="appointment-form-2 home-form" action="#">
-                                                        <i class="fas fa-map-marker-alt"></i>
-                                                        <div>
-                                                            <label for="input">Search</label>
-                                                            <select name="lc" id="lc" class="postform">
-                                                                <option value="-1">Clinics, doctors, hospitals</option>
-                                                                <option class="level-0" value="36">Chicago, United States</option>
-                                                                <option class="level-0" value="37">California, United States</option>
-                                                            </select>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-12 mb-35">
-                                                    <div class="inner caregive-btn text-center">
-                                                        <a href="appoinment.html" class="btn gray-btn-border">Search</a>
-                                                    </div>
-                                                </div>
-                                            </div>
+                    <div className="rightslide">
+                        <div className="card">
+                            <div className="card-contents">
+                                <div className="firstline">
+                                We are here for you
                                 </div>
+                                <div className="secline">
+                                Search Service
+                                </div>
+                                <div className="search-loc">
+                                   <div className="loc-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div className="menu">
+                                        <form className="menu-options" action="#">
+                                            <label className="input" for="input">search your area</label>
+                                            <select name="lc" id="lc"className="dropdown">
+                                                <option value="-1">Choose A Location</option>
+                                                <option class="level-0" value="36">Chicago, United States</option>
+                                                <option class="level-0" value="37">California, United States</option>
+                                            </select>
+                                        
+                                    </form>
+                                    </div>
+                                </div>
+                                <div className="line"></div>
+                                <div className="search-loc">
+                                   <div className="loc-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div className="menu">
+                                        <form className="menu-options" action="#">
+                                            <label className="input" for="input">search your area</label>
+                                            <select name="lc" id="lc"className="dropdown">
+                                                <option value="-1">Choose A Location</option>
+                                                <option class="level-0" value="36">Chicago, United States</option>
+                                                <option class="level-0" value="37">California, United States</option>
+                                            </select>
+                                        
+                                    </form>
+                                    </div>
+                                </div>
+                                <div className="line"></div>
+                            </div>
+                           
+                                <div className="card-button">
+                                    <a href="" class="btn gray-btn-border">Search</a>
+                                
+                            </div>
+
+                        </div>
                     </div>
+                </div>
             </div>
-            <div className="emergency-call">
-          <img src={require('../img/rah-assets/phonecall White.png').default}/>
-         </div>
-            </div>
-        </div>
+
+
+        </>
     )
 }
 
