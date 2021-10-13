@@ -26,10 +26,12 @@
 	display: flex;
 	flex:90%;
 	justify-content: flex-start;
+	
 }
 .Nav-cont{
 	display: flex;
 	flex: 95%;
+	align-items: center;
 }
 .topnav {
 	display: flex;
@@ -37,9 +39,11 @@
 position: relative;
 overflow: hidden;
 justify-content: flex-start;
+align-items: center;
 	
 }
 .topnav a {
+	align-items: center;
 	/* float: left; */
 	color: #f2f2f2;
 	text-align: center;
