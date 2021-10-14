@@ -4,7 +4,7 @@ import '../styles/appointment.css'
 function apppointment() {
     return (
         <div class="appointment" >
-            <div class="container">
+             <div class="">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="appoinment-box-2">
@@ -72,7 +72,7 @@ function apppointment() {
                                     </div>
                                 </div>
                                 <div class="col-xl-4">
-                                    <div class="appoinment-right f-right" className="app_banner">
+                                    <div className="app_banner">
                                         <img src={require('../img/rah-assets/appointmentbanner.png').default} alt="" />
                                     </div>
                                 </div>
@@ -85,6 +85,8 @@ function apppointment() {
             <div className="mk-call-btn f-right mb-30">
                             <a data-animation="fadeInLeft" data-delay=".6s" href="contact.html" className="btn btn-icon btn-icon-green ml-0 make_calling"><span><img src={require('../img/rah-assets/phonecall Green.png').default} alt="" /></span>make call</a>
                         </div>
+
+ 
             </div>
             
     )

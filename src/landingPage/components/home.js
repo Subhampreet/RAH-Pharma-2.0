@@ -60,7 +60,7 @@ function Home() {
                 </div>
                 <div className="page-content">
                     <div className="leftslide">
-                        Best Doctor & <br /> Better Care
+                        Best Doctor & <br/>Better Care
                     </div>
                     <div className="rightslide">
                         <div className="card">
