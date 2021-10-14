@@ -17,3 +17,26 @@
     border: 1px solid #F4F4F4;
 box-sizing: border-box;
 }
+
+.service-2 .title{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.service-2 .title .left{
+    width: 48%;
+}
+
+.service-2 .title .right{
+    width: 48%;
+}
+
+.service-2 .title .left h1{
+    text-align: right;
+    font-weight: 800;
+    font-size: 50px;
+}
