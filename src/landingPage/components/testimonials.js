@@ -9,7 +9,7 @@ function testimonials() {
                     <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 col-md-10 offset-md-1">
                         <div class="section-title text-center pos-rel mb-70">
                             <div class="section-text pos-rel">
-                                <h1>Our Happy Clients Says About Us.</h1>
+                                <h1 className="title">Our Happy Clients Say About Us.</h1>
                             </div>
                         </div>
                     </div>

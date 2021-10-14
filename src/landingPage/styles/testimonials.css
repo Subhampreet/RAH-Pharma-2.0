@@ -1,3 +1,15 @@
+.testimonials-area .title{
+	width: 545px;
+	text-align: center;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 130%;
+	color: #FFFFFF;
+
+}
+
+
 .testimonials-area{
 	background: #1B2D2E;
 	color: #fff;
