@@ -40,3 +40,11 @@ box-sizing: border-box;
     font-weight: 800;
     font-size: 50px;
 }
+
+.service-2 .title .right p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+}

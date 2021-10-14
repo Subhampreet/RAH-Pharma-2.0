@@ -15,9 +15,18 @@
 	line-height: 180%;
 }
 
-.service-1 .section-line{
-	/* margin-top: 100px; */
+.service-3 .section-text h1{
+	font-size: 50px;
 }
+
+.service-3 .section-text h5{
+	color: #484848;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 180%;
+}
+
+
 
 .slider {
 	padding: 25px 130px 80px;
@@ -46,7 +55,11 @@
 	width: 32%;
 	height: auto;
 	margin-left: 1rem;
-	/* padding-bottom: 20px; */
+	padding-bottom: 30px;
+}
+
+.service-3 .card-1{
+		padding-bottom: 30px;
 }
 
 .banner-img {
@@ -114,6 +127,12 @@
 }
 
 .service-1 .card-content .active{
+	font-weight: 600;
+	color: #00ACB2 !important;
+	margin-bottom: 20px;
+}
+
+.service-3 .card-content .active{
 	font-weight: 600;
 	color: #00ACB2 !important;
 	margin-bottom: 20px;

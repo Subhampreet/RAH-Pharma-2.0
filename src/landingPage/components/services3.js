@@ -3,7 +3,7 @@ import '../styles/services.css';
 
 function Services3() {
     return (
-        <div>
+        <div className="service-3">
         <section className="services-area services-border pos-rel">
             <span className="h4services-bg">
                 <img src="" alt="" />
@@ -39,8 +39,8 @@ function Services3() {
             <div className="text">400 Hospital Beds</div>
           </div>
           <div className="card-content">
-            <img className="" src={require("../img/rah-assets/call.png").default} alt="" />
-            <div className="text">+91 9000000000</div>
+            <img className="active" src={require("../img/rah-assets/call.png").default} alt="" />
+            <div className="text active">+91 9000000000</div>
           </div>
           <a className="button" href="/">Explore<img src={require("../img/rah-assets/arrow-down.png").default} alt="" /></a>
         </div>
@@ -60,8 +60,8 @@ function Services3() {
             <div className="text">400 Hospital Beds</div>
           </div>
           <div className="card-content">
-            <img className="" src={require("../img/rah-assets/call.png").default} alt="" />
-            <div className="text">+91 9000000000</div>
+            <img className="active" src={require("../img/rah-assets/call.png").default} alt="" />
+            <div className="text active">+91 9000000000</div>
           </div>
           <a className="button" href="/">Explore<img src={require("../img/rah-assets/arrow-down.png").default} alt="" /></a>
         </div>
@@ -78,8 +78,8 @@ function Services3() {
             <div className="text">400 Hospital Beds</div>
           </div>
           <div className="card-content">
-            <img className="" src={require("../img/rah-assets/call.png").default} alt="" />
-            <div className="text">+91 9000000000</div>
+            <img className="active" src={require("../img/rah-assets/call.png").default} alt="" />
+            <div className="text active">+91 9000000000</div>
           </div>
           <a className="button" href="/">Explore<img src={require("../img/rah-assets/arrow-down.png").default} alt="" /></a>
         </div>
@@ -96,8 +96,8 @@ function Services3() {
             <div className="text">400 Hospital Beds</div>
           </div>
           <div className="card-content">
-            <img className="" src={require("../img/rah-assets/call.png").default} alt="" />
-            <div className="text">+91 9000000000</div>
+            <img className="active" src={require("../img/rah-assets/call.png").default} alt="" />
+            <div className="text active">+91 9000000000</div>
           </div>
           <a className="button" href="/">Explore<img src={require("../img/rah-assets/arrow-down.png").default} alt="" /></a>
         </div>
