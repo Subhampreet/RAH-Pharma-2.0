@@ -1,24 +1,29 @@
 .doctor{
 	padding: 25px 80px;
-	height: 500px;
 	width: 100%;
 }
 
-.line-design{
-	margin-left: 45%;
+.doctor .body{
+	width: 100%;
+	margin: auto;
 }
 
-.heading{
-	
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 160%;
-/* identical to box height, or 77px */
-margin-top: 70px;
-text-align: center;
-color: #000000;
+.line-design{
+	 margin-left: 45%; 
+	 margin-bottom: -30px;
+}
+
+.heading{	
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 160%;
+	/* identical to box height, or 77px */
+	margin-top: 70px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #000000;
 }
 /* .parent-line{
 	margin-top: 60px;
@@ -40,18 +45,17 @@ margin-right: 45%;
 opacity: 0.6;
 border: 4px solid #8F49A0;
 } */
-.Slider { 
-	
+.Slider { 	
 	overflow-x: auto;
 	display: flex;  
-	width: 100%;
-
+	width: 90%;
 	align-items: center; 
-	}
+	margin: auto;
+}
+
 .Slider img{
 	margin-top: 70px;
 	margin-right: 15px;
-
 }
 
 	.Slider::-webkit-scrollbar {    display: none;}
