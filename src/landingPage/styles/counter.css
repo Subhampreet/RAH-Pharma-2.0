@@ -68,19 +68,19 @@
 
 
 .outer-box{
-	position: relative;
+	/*position: relative;*/
 	height: 820px;
 	width:100%;
 	background: repeating-linear-gradient(#000, #000 49.9%, #ECECEC 50.1%, #ECECEC 100%);
 }
 .inner-box{
 	background-color: #fff;
-	position: absolute;
+	/*position: absolute;*/
+	margin-top: 10%;
 	
-	height: 666px;
-	width:80%;
+	/*width:80%;
 	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 10%;*/
 	
 	
 }
@@ -125,7 +125,7 @@ color: #FFFFFF;
 	font-family: Inter;
 font-style: normal;
 font-weight: bold;
-font-size: 51.96px;
+font-size: 3vw;
 line-height: 160%;
 /* or 83px */
 
