@@ -8,9 +8,12 @@ import Footer from './footer';
 import Latest from './latest'
 import Counter from './counter'
 import Testimonials from './testimonials';
+import Emergency_call from "./emergency_call";
+
 function main_page(){
     return(
         <>
+        <Emergency_call />
         <Home/>
         <Doctor/>
         <Services1/>
