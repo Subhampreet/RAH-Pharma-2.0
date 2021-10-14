@@ -14,34 +14,39 @@
 .Navbar{
 	display:flex;
 	flex: 100%;
+	align-items: center;
+	justify-content: space-between;
 }
+
 .logo{
 	display: flex;
-	flex: 10%;
+	flex: 25%;
+	/* flex: 10%; */
 	height: 10%;
-	width: 10%;
-	
+	width: 10%;	
 }
+
 .Nav-menu{
 	display: flex;
 	flex:90%;
-	justify-content: flex-start;
-	
+	align-items: center;
 }
+
 .Nav-cont{
 	display: flex;
 	flex: 95%;
 	align-items: center;
 }
+
 .topnav {
 	display: flex;
- flex: 80%; 
-position: relative;
-overflow: hidden;
-justify-content: flex-start;
-align-items: center;
-	
+	flex: 80%; 
+	position: relative;
+	/* overflow: hidden; */
+	/* justify-content: flex-start; */
+	align-items: center;	
 }
+
 .topnav a {
 	align-items: center;
 	/* float: left; */
@@ -193,132 +198,137 @@ align-items: center;
 
 .page-content{
 	margin-top: 80px;
-	display: flex;
-	
+	display: flex;	
+	width: 100%;
 }
+
+.page-content .body{
+	width: 92%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+
 .page-content .leftslide{
-	margin-top: 100px;
 	font-family: Inter;
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-justify-content: flex-start;
-display: flex;
-
-
-/* or 102px */
-
-letter-spacing: -0.01em;
-
-color: #FFFFFF;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	justify-content: flex-start;
+	display: flex;
+	/* or 102px */
+	letter-spacing: -0.01em;
+	color: #FFFFFF;
 	flex: 50%;
 }
+
 .page-content .rightslide{
 	flex: 50%;
 	display: flex;
-	justify-content: flex-end;
-    
+	justify-content: flex-end;    
 }
-.card {
 
+.card {
 	background-color:white;
-	width: 412.04px;
-    height: 487px;
+	width: 70%;
+	padding: 50px 40px;
 	border-radius: 16px;
 	display: flex;
 	flex-direction: column;
-	display: flex;
-	color:black;
-	
-	
-	
-	
+	color:black;	
   }
-  .card-contents{
-	
 
-	
+  .card-contents{
+	width: 90%;
+	margin: auto;	
   }
+
   .card-contents .firstline{
 	font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-margin-top: 60px;
-margin-left: 61.02px;
-color: #C8C8C8;
-
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #C8C8C8;
   }
+
 .card-contents .secline{
 	font-family: Inter;
-font-style: normal;
-font-weight: 800;
-font-size: 37px;
-line-height: 160%;
-/* or 59px */
-
-letter-spacing: -0.01em;
-margin-left :61px;
-margin-top: 19px;
-color: #263544;
-}
-.search-loc{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 37px;
+	line-height: 160%;
+	/* or 59px */
+	letter-spacing: -0.01em;
 	margin-top: 20px;
+	color: #263544;
+}
+
+.search-loc{
+	margin-top: 30px;
 	display:flex;
 	flex:100%;
-
-	margin-left: 61.02px;
+	align-items: flex-start;
 }
+
 .search-loc .loc-icon{
-	margin-top: 10px;
+	margin-top: 30px;
 	display: flex;
 	flex: 10%;
 	justify-content: flex-start;
 }
+
 .search-loc .menu{
 	display: flex;
 	flex-direction: column;
 	flex: 90%;
 	justify-content: flex-start;
 }
+
 .menu-options .input{
 	font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15.0476px;
-line-height: 18px;
-
-color: #C8C8C8;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15.0476px;
+	line-height: 18px;
+	color: #C8C8C8;
 }
+
 .menu-options .dropdown{
 	border: none;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-/* or 38px */
-width: 80%;
-letter-spacing: -0.01em;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	/* or 38px */
+	width: 80%;
+	letter-spacing: -0.01em;
 
-color: #263544;
+	color: #263544;
 }
+
 .card-button{
-	margin-left: 60px;
+	margin: auto;
 	width: 277px;
-	margin-top: 40px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	text-align: center;
 	border: 2px solid #00ACB2;
-box-sizing: border-box;
-border-radius: 87.05px;
+	box-sizing: border-box;
+	border-radius: 87.05px;
 }
+
+.card-button a{
+	color: #00ACB2;
+	font-weight: 600;
+	font-size: 22px;
+}
+
 .line{
-width: 310px;
-height: 0px;
-margin-left:61.02px ;
-
-border: 2px solid #ECECEC;
-
+	width: 100%;
+	height: 3px;
+	background-color: #ECECEC;
+	margin-top: 15px;
 }
 
 @media (max-width: 1150px) {
