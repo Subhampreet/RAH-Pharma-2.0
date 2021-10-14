@@ -5,11 +5,15 @@
 	/* min-width: 100vw;*/
 	min-height: 750px; 
 	background: url('../img/rah-assets/banner.png');
-	/* background-position: top; */
+	background-position: center;
 	/* object-fit: contain; */
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: contain;
 	/* background-attachment:fixed */
+	background-size: 100% auto;
+	/* for responsive */
+	/* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 .Navbar{
 	display:flex;
