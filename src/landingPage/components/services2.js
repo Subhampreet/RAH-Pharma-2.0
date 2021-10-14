@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../styles/services2.css'
 function Services2() {
     return (
         <div>
@@ -29,7 +29,7 @@ function Services2() {
                                 <img src={require("../img/rah-assets/247.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">24*7 services</a></h3>
+                                <h3>24*7 services</h3>
                                 <p>24hrs access to Informartion 
 service</p>
                             </div>
@@ -41,7 +41,7 @@ service</p>
                                 <img src={require("../img/rah-assets/verified.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Verified</a></h3>
+                                <h3>Verified</h3>
                                 <p>100% verified information</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ service</p>
                                 <img src={require("../img/rah-assets/blood.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Blood Banks</a></h3>
+                                <h3>Blood Banks</h3>
                                 <p>Check availaibility of desired 
 blood type</p>
                             </div>
@@ -64,7 +64,7 @@ blood type</p>
                                 <img src={require("../img/rah-assets/patientfriendly.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Patient Friendly</a></h3>
+                                <h3>Patient Friendly</h3>
                                 <p>Designed to deliver optimum 
                                 medical support </p>
                             </div>
@@ -76,7 +76,7 @@ blood type</p>
                                 <img src={require("../img/rah-assets/ambulance.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Ambulance</a></h3>
+                                <h3>Ambulance</h3>
                                 <p>Check for ambulance and pick 
                                 up duration</p>
                             </div>
@@ -88,7 +88,7 @@ blood type</p>
                                 <img src={require("../img/rah-assets/volunteers.png").default} alt="" />
                             </div>
                             <div class="service-content">
-                                <h3><a href="#">Volunteers</a></h3>
+                                <h3>Volunteers</h3>
                                 <p>Easily contact a volunteer or 
                                 choose to be one</p>
                             </div>

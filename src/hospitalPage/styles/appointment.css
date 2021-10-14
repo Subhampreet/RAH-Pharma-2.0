@@ -65,9 +65,11 @@
 	visibility: visible;
 	opacity: 1;
 }
+
 .appointment{
 	font-family: 'Inter', sans-serif !important;
     margin-bottom: 150px;
+	padding: 25px 90px;
 }
 
 .appointment-form-2 select{
@@ -121,4 +123,13 @@
 	margin-left: 140vw;
 	margin-top: 60px;
 }
+
+
+
+
+
+
+
+
+
 
