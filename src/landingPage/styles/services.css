@@ -57,6 +57,32 @@
 	margin-left: 1rem;
 	padding-bottom: 30px;
 }
+@media screen and (max-width: 1150px) {
+
+	.card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 46.5%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
+@media screen and (max-width: 758px) {
+
+	.card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
 
 .service-3 .card-1{
 		padding-bottom: 30px;

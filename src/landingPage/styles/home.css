@@ -310,10 +310,15 @@
 
 	color: #263544;
 }
+.card-search-button{
+	display: flex;
+	justify-content: center;
+	
+}
 
 .card-button{
 	margin: auto;
-	width: 277px;
+	width: 60%;
 	margin-top: 50px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -322,10 +327,12 @@
 	border-radius: 87.05px;
 }
 
-.card-button a{
+.card-button 
+{
+	background-color: #FFFFFF;
 	color: #00ACB2;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 2vw;
 }
 
 .line{
@@ -357,3 +364,4 @@
 		flex: 50%;
 	}
   }
+  

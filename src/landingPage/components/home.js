@@ -113,8 +113,8 @@ function Home() {
                                     <div className="line"></div>
                                 </div>
                             
-                                    <div className="card-button">
-                                        <a href="" class="btn gray-btn-border">Search</a>                                    
+                                    <div className="card-search-button">
+                                        <button  className="card-button">Search</button>                                    
                                     </div>
 
                             </div>
