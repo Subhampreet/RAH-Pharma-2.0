@@ -7,18 +7,19 @@ function Services1() {
     <div className="service-1">
 
       <div className="section-title text-center pos-rel">
-        <div className="section-icon">
+        {/* <div className="section-icon">
           <img className="section-back-icon" src={require("../img/rah-assets/hospital-bg.png").default} alt="" />
-        </div>
+        </div> */}
 
         <div className="section-text pos-abs">
           <h1>Hospitals near you</h1>
           <h5>Fetch details of all the hospitals nearby you and select the best <br /> services from a wide range of options.</h5>
+          
         </div>
 
-        <div className="section-line pos-rel">
+        {/* <div className="section-line pos-rel">
           <img src="img/shape/section-title-line.png" alt="" />
-        </div>
+        </div> */}
 
       </div>
 

@@ -1,0 +1,163 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 20px 105px;
+
+  max-width: 1540px;
+  width: 100%;
+  min-height: 96px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  height: 60px;
+  width: 200px;
+
+  padding-top: 10px;
+
+  margin-right: 50px;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /* padding-bottom: 20px; */
+}
+
+.menu {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  /* width: 100px; */
+  margin-right: 25px;
+  cursor: pointer;
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #16292a;
+}
+
+.menu:hover {
+  color: #008489;
+  font-size: 16.1px;
+}
+
+.menu:last-child {
+  margin-right: 60px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  /* padding-bottom: 20px; */
+
+  margin-right: 80px;
+}
+
+.search {
+  margin-right: 20px;
+
+  cursor: pointer;
+}
+
+.search:hover {
+  color: #008489;
+  font-size: 17px;
+}
+
+.loginButton {
+  padding: 10px 18px;
+
+  width: 178px;
+  height: 46px;
+
+  background: #16292a;
+  border-radius: 8px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+
+  color: #ffffff;
+
+  margin-right: -100px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 5px 25px;
+  }
+
+  .menus{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .menu{
+    margin-right: 400px;
+    margin-left: 5px;
+    width: 150px;
+    justify-content: center;
+  }
+
+  .menu:last-child {
+    margin-right: 400px;
+  }
+
+  .options{
+      justify-content: center;
+  }
+
+  .search{
+  }
+} */
+
+@media only screen and (max-width: 1155px) {
+  .menus {
+    display: none;
+  }
+  .options {
+    display: none;
+  }
+
+  .navbar{
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 1155px) {
+  /* .navbar {
+    padding: 0px;
+  } */
+
+  /* .logo{
+    margin: 0px;
+  } */
+
+  .hamburger {
+    display: none;
+  }
+
+}

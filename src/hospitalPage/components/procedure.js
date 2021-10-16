@@ -1,56 +1,53 @@
-import React from 'react'
-import '../styles/procedure.css';
+import React from "react";
+import "../styles/Procedures.css";
 
-function Procedure() {
-    return (
-        <div className="procedure-cont">
-            <div className="procedure-body">
-                <div className="procedure-title">
-                    Procedure
-                </div>
-                <div className="procedure-title-text">
-                    A stepwise guide to the procedural flow of  treartment followed by the hospital.   
-                </div>
-                <div className="procedures">
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrival.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrowright.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/registration.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrowright.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/primaryevaluation.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrowright.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/wardassignment.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrowright.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/treatment.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/arrowright.png').default}/>
-                     </div>
-                     <div className="procedure-item">
-                         <img src={require('../img/rah-assets/billclearance.png').default}/>
-                     </div>
-                     
-                </div>
+// mui icons
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-            </div>
+export default function Procedures() {
+  return (
+    <div className="procedures1">
+      <div className="header9">Procedures</div>
+      <div className="content1">
+        A stepwise guide to the procedural flow of treartment followed by the
+        hospital.{" "}
+      </div>
+      <div className="cardsRow">
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "60px"}}>Arrival</div>
+          <div className="iconRight">
+            <ArrowForwardIcon />
+          </div>
         </div>
-    )
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "40px"}}>Registration</div>
+          <div className="iconRight">
+            <ArrowForwardIcon />
+          </div>
+        </div>
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "15px"}}>Primary Evaluation</div>
+          <div className="iconRight">
+            <ArrowForwardIcon />
+          </div>
+        </div>
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "19px"}}>Ward Assignment</div>
+          <div className="iconRight">
+            <ArrowForwardIcon />
+          </div>
+        </div>
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "45px"}}>Treatment</div>
+          <div className="iconRight">
+            <ArrowForwardIcon />
+          </div>
+        </div>
+        <div className="cardRow">
+          <div className="box1" style={{paddingLeft: "35px"}}>Bill Clearance</div>
+          <div className="iconRight"></div>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default Procedure

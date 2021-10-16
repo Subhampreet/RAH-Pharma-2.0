@@ -1,24 +1,85 @@
-.facilities{
-    padding: 12vh;
+.facilitiesSection {
+  padding: 40px 105px;
 }
-.facilities h1{
-    font-weight: 600;
-    margin-bottom: 40px;
+
+.header {
+  width: 136px;
+  height: 38px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+
+  margin-bottom: 40px;
 }
-.facilities-content {
-    display: flex;
-    width: 84vw;
-    justify-content: space-between;
+
+.cards {
+  display: flex;
+  flex-direction: row;
 }
-.facilities-content p{
-    line-height: 1rem;
+
+.icon5 {
+  color: #00acb2;
+
+  margin-bottom: 20px;
 }
-.facilities-content h2{
-    color: rgb(235, 47, 78)
+
+.title3 {
+  width: 233px;
+  height: 29px;
+
+  margin-bottom: 15px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+
+  color: #e12556;
 }
-.facilities-content .box-3{
-    margin-top: 10px;
+
+.para {
+  width: 281px;
+  height: 130px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #484848;
 }
-.box-1 img, .box-2 img, .box-3 img, .box-4 img{
-    padding-bottom: 20px;
+
+@media only screen and (max-width: 1155px) {
+  .facilitiesSection {
+    padding: 40px 50px;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 283px;
+  }
 }

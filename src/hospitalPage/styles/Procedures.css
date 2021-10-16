@@ -1,0 +1,89 @@
+.procedures1 {
+  padding: 40px 105px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+
+.header9 {
+  width: 177px;
+  height: 38px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #262626;
+
+  margin-bottom: 20px;
+}
+
+.content1 {
+  /* margin-right: -400px; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  /* identical to box height, or 225% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+
+  margin-bottom: 20px;
+}
+
+.cardsRow {
+  display: flex;
+  flex-direction: row;
+  overflow: auto
+}
+
+.cardRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  width: 176px;
+  height: 84px;
+
+  background: #292929;
+  border-radius: 12px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 90%;
+  /* or 14px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #ffffff;
+}
+
+.iconRight {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+  color: #CCCCCC;
+}
+
+@media only screen and (max-width: 1155px) {
+  .procedures1 {
+    padding: 40px 50px;
+  }
+}

@@ -242,4 +242,70 @@
 
 .section-text-small h1 {
 	font-size: 50px;
+<<<<<<< HEAD
+=======
+}
+
+@media (min-width: 250px) and (max-width: 660px) {
+
+	.service-1 {
+		padding: 40px 0px;
+	}
+	
+	.service-1 .section-text h1{
+		font-size: 35px;
+
+	}
+
+	.service-1 .section-title{
+		width: 95%;
+		margin: auto;
+	}
+	
+	.service-1 .section-text h5{
+		color: #484848;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	
+	.service-3 .section-text h1{
+		font-size: 30px;
+	}
+	
+	.service-3 .section-text h5{
+		color: #484848;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: -70px;
+	}
+	
+	
+	
+	.slider {
+		padding: 25px 20px 80px;
+		background: repeating-linear-gradient(#fff, #fff 31.1%, #16292A 30.9%, #16292A 100%);	
+		width: 100%;
+		align-items: center;
+	}
+	
+	
+	
+	.card-1 {
+		flex: 0 0 auto;
+		background-color: white;
+		text-align: left;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-left: 1rem;
+		padding-bottom: 30px;
+	}
+
+>>>>>>> 57913baca154f36290ced6380a96c0a7e86c4b89
 }

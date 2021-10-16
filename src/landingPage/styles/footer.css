@@ -190,3 +190,42 @@
 	padding-left: 10px;
 	padding-top: 15px;
 }
+
+@media (min-width: 250px) and (max-width: 660px) {
+
+	.footer .container .row{
+		padding: 0px !important;
+	}
+
+	.emmergency-call-icon .i {
+		font-size: 36px;
+		color: #e12454;
+		margin-right: 20px;
+	}
+	.emmergency-call h6 {
+		font-weight: 400;
+		color: #647589;
+		display: block;
+		margin-bottom: 0;
+	}
+	
+	.emmergency-call span {
+		font-size: 20px !important;
+		font-weight: 500;
+		color: #13232f;
+	}
+		
+
+	.footer-emailing ul li {
+		list-style: none;
+		font-size: 15px !important;
+		color: #647589;
+		margin-bottom: 12px;
+	}
+
+	.emmergency-call img{
+		padding: 0 20px;
+		height: 40px !important;
+	}
+
+}

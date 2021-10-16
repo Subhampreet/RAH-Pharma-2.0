@@ -1,103 +1,81 @@
-import React from 'react'
-import '../styles/department.css'
-function Department() {
-    return (
-        <div className="department-cont">
-            <div className="department-body">
-                <div className="department-header">
-                        <div>
-                        <span className="department-title">Department</span>
-                        </div>
-                        <div>
-                        <span className="see-more">See more</span>
-                        </div>
-                </div>
-                <div className="department-grid">
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/cardio.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Cardiology
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/bed.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       7000+ Beds
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/blood.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/ambulance.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       Ambulance
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/blood.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/ambulance.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       Ambulance
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/cardio.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       Cardiology
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/bed.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       7000+ Beds
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/blood.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                           Blood Bank
-                       </div>
-                     </div>
-                     <div className="grid-item">
-                       <div className="grid-item-img">
-                        <img src={require('../img/rah-assets/ambulance.png').default} />
-                       </div>
-                       <div className="grid-item-text">
-                       Ambulance
-                       </div>
-                     </div>
-                </div>
+import React from "react";
+import "../styles/Departments.css";
 
-            </div>
+// mui icons
+import MedicationIcon from "@mui/icons-material/Medication";
+import HotelIcon from "@mui/icons-material/Hotel";
+import BloodtypeIcon from "@mui/icons-material/Bloodtype";
+import DriveEtaIcon from "@mui/icons-material/DriveEta";
+import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
+
+export default function Departments() {
+  return (
+    <div className="departments">
+      <div className="header6">Departments</div>
+      <div className="cards6">
+        <div className="card6">
+          <div className="icon6">
+            <MedicationIcon className="iconMain6" />
+          </div>
+          <div className="title6">Cardiology</div>
         </div>
-    )
+        <div className="card6">
+          <div className="icon6">
+            <HotelIcon className="iconMain6" />
+          </div>
+          <div className="title6">7000+ Beds</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <BloodtypeIcon className="iconMain6" />
+          </div>
+          <div className="title6">Blood Banks</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <DriveEtaIcon className="iconMain6" />
+          </div>
+          <div className="title6">Ambulance</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <LocalHospitalIcon className="iconMain6" />
+          </div>
+          <div className="title6">Blood Banks</div>
+        </div>
+      </div>
+      <div className="cards6">
+        <div className="card6">
+          <div className="icon6">
+            <MedicationIcon className="iconMain6" />
+          </div>
+          <div className="title6">Cardiology</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <HotelIcon className="iconMain6" />
+          </div>
+          <div className="title6">7000+ Beds</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <BloodtypeIcon className="iconMain6" />
+          </div>
+          <div className="title6">Blood Banks</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <DriveEtaIcon className="iconMain6" />
+          </div>
+          <div className="title6">Ambulance</div>
+        </div>
+        <div className="card6">
+          <div className="icon6">
+            <LocalHospitalIcon className="iconMain6" />
+          </div>
+          <div className="title6">Blood Banks</div>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default Department

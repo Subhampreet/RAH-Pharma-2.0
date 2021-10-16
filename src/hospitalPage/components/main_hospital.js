@@ -8,10 +8,12 @@ import Procedure from './procedure';
 import ValueService from './valueservices';
 import Facilities from './facilities';
 import Hospital from './hospital';
+import HeroSection from './HeroSection';
 function main_hospital(){
 return(
     <>
     <Hospital/>
+    <HeroSection/>
     <Facilities/>
     <Department/>
     <HospitalDoctor/>

@@ -76,6 +76,16 @@
 	width: 50vw;
 	text-align: left;
 }
+
+.latest-text h5{
+	color: #484848;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20.25px;
+	line-height: 160%;
+}
+
 .news-meta h3{
 	color: rgb(5, 183, 196);
 	font-weight: 700;
@@ -91,4 +101,24 @@
 }
 .make_call{
 	margin-left: 160vw;
+}
+
+@media (min-width: 250px) and (max-width: 660px){
+	.latest{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+
+	.latest-text {
+		width: 95%;
+	}
+
+	.latest-text h1{
+		font-size: 45px !important;
+	}
+	
+	.latest-text h5{
+		font-size: 17px;
+		line-height: 150%;
+	}
 }

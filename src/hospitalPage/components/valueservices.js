@@ -1,63 +1,43 @@
-import React from 'react'
-import '../styles/vas.css'
+import React from "react";
+import "../styles/ValueAddedServices.css";
 
-function ValueService() {
-    return (
-        <div className="vas-cont">
-            <div className="vas-body">
-                <div className="vas-title">
-                Value added services
-                </div>
-                <div className="vas-title-text">
-                Extra services offered at the hospital to ensure the comfort of health care providers and patients.
-                </div>
-                <div className="vas-services">
-                    <div className="vas-service">
-                             <div className="service-img">
-                                 <img src={require('../img/rah-assets/2424.png').default} />
-                             </div>
-                             <div className="service-title">
-                                         24/7 services
-                             </div>
-                             <div>
-                             <p>24 hrs CCTV surveilance</p>
-                                 <p>24x7 observation</p>
-                                 <p>24hrs open pharmacy</p>
-                             </div>
-                    </div>
-                    <div className="vas-service">
-                             <div className="service-img">
-                                 <img src={require('../img/rah-assets/2424.png').default} />
-                             </div>
-                             <div className="service-title">
-                                         24/7 services
-                             </div>
-                             <div>
-                             <p>24 hrs CCTV surveilance</p>
-                                 <p>24x7 observation</p>
-                                 <p>24hrs open pharmacy</p>
-                             </div>
-                    </div>
-                    <div className="vas-service">
-                             <div className="service-img">
-                                 <img src={require('../img/rah-assets/2424.png').default} />
-                             </div>
-                             <div className="service-title">
-                                         24/7 services
-                             </div>
-                             <div>
-                                 <p>24 hrs CCTV surveilance</p>
-                                 <p>24x7 observation</p>
-                                 <p>24hrs open pharmacy</p>
-                             </div>
-                    </div>
-
-                </div>
-
-            </div>
-            
+export default function ValueAddedServices() {
+  return (
+    <div className="valueAddedServices">
+      <div className="header10">Value added services</div>
+      <div className="desc10">
+        Extra services offered at the hospital to ensure the comfort of health
+        care providers and patients.
+      </div>
+      <div className="cards10">
+        <div className="card10">
+          <div className="icon10">
+            <img src="https://i.ibb.co/T0Lkv6W/Vector.png" alt="" />
+          </div>
+          <div className="title20">24/7 services</div>
+          <div className="desc20">
+            24 hrs CCTV surveilance 24x7 observation 24hrs open pharmacy
+          </div>
         </div>
-    )
+        <div className="card10">
+          <div className="icon10">
+            <img src="https://i.ibb.co/T0Lkv6W/Vector.png" alt="" />
+          </div>
+          <div className="title20">24/7 services</div>
+          <div className="desc20">
+            24 hrs CCTV surveilance 24x7 observation 24hrs open pharmacy
+          </div>
+        </div>
+        <div className="card10">
+          <div className="icon10">
+            <img src="https://i.ibb.co/T0Lkv6W/Vector.png" alt="" />
+          </div>
+          <div className="title20">24/7 services</div>
+          <div className="desc20">
+            24 hrs CCTV surveilance 24x7 observation 24hrs open pharmacy
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default ValueService

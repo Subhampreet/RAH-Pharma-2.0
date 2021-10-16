@@ -30,7 +30,7 @@ function Home() {
                             <a href="/">Diagnostics</a>
                             <a href="/">Ambulance</a>
                             <a href="/">Emergency</a>
-                            <a><button class="search-btn"> <i class="fas fa-search"></i></button></a>
+                            {/* <a><button class="search-btn"> <i class="fas fa-search"></i></button></a> */}
                             <a> <button href="#" className="login-btn">Login / Signup</button></a>
                     </div>:    
                     
@@ -55,8 +55,11 @@ function Home() {
                       
                     </div> 
                     }
-      
-                       <button className="ham" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>
+                        {
+                            openLinks ?
+                            <button className="ham-close" onClick={toggleNavbar}><i className="fas fa-close"></i></button>:
+                            <button className="ham" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>                            
+                        }
                     </div>
 
 
