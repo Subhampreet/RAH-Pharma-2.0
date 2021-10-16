@@ -242,8 +242,6 @@
 
 .section-text-small h1 {
 	font-size: 50px;
-<<<<<<< HEAD
-=======
 }
 
 @media (min-width: 250px) and (max-width: 660px) {
@@ -307,5 +305,4 @@
 		padding-bottom: 30px;
 	}
 
->>>>>>> 57913baca154f36290ced6380a96c0a7e86c4b89
 }
