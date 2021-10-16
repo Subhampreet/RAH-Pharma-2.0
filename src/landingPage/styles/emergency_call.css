@@ -1,0 +1,13 @@
+.emergency_call{
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	position: fixed;
+	background: #8F49A0;
+	padding: 8px;
+	right: 0px;
+	top: 25%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	z-index: 30;
+}

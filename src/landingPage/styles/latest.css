@@ -1,0 +1,124 @@
+.latest{
+	margin-top: 100px;
+}
+
+.news-tag {
+	color: #e12454;
+	font-weight: 500;
+}
+.latest-news-content h3 {
+	font-size: 14px;
+	line-height: 1.3;
+	margin-bottom: 19px;
+}
+.latest-news-content h2 a{
+	font-size: 22px;
+	color: #000;
+	font-weight: 800;
+	text-decoration: none;
+}
+.latest-news-content h3 a:hover {
+	color: #e12454;
+}
+.recent-news-list {
+	padding: 41px;
+	border: 2px solid #eae7ff;
+	padding-bottom: 40px;
+}
+.singl-news.news-border-bottom {
+	padding-bottom: 31px;
+	border-bottom: 2px solid #e3ecf2;
+	margin-bottom: 31px;
+}
+.meta-date {
+	margin-right: 29px;
+}
+.meta-date .i {
+	margin-right: 5px;
+}
+.meta-date a {
+	text-decoration: none;
+	color: #647589;
+}
+.latest-news-box-2 .latest-news-content-box {
+	padding: 0 15px;
+}
+.latest-news-box-2 .latest-news-content {
+	padding: 40px;
+	background: #fff;
+	margin-top: -30px;
+	position: relative;
+	z-index: 9;
+	padding-bottom: 15px;
+}
+.latest-news-box-2 .latest-news-content h3 {
+	margin-bottom: 13px;
+}
+.latest-news-box-2 .news-tag {
+	color: #8fb569;
+}
+.latest-news-box-2 .latest-news-content h3 a:hover {
+	color: #8fb569;
+}
+.blog-feeds-text h5 {
+	color: #bdc1d5;
+	line-height: 1.3;
+	margin-bottom: 4px;
+}
+.latest-news-box-3 {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 8px 16px 0px rgba(178, 176, 255, 0.2);
+}
+.latest-news-box-3 .latest-news-content {
+	margin-top: 0;
+}
+.latest-text {
+	width: 50vw;
+	text-align: left;
+}
+
+.latest-text h5{
+	color: #484848;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20.25px;
+	line-height: 160%;
+}
+
+.news-meta h3{
+	color: rgb(5, 183, 196);
+	font-weight: 700;
+}
+.latest-news-content i{
+	margin-right: 10px;
+}
+.latest-news-content span a{
+	color: #647589;
+}
+.btn-icon-green{
+	margin-left: 20%;
+}
+.make_call{
+	margin-left: 160vw;
+}
+
+@media (min-width: 250px) and (max-width: 660px){
+	.latest{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+
+	.latest-text {
+		width: 95%;
+	}
+
+	.latest-text h1{
+		font-size: 45px !important;
+	}
+	
+	.latest-text h5{
+		font-size: 17px;
+		line-height: 150%;
+	}
+}

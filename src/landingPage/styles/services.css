@@ -1,0 +1,308 @@
+
+
+.service-1 {
+	padding: 100px 0px;
+}
+
+.service-1 .section-text h1{
+	font-size: 50px;
+}
+
+.service-1 .section-text h5{
+	color: #484848;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 180%;
+}
+
+.service-3 .section-text h1{
+	font-size: 50px;
+}
+
+.service-3 .section-text h5{
+	color: #484848;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 180%;
+}
+
+
+
+.slider {
+	padding: 25px 130px 80px;
+	margin-top: 0;
+	background: repeating-linear-gradient(#fff, #fff 31.1%, #16292A 30.9%, #16292A 100%);	
+	width: 100%;
+	align-items: center;
+}
+
+.card-slider{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+
+}
+
+.card-slider::-webkit-scrollbar {
+	display: none;
+}
+
+.card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 32%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+@media screen and (max-width: 1150px) {
+
+	.card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 46.5%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
+@media screen and (max-width: 758px) {
+
+	.card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
+
+.service-3 .card-1{
+		padding-bottom: 30px;
+}
+
+.banner-img {
+	position: relative;
+	background-image: url('../img/rah-assets/sumhospital.png');
+	height: 15rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -10px;
+}
+
+.profile-img {
+	position: relative;
+	border: none;
+	align-items: center;
+	width: auto;
+	padding: 2px 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.08rem;
+	background-color: #00ACB2;
+	margin-left: 2rem;
+	margin-top: -20px;
+	color: white;
+}
+
+.name {
+	margin-top: 20px;
+	margin-left: 2rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+
+.description {
+	margin: 1rem 2rem;
+	font-size: 0.9rem;
+}
+
+.card-content {
+	margin-left: 2rem;
+	display: flex;
+	flex: 100%;
+	height: min-content;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.card-content img {
+	Width: 8%;
+	display: flex;
+	flex: 5%;
+	justify-content: flex-start;
+	
+}
+
+.card-content .text {
+	display: flex;
+	flex: 92%;
+	justify-content: flex-start;
+	font-size: 15px;
+}
+
+.service-1 .card-content .active{
+	font-weight: 600;
+	color: #00ACB2 !important;
+	margin-bottom: 20px;
+}
+
+.service-3 .card-content .active{
+	font-weight: 600;
+	color: #00ACB2 !important;
+	margin-bottom: 20px;
+}
+
+.card-1 .button {
+	text-decoration: none;
+	margin-left: 2rem;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	/* identical to box height, or 29px */
+	color: #707070;
+}
+
+
+
+.section-title h5 {
+	margin-bottom: 28px;
+}
+
+.section-title h1 {
+	margin-bottom: 18px;
+	line-height: 1.2;
+	font-size: 75px;
+	font-weight: 700;
+}
+
+.section-back-icon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -50px;
+}
+
+.section-text.section-text-green h1 {
+	margin-bottom: 24px;
+}
+
+.section-text-white h5 {
+	color: #899dab;
+}
+
+.section-text-green h5 {
+	color: #8fb569;
+	font-weight: 400;
+}
+
+.section-text-small h5 {
+	color: #e12454;
+	text-transform: uppercase;
+}
+
+.calculate-section .section-text-white h5 {
+	color: #b1c5d3;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+
+.section-text-green p {
+	color: #899dab;
+	padding-right: 90px;
+}
+
+.section-title h1 {
+	margin-bottom: 18px;
+	line-height: 1.2;
+}
+
+.section-back-icon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: -50px;
+}
+
+.section-text-small h1 {
+	font-size: 50px;
+}
+
+@media (min-width: 250px) and (max-width: 660px) {
+
+	.service-1 {
+		padding: 40px 0px;
+	}
+	
+	.service-1 .section-text h1{
+		font-size: 35px;
+
+	}
+
+	.service-1 .section-title{
+		width: 95%;
+		margin: auto;
+	}
+	
+	.service-1 .section-text h5{
+		color: #484848;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	
+	.service-3 .section-text h1{
+		font-size: 30px;
+	}
+	
+	.service-3 .section-text h5{
+		color: #484848;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 150%;
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: -70px;
+	}
+	
+	
+	
+	.slider {
+		padding: 25px 20px 80px;
+		background: repeating-linear-gradient(#fff, #fff 31.1%, #16292A 30.9%, #16292A 100%);	
+		width: 100%;
+		align-items: center;
+	}
+	
+	
+	
+	.card-1 {
+		flex: 0 0 auto;
+		background-color: white;
+		text-align: left;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-left: 1rem;
+		padding-bottom: 30px;
+	}
+
+}

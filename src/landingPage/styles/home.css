@@ -1,0 +1,613 @@
+.home__container {
+	padding: 25px 80px;
+	/* min-width: 100vw;
+	min-height: 950px; */
+	/* min-width: 100vw;*/
+	min-height: 750px; 
+	background: url('../img/rah-assets/banner.png');
+	background-position: center;
+	/* object-fit: contain; */
+	background-size: contain;
+	/* background-attachment:fixed */
+	background-size: 100% auto;
+	/* for responsive */
+	/* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.Navbar{
+	display:flex;
+	flex: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	display: flex;
+	flex: 25%;
+	/* flex: 10%; */
+	height: 10%;
+	width: 10%;	
+}
+
+.Nav-menu{
+	display: flex;
+	flex:90%;
+	align-items: center;
+}
+
+.Nav-cont{
+	display: flex;
+	flex: 95%;
+	align-items: center;
+}
+
+.topnav {
+	display: flex;
+	flex: 80%; 
+	position: relative;
+	/* overflow: hidden; */
+	/* justify-content: flex-start; */
+	align-items: center;	
+}
+
+.topnav a {
+	align-items: center;
+	/* float: left; */
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	/* identical to box height, or 26px */
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #FFFFFF;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+	color: #008489;
+	;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+	color: white;
+}
+.login-section {
+	 flex: 20%; 
+	justify-content: flex-end;
+}
+ .login-section .search-btn {
+	
+	padding: 6px 10px;
+	
+	background: transparent;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+.login-section .login-btn {
+	
+	padding: 6px 10px;
+	
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	background: #16292A;
+	border-radius: 8px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	/* identical to box height, or 26px */
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #FFFFFF;
+}
+.ham{
+	display: none;
+
+	/* height: 30px;
+	width: 28px; */
+	background-color: transparent;
+}
+@media screen and (max-width: 1150px) {
+	
+	.ham{
+		border: none;
+		justify-content:flex-end; 
+		display:flex;
+		flex: 4%;
+		background-color: transparent;
+		/* height: 30px;
+		width: 28px; */
+		color: #fff;   
+		font-size: 20px;
+	}
+
+	.ham-close{
+		border: none;
+		justify-content:flex-end; 
+		display:flex;
+		flex: 4%;
+		background-color: transparent;
+		/* height: 30px;
+		width: 28px; */
+		color: #263544;   
+		font-size: 20px;
+		z-index: 20;
+	}
+
+	.Nav-cont{
+		display: none;
+	}
+
+	.Testing{
+		left: 0;
+		top: 0;
+		margin: 0px;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background-color: #fff;
+		align-items: center;
+		justify-content: center;
+		z-index: 10;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Testing a{	
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+		padding: 2px;
+		color: #f2f2f2;	
+		text-decoration: none;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		/* identical to box height, or 26px */
+		color: #263544;
+	}
+	 
+	.Testing a:hover {
+		color: #008489;
+	}
+	
+	/* Add a color to the active/current link */
+	
+	.Testing a.active {
+		color: white;
+	}
+	.Testing .search-btn {	
+		padding: 2px;
+		
+		background: transparent;
+		font-size: 10px;
+		border: none;
+		cursor: pointer;
+	}	
+	.Testing .login-btn {
+	
+		padding: 5px 10px;
+		margin-top: 20px;
+		font-size: 20px;
+		border: none;
+		cursor: pointer;
+		background: #16292A;
+		border-radius: 8px;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		
+		/* identical to box height, or 26px */
+		text-align: center;
+		color: #FFFFFF;
+	}
+   
+}
+
+
+.page-content{
+	margin-top: 80px;
+	display: flex;	
+	width: 100%;
+}
+
+.page-content .body{
+	width: 92%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+
+.page-content .leftslide{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	justify-content: flex-start;
+	display: flex;
+	/* or 102px */
+	letter-spacing: -0.01em;
+	color: #FFFFFF;
+	flex: 50%;
+}
+
+.page-content .rightslide{
+	flex: 50%;
+	display: flex;
+	justify-content: flex-end;    
+}
+
+.card {
+	background-color:white;
+	width: 70%;
+	padding: 50px 40px;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	color:black;	
+  }
+
+  .card-contents{
+	width: 90%;
+	margin: auto;	
+  }
+
+  .card-contents .firstline{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #C8C8C8;
+  }
+
+.card-contents .secline{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 37px;
+	line-height: 160%;
+	/* or 59px */
+	letter-spacing: -0.01em;
+	margin-top: 20px;
+	color: #263544;
+}
+
+.search-loc{
+	margin-top: 30px;
+	display:flex;
+	flex:100%;
+	align-items: flex-start;
+}
+
+.search-loc .loc-icon{
+	margin-top: 30px;
+	display: flex;
+	flex: 10%;
+	justify-content: flex-start;
+}
+
+.search-loc .menu{
+	display: flex;
+	flex-direction: column;
+	flex: 90%;
+	justify-content: flex-start;
+}
+
+.menu-options .input{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15.0476px;
+	line-height: 18px;
+	color: #C8C8C8;
+}
+
+.menu-options .dropdown{
+	border: none;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	/* or 38px */
+	width: 80%;
+	letter-spacing: -0.01em;
+
+	color: #263544;
+}
+.card-search-button{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.card-button{
+	padding: 5px 0px;
+	margin: auto;
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 2px solid #00ACB2;
+	box-sizing: border-box;
+	border-radius: 87.05px;
+	font-size: 20px;
+	background-color: #fff;
+	color: #00ACB2;
+	font-weight: 600;
+}
+
+
+
+
+.line{
+	width: 100%;
+	height: 3px;
+	background-color: #ECECEC;
+	margin-top: 15px;
+}
+
+
+@media (min-width: 1100px) and (max-width: 1350px) {
+	.page-content{
+		margin-top: 55px;
+		display: flex;	
+		width: 100%;
+	}
+	
+	.page-content .body{
+		width: 98%;
+	}
+	
+	.page-content .leftslide{
+		flex: 40%;
+		font-size: 60px;
+	}
+	
+	.page-content .rightslide{
+		flex: 60%;
+		display: flex;
+		justify-content: flex-end;    
+	}
+	
+	.card {
+		background-color:white;
+		width: 75%;
+			
+	  }
+
+	.topnav a {
+		
+		font-size: 13px;		
+	}
+	
+	  
+
+}
+
+@media (min-width: 661px) and (max-width: 1099px) {
+	.page-content{
+		margin-top: 55px;
+		display: flex;	
+		width: 100%;
+	}
+	
+	.page-content .body{
+		width: 98%;
+	}
+	
+	.page-content .leftslide{
+		flex: 40%;
+		font-size: 50px;
+	}
+	
+	.page-content .rightslide{
+		flex: 60%;
+		display: flex;
+		justify-content: flex-end;    
+	}
+	
+	.card {
+		background-color:white;
+		width: 75%;
+		padding: 30px 15px;			
+	  }
+
+	  .card-contents{
+		width: 90%;
+		margin: auto;	
+	  }
+	
+	
+	
+	.card-contents .secline{
+		font-size: 25px;
+		margin-top: 0px;
+		margin-bottom: -20px;
+	}
+
+	.menu-options .input{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13.0476px;
+		line-height: 16px;
+		color: #C8C8C8;
+	}
+	
+	.menu-options .dropdown{
+		background: none;
+		font-size: 18px;
+		/* or 38px */
+		width: 80%;
+	
+	}
+	
+	
+	.card-button{
+		margin-top: 30px;
+		margin-bottom: 0px;
+	}
+	
+	
+	
+	
+	.line{
+		width: 100%;
+		height: 2px;
+		background-color: #ECECEC;
+		margin-top: 10px;
+	}
+	
+}
+
+
+
+
+  @media (min-width: 250px) and (max-width: 660px) {
+
+	.home__container {
+		padding: 25px 30px;
+		background: url('../img/rah-assets/banner.png');
+		/* background-position: center; */
+		/* object-fit: contain; */
+		background-size: contain;
+		/* background-attachment:fixed */
+		/* background-size: 100% auto; */
+		/* for responsive */
+		background-size: auto 100vh;
+		background-repeat: no-repeat;
+		background-position: left top;
+	}
+	
+	
+	.logo{
+		display: flex;
+		flex: 25%;
+		/* flex: 10%; */
+		height: 10%;
+		width: 10%;	
+	}
+
+	.page-content{
+		margin-top: 0px;
+		width: 100%;
+	}
+	
+	.page-content .body{
+		width: 98%;
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: flex-start;
+	}
+	
+	.page-content .leftslide{
+		font-size: 40px;
+		justify-content: space-between;
+		display: flex;
+		/* or 102px */
+		flex: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.page-content .rightslide{
+		flex: 100%;
+		display: flex;
+		justify-content: space-between;    
+	}
+	
+	.card {
+		background-color:white;
+		width: 100%;
+		padding: 30px 20px;
+		border-radius: 16px;
+	  }
+	
+	  .card-contents{
+		width: 95%;
+		margin: auto;	
+	  }
+	
+	
+	
+	.card-contents .secline{
+		font-size: 30px;
+		margin-top: 0px;
+	}
+	
+	.search-loc{
+		margin-top: 20px;
+	}
+	
+	.search-loc .loc-icon{
+		margin-top: 30px;
+		display: flex;
+		flex: 10%;
+		justify-content: flex-start;
+	}
+	
+	.search-loc .menu{
+		display: flex;
+		flex-direction: column;
+		flex: 90%;
+		justify-content: flex-start;
+	}
+	
+	.menu-options .input{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13.0476px;
+		line-height: 16px;
+		color: #C8C8C8;
+	}
+	
+	.menu-options .dropdown{
+		background: none;
+		font-size: 20px;
+		/* or 38px */
+		width: 80%;
+	
+	}
+	.card-search-button{
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	.card-button{
+		margin: auto;
+		width: 80%;
+		margin-top: 40px;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+	
+	
+	
+	
+	.line{
+		width: 100%;
+		height: 2px;
+		background-color: #ECECEC;
+		margin-top: 10px;
+	}
+
+  }
+
+  
