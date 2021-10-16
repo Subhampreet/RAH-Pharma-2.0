@@ -115,6 +115,10 @@
 	margin-bottom: 5vw;
 	width: 40vw;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57913baca154f36290ced6380a96c0a7e86c4b89
 @media(max-width: 1200px){
 	.testimonials-activation{
 		flex-wrap: wrap;
@@ -123,6 +127,8 @@
 		margin: 5vw;
 		width: 960px;
 	}
+<<<<<<< HEAD
+=======
 }
 
 @media (min-width: 472px) and (max-width: 660px) {
@@ -149,4 +155,5 @@
 		width: 100%;
 		font-size: 15px;
 	}
+>>>>>>> 57913baca154f36290ced6380a96c0a7e86c4b89
 }
