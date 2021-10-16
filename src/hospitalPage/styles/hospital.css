@@ -2,6 +2,7 @@
     font-family: 'Inter', sans-serif;
 }
 .Navbar{
+	padding: 20px 0px;
 	display:flex;
 	flex: 100%;
 	align-items: center;
@@ -12,8 +13,12 @@
 	display: flex;
 	flex: 25%;
 	/* flex: 10%; */
-	height: 10%;
 	width: 10%;	
+	margin-left: 50px;
+}
+
+.logo img{
+	width: 30%;
 }
 
 .Nav-menu{

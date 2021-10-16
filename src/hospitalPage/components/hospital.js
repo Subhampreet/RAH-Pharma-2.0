@@ -27,9 +27,10 @@ export default function NavBar() {
 
   return (
     <div className="Navbar">
-                    <div className="logo">
-                        <img src={require("../img/rah-assets/logo.png").default} />
-                    </div>
+    
+            <div className="logo">
+                <img src={require("../img/rah-assets/logo.png").default} />
+            </div>
 
                 <div className="Nav-menu">
                     {openLinks?
@@ -68,6 +69,8 @@ export default function NavBar() {
       
                        <button className="ham" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>
                     </div>
+     
+                    
 
 
 
