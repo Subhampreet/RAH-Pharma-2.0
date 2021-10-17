@@ -15,7 +15,7 @@ function review() {
                 <div class="custom-row testimonials-activation">
                     <div class="col-xl-12">
                         <div class="testi-box-2 mb-100">
-                            <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                            <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center">
                                 <div class="testi-rating-list">
                                     <h3 className="rating">Ratings and Reviews:</h3>
                                 </div>
@@ -34,7 +34,7 @@ function review() {
                                 <div>
                                     <ProgressBar className="progressbar" variant="warning" now={45} /><div className="text">Hygiene</div><br/><br/>
                                     <ProgressBar className="progressbar" variant="warning" now={90} /><div className="text">Services</div><br/><br/>
-                                    <ProgressBar className="progressbar" variant="warning" now={65} /><div className="text">Blood banks</div><br/><br/>
+                                    <ProgressBar className="progressbar" variant="warning" now={65} /><div className="text">Bloodbanks</div><br/><br/>
                                     <ProgressBar className="progressbar" variant="warning" now={85} /><div className="text">Doctors</div><br/>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ function review() {
                     </div>
                     <div class="col-xl-12">
                         <div class="testi-box-2">
-                            <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                            <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center">
                             <div class="testi-author d-flex align-items-center">
                                 <div class="testi-author-icon-2">
                                     <img src={require('../img/rah-assets/user2.png').default} alt="" />
