@@ -52,6 +52,9 @@
   display: flex;
   flex-direction: row;
 }
+.cardsRow::-webkit-scrollbar {
+	display: none;
+}
 
 .box1 {
   width: 176px;
