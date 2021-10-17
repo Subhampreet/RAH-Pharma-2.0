@@ -1,7 +1,7 @@
 .doctors {
   padding: 40px 105px;
 
-  background: #eef3f3;
+  background: #efefef;
 }
 
 .header8 {
@@ -24,17 +24,21 @@
 }
 
 .cards8 {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-overflow :auto;
-  justify-content: space-between;
+  overflow :auto;
+  justify-content: space-between; */
+  display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+  flex: 100%;
 }
 .cards8::-webkit-scrollbar {
 	display: none;
-}
-.image img {
-  width: 370px;
-  height: 302px;
+}  
+.image8 img {
+  width: 100%;
+  height: auto;
 }
 
 .name8 {
@@ -48,7 +52,7 @@ overflow :auto;
   line-height: 29px;
   /* identical to box height */
 
-  display: flex;
+  
   align-items: center;
 
   color: #253544;
@@ -85,15 +89,15 @@ li span {
   align-items: center;
   padding: 6px;
 
-  width: 253px;
-  height: 62px;
+  width: 85%;
+  height: auto;
 
   background: #1fb6ba;
   box-shadow: 0px 8px 24px rgba(31, 182, 186, 0.25);
   border-radius: 30px;
 
-  margin-top: 35px;
-  margin-left: 45px;
+  margin-top: 6%;
+  margin-left: 7%;
 }
 
 .icon8 {
@@ -112,7 +116,7 @@ li span {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
-  display: flex;
+  
   align-items: center;
 
   color: #ffffff;
@@ -124,17 +128,49 @@ li span {
   flex-grow: 0;
   margin: 0px 16px;
 }
+.card8{
+  flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 32%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
 
-@media only screen and (max-width: 1155px) {
-  .doctors {
+@media screen and (max-width: 1155px) {
+  /* .doctors {
     padding: 40px 50px;
-  }
-  .cards8 {
-    flex-wrap: wrap;
-    /* margin: auto; */
-  }
+  } */
+  
   .card8{
-    margin-bottom: 20px;
-    /* margin-left: -47px; */
+    flex: 0 0 auto;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    width: 46.5%;
+    height: auto;
+    margin-left: 1rem;
+    padding-bottom: 30px;
+   
+  }
+}
+
+@media screen and (max-width: 758px) {
+  /* .doctors {
+    padding: 40px 50px;
+  } */
+  
+  .card8{
+    flex: 0 0 auto;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-left: 1rem;
+    padding-bottom: 30px;
+   
   }
 }
