@@ -26,10 +26,12 @@
 .cards8 {
   display: flex;
   flex-direction: row;
-
+overflow :auto;
   justify-content: space-between;
 }
-
+.cards8::-webkit-scrollbar {
+	display: none;
+}
 .image img {
   width: 370px;
   height: 302px;
