@@ -282,10 +282,12 @@
   .imgCarousel{
     object-fit: cover;
   }
+
   .carousel{
-    max-width: 600px;
+    /* max-width: 400px; */
     width: 100%;
   }
+
   .left{
     padding: 0px 0px;
   }
@@ -296,4 +298,21 @@
     display: none;
   }
 
+}
+
+/* --------------------Responsive---------------- */
+@media (min-width: 250px) and (max-width: 660px) {
+  .heroSection {
+    padding: 20px 30px;
+  }
+
+  .carousel{
+    width: 100%;
+  }
+
+  .carousel{
+    max-width: 400px;
+    width: 100%;
+  }
+ 
 }
