@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Facilities.css";
+import "../styles/facilities.css";
 
 // mui icons
 import LocalDrinkIcon from "@mui/icons-material/LocalDrink";
