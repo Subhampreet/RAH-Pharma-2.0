@@ -26,7 +26,7 @@ export default function NavBar() {
   // const handleClose = () => setOpen(false);
 
   return (
-    <div className="Navbar">
+    <div className="Navbar navbar-dark">
     
             <div className="logo">
                 <img src={require("../img/rah-assets/logo.png").default} />
@@ -41,7 +41,6 @@ export default function NavBar() {
                             <a href="/">Diagnostics</a>
                             <a href="/">Ambulance</a>
                             <a href="/">Emergency</a>
-                            <a><button class="search-btn"> <i class="fas fa-search"></i></button></a>
                             <a> <button href="#" className="login-btn">Login / Signup</button></a>
                     </div>:    
                     
@@ -66,8 +65,13 @@ export default function NavBar() {
                       
                     </div> 
                     }
+
+                      {
+                        openLinks ?
+                            <button className="ham-close" onClick={toggleNavbar}><i className="fas fa-close"></i></button>:
+                            <button className="nav-button" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>
+                        }
       
-                       <button className="ham" onClick={toggleNavbar}><i className="fas fa-bars"></i></button>
                     </div>
      
                     
