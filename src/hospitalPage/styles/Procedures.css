@@ -47,9 +47,6 @@
   flex-direction: row;
   overflow: auto
 }
-.cardsRow::-webkit-scrollbar {
-	display: none;
-}
 
 .cardRow {
   display: flex;
