@@ -177,21 +177,16 @@ li span {
   }
 }
 
-@media screen and (max-width: 500px) {
-  /* .doctors {
-    padding: 40px 50px;
-  } */
+
+
+/* --------------------Responsive---------------- */
+@media (min-width: 250px) and (max-width: 660px) {
+  .doctors {
+    padding: 40px 40px;
   
-  .card8{
-    flex: 0 0 auto;
-    background-color: white;
-    text-align: left;
-    position: relative;
-    width: 95%;
-    height: auto;
-    margin-left: 1rem;
-    padding-bottom: 30px;
-    align-items: center;
-   
+    background: #efefef;
+  }
+  .doctors .card8{
+      width: 90%;
   }
 }
