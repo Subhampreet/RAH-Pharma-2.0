@@ -24,6 +24,7 @@
 .cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .icon5 {
@@ -81,5 +82,20 @@
     margin-top: 20px;
     margin-right: 20px;
     width: 283px;
+  }
+}
+
+.card1 {
+  margin-right: 40px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 645px) {
+  .card1 {
+    background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
