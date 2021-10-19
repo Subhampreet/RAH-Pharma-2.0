@@ -86,11 +86,13 @@ box-sizing: border-box;
     }
     
     .service-2 .title .left{
+        height :auto;
         width: 100%;
     }
     
     .service-2 .title .right{
         width: 100%;
+        height: auto;
     }
     
     .service-2 .title .left h1{
