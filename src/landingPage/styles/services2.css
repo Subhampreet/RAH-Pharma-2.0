@@ -19,7 +19,7 @@ box-sizing: border-box;
 }
 
 .service-2 .title{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -28,11 +28,13 @@ box-sizing: border-box;
 }
 
 .service-2 .title .left{
-    width: 48%;
+    display: flex;
+    width: 50%;
 }
 
 .service-2 .title .right{
-    width: 48%;
+    display: flex;
+    width: 50%;
 }
 
 .service-2 .title .left h1{
@@ -51,6 +53,9 @@ box-sizing: border-box;
 
 
 @media (min-width: 250px) and (max-width: 800px){
+    .service-2 .row{
+        margin-top:60%;
+    }
     .service-content h3{
         font-family: Inter;
         font-style: normal;
