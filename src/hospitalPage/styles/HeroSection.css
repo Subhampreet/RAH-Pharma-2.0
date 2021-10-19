@@ -62,6 +62,7 @@
 .right {
   flex: 1.8;
   margin-left: 25px;
+  margin-top: 10px;
 }
 
 .top {
@@ -315,4 +316,9 @@
     width: 100%;
   }
  
+}
+
+/* Responsive_sid */
+@media only screen and (max-width: 600px) {
+  
 }

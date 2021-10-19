@@ -57,11 +57,12 @@
 .card10 {
   display: flex;
   flex-direction: column;
-  width: 210px;
+  min-width: 210px;
   margin-right: 45px;
   margin-left: 45px;
 
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .icon10 {
@@ -108,8 +109,23 @@
 }
 
 @media only screen and (max-width: 1155px) {
-    .valueAddedServices {
-      padding: 40px 50px;
-    }
+  .valueAddedServices {
+    padding: 40px 50px;
   }
-  
+}
+
+@media only screen and (max-width: 645px) {
+  .header10{
+  font-size: 25.96px;
+  }
+  .card10{
+    background-color: #EFEFEF;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+}
