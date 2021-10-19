@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/footer.css'
+import '../styles/footer-2.css'
 
 function footer() {
     return (
@@ -28,7 +28,7 @@ function footer() {
                                 <div className="footer-contact-content mb-25">
                                     <p>Sweat is 99% water combined with a tiny amount of salt, proteins Sweat in 99% water combined...</p>
                                 </div>
-                                <div className="footer-emailing">
+                                <div className="footer-emailing-2">
                                     <ul>
 
                                         <li><img src={require("../img/rah-assets/fi_mail.png").default}/><span className="footer-span">info@examplemedical.com</span></li>
