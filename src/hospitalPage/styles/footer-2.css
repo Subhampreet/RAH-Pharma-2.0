@@ -34,7 +34,7 @@
   border-radius: 16px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 16px 32px 0px rgba(156, 156, 156, 0.2);
-  padding: 60px;
+  padding: 9%;
   padding-bottom: 55px;
   margin-top: -226px;
 }
@@ -197,4 +197,42 @@
 }
 .footer {
   margin-top: 5rem;
+}
+@media (min-width: 250px) and (max-width: 660px) {
+
+	.footer .container .row{
+		padding: 0px !important;
+	}
+
+	.emmergency-call-icon .i {
+		font-size: 36px;
+		color: #e12454;
+		margin-right: 20px;
+	}
+	.emmergency-call h6 {
+		font-weight: 400;
+		color: #647589;
+		display: block;
+		margin-bottom: 0;
+	}
+	
+	.emmergency-call span {
+		font-size: 20px !important;
+		font-weight: 500;
+		color: #13232f;
+	}
+		
+
+  .bottom-footer-contact-info-3	.footer-emailing ul li {
+		list-style: none;
+		font-size: 15px !important;
+		color: #647589;
+		margin-bottom: 12px;
+	}
+
+	.emmergency-call img{
+		padding: 0 20px;
+		height: 40px !important;
+	}
+
 }

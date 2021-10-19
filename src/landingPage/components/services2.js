@@ -3,8 +3,8 @@ import '../styles/services2.css'
 function Services2() {
     return (
         <div className="service-2">
-            <section class="about-area pt-90 pb-90">
-                <div class="container">
+            
+                
                     
                     <div className="title">
                         <div className="left">
@@ -108,8 +108,8 @@ function Services2() {
                             </div>
                         </div>
                     </div>
-                </div>
-        </section>
+                
+       
         </div>
     )
 }
