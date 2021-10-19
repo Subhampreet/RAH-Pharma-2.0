@@ -51,22 +51,22 @@
   color: #91a1b4;
   padding-right: 20px;
 }
-.footer-emailing ul li {
+.footer-emailing-2 ul li {
   list-style: none;
   font-size: 18px;
   color: #647589;
   margin-bottom: 12px;
 }
-.bottom-footer-contact-info-3 .footer-emailing ul li {
+.bottom-footer-contact-info-3 .footer-emailing-2 ul li {
   color: #91a1b4;
 }
 .footer-co-content {
   overflow: hidden;
 }
-.footer-emailing ul li .i {
+.bottom-footer-contact-info-3 .footer-emailing-2 ul li .i {
   margin-right: 14px;
 }
-.footer-emailing ul {
+.bottom-footer-contact-info-3 .footer-emailing-2 ul {
   padding-left: 0 !important;
 }
 .footer-title h3 {

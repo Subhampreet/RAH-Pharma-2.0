@@ -72,13 +72,13 @@ text-align: center;
   color: #667587;
 }
 
-li {
+.card-8 li {
   list-style: disc;
   margin-left: 15%;
   margin-bottom: 2%;
 }
 
-li span {
+.card-8 li span {
   position: relative;
   left: -0.7em;
 }
