@@ -51,6 +51,9 @@
   color: #91a1b4;
   padding-right: 20px;
 }
+.footer-emailing-2 ul{
+  margin-left: -9%;
+}
 .footer-emailing-2 ul li {
   list-style: none;
   font-size: 18px;
