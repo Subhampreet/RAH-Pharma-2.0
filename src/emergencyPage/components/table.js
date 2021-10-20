@@ -4,7 +4,7 @@ import paginationFactory from 'react-bootstrap-table2-paginator';
 import BootstrapTable from 'react-bootstrap-table-next';
 import * as ReactBootStrap from "react-bootstrap";
 import { style } from "@mui/system";
-function table(){
+function Table(){
     const columns = [{
         dataField: 'id',
         text: 'organization name'
@@ -88,4 +88,4 @@ function table(){
     </>
     )
 }
-export default table;
+export default Table;

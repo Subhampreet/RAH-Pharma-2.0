@@ -1,0 +1,465 @@
+
+.emergency-outer-box{
+    align-items: center;
+	/*position: relative;*/
+	height: 820px;
+	width:100%;
+	background: repeating-linear-gradient(#7F3D3D, #7F3D3D 49.9%, #F8F8F8 50.1%, #F8F8F8 100%);
+}
+
+.emergency-outer-box .container{
+	background-color: #fff;
+	padding: 0px;
+	width: 75%;
+	border: none;
+    margin-left: 13%;
+    margin-top: 15%;
+    position:absolute;
+	
+}
+
+.emergency-outer-box .container .service-box{
+	display: flex;
+	align-items: center;
+}
+
+.emergency-outer-box .container .service-box .left{
+	width: 70%;
+}
+
+.emergency-outer-box .container .service-box .left .body{
+	width: 90%;
+	margin: auto;
+}
+
+.emergency-outer-box .container .service-box .left .body h1{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 51.96px;
+	line-height: 160%;
+	/* or 83px */
+	color: #263544;
+	margin-bottom: 50px;
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line .element{
+	width: 45%;
+	display: flex;
+	align-items: center;
+	padding: 5px 0px 15px;
+	border-bottom: 2px solid #ECECEC;
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line img{
+	width: 40px;
+	margin-right: 13px;
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line form{
+
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line form label{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15.0476px;
+	line-height: 18px;
+	/* identical to box height */
+
+	color: #C8C8C8;
+
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line form input{
+	border: none;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	letter-spacing: -0.01em;
+}
+
+.emergency-outer-box .container .service-box .left .body .form-line form .dropdown button{
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	letter-spacing: -0.01em;
+	margin-left: -5px;
+}
+
+.emergency-outer-box .container .service-box .right{
+	width: 30%;
+}
+
+.emergency-outer-box .container .service-box .right img{
+	width: 100%;
+}
+
+
+.appoint-button{
+	background:  #7F3D3D;
+box-shadow: 0px 4px 12px rgba(197, 74, 80, 0.5);
+border-radius: 48px;
+Width :189px;
+Height :50px;
+/* Inside Auto Layout */
+border: none;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.appoint-ment-icon img{
+
+}
+.box-title{
+	font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 160%;
+/* or 83px */
+
+
+color: #263544;
+
+}
+.appoint-card{
+}
+.appoint-card form input{
+	border: none;
+	font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+
+/* or 38px */
+
+letter-spacing: -0.01em;
+
+
+}
+
+::-webkit-input-placeholder { /* Edge */
+	color: #263544;
+  }
+  
+.TB{
+	border: none;
+	font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+background: #fff;
+/* or 38px */
+
+letter-spacing: -0.01em;
+
+color: #263544;
+}
+
+
+
+@media (min-width: 860px) and (max-width: 1210px) {
+
+	
+	
+	.emergency-outer-box .container{
+		padding: 0px;
+		width: 95%;		
+	}
+	
+	.emergency-outer-box .container .service-box{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.emergency-outer-box .container .service-box .left{
+		width: 95%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body{
+		width: 100%;
+		margin: auto;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body h1{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 51.96px;
+		line-height: 160%;
+		/* or 83px */
+		color: #263544;
+		margin-bottom: 50px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 30px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line .element{
+		width: 45%;
+		display: flex;
+		align-items: center;
+		padding: 5px 0px 15px;
+		border-bottom: 2px solid #ECECEC;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line img{
+		width: 40px;
+		margin-right: 13px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form{
+		
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form label{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15.0476px;
+		line-height: 18px;
+		/* identical to box height */
+	
+		color: #C8C8C8;
+	
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form input{
+		border: none;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+		width: 100%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form .dropdown button{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+		margin-left: -5px;
+	}
+	
+	
+	
+	.emergency-outer-box .container .service-box .right img{
+		display: none;
+	}
+
+}
+
+
+@media (min-width: 552px) and (max-width: 859px) {
+	
+	.emergency-outer-box .container{
+		padding: 0px;
+		width: 95%;		
+	}
+	
+	.emergency-outer-box .container .service-box{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.emergency-outer-box .container .service-box .left{
+		width: 95%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body{
+		width: 100%;
+		margin: auto;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body h1{
+		font-size: 40px;
+		line-height: 130%;
+		
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line .element{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line img{
+		width: 40px;
+		margin-right: 13px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form{
+		
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form label{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15.0476px;
+		line-height: 18px;
+		/* identical to box height */
+	
+		color: #C8C8C8;
+	
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form input{
+		border: none;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 22px;
+		letter-spacing: -0.01em;
+		width: 100%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form .dropdown button{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 22px;
+		letter-spacing: -0.01em;
+		margin-left: -5px;
+	}
+	
+	
+	
+	.emergency-outer-box .container .service-box .right img{
+		display: none;
+	}
+
+	.appoint-button{
+		margin-top: -20px;
+	}
+
+}
+
+@media (min-width: 250px) and (max-width: 550px) {
+	
+	.emergency-outer-box .container{
+		padding: 0px;
+		width: 90%;		
+	}
+	
+	.emergency-outer-box .container .service-box{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.emergency-outer-box .container .service-box .left{
+		width: 95%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body{
+		width: 100%;
+		margin: auto;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body h1{
+		font-size: 30px;
+		line-height: 130%;
+		margin-top: 20px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin-bottom: 20px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line .element{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line img{
+		width: 40px;
+		margin-right: 13px;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form{
+		
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form label{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15.0476px;
+		line-height: 18px;
+		/* identical to box height */
+	
+		color: #C8C8C8;
+	
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form input{
+		border: none;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+		width: 100%;
+	}
+	
+	.emergency-outer-box .container .service-box .left .body .form-line form .dropdown button{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: -0.01em;
+		margin-left: -5px;
+	}
+	
+	
+	
+	.emergency-outer-box .container .service-box .right img{
+		display: none;
+	}
+
+	.appoint-button{
+		margin-top: -20px;
+	}
+
+}

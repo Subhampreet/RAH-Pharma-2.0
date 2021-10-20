@@ -25,11 +25,16 @@ import Hospital from './hospitalPage/components/hospital';
 import main_page from './landingPage/components/main_page';
 import main_hospital from './hospitalPage/components/main_hospital';
 import table from './emergencyPage/components/table';
+import Mapbox from './emergencyPage/components/map-box';
+import SearchBox from './emergencyPage/components/search-box';
+import MainEmergency from './emergencyPage/components/main-emergency';
 
 function App() {
   return (
     <div className="App">
       <Route exact path="/" component={main_page} />
+      <Route exact path="/hospital" component={main_hospital} />
+<Route exact path="/emergency" component={MainEmergency}/>
       {/* Endpoints for testing purpose */}
       <Route exact path="/doc" component={Doctor} />
       <Route exact path="/ser1" component={Services1} />
@@ -40,7 +45,7 @@ function App() {
       <Route exact path="/ltst" component={Latest} />
       <Route exact path="/foot" component={Footer} />
 
-       <Route exact path="/hospital" component={main_hospital} />
+      
        {/* End points for testing purpose */}
       <Route exact path="/fac" component={Facilities} />
   
@@ -56,7 +61,8 @@ function App() {
       <Route exact path="/mainhos" component={main_hospital}/>
 
 <Route exact path="/table" component={table}/>
-     
+<Route exact path="/searchbox" component={SearchBox}/>
+     <Route exact path="/map"component={Mapbox}/>
        
     </div>
   );
