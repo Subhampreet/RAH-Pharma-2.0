@@ -19,7 +19,7 @@ box-sizing: border-box;
 }
 
 .service-2 .title{
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -28,11 +28,13 @@ box-sizing: border-box;
 }
 
 .service-2 .title .left{
-    width: 48%;
+    display: flex;
+    width: 50%;
 }
 
 .service-2 .title .right{
-    width: 48%;
+    display: flex;
+    width: 50%;
 }
 
 .service-2 .title .left h1{
@@ -50,7 +52,10 @@ box-sizing: border-box;
 }
 
 
-@media (min-width: 250px) and (max-width: 800px){
+@media (min-width: 250px) and (max-width: 500px){
+    .service-2 .row{
+        margin-top:60%;
+    }
     .service-content h3{
         font-family: Inter;
         font-style: normal;
@@ -81,11 +86,70 @@ box-sizing: border-box;
     }
     
     .service-2 .title .left{
+        height :auto;
         width: 100%;
     }
     
     .service-2 .title .right{
         width: 100%;
+        height: auto;
+    }
+    
+    .service-2 .title .left h1{
+        text-align: left;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .service-2 .title .right p{
+       
+        font-size: 16px;
+        line-height: 30px;
+    }
+} 
+
+
+@media (min-width: 510px) and (max-width: 800px){
+    .service-2 .row{
+        margin-top:20%;
+    }
+    .service-content h3{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        
+        text-align: center;
+        font-feature-settings: 'salt' on, 'liga' off;
+        
+        /* Text / Gray 900 */
+        
+        color: #18191F;
+    }
+    .service-box{
+        border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    }
+    
+    .service-2 .title{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+    
+    .service-2 .title .left{
+        height :auto;
+        width: 100%;
+    }
+    
+    .service-2 .title .right{
+        width: 100%;
+        height: auto;
     }
     
     .service-2 .title .left h1{
@@ -102,6 +166,7 @@ box-sizing: border-box;
 } 
 
 @media (min-width: 810px) and (max-width: 1300px){
+   
     .service-2 .title{
         width: 95%;
         margin: auto;

@@ -1,16 +1,16 @@
 import React from 'react'
-import '../styles/footer.css'
+import '../styles/footer-2.css'
 
 function footer() {
     return (
-        <div>
-            <div className="footer mt-5">
+        <>
+            <div className="footer">
             
             <div className="footer-top primary-bg pt-115 pb-90">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-6 col-md-8">
-                            <div className="footer-contact-info mb-30">
+                            <div className="bottom-footer-contact-info mb-30">
                                 <div className="emmergency-call fix">
                                     <div className="emmergency-call-icon f-left">
                                         <img src={require('../img/rah-assets/phonecall Green.png').default} alt="" />
@@ -28,12 +28,12 @@ function footer() {
                                 <div className="footer-contact-content mb-25">
                                     <p>Sweat is 99% water combined with a tiny amount of salt, proteins Sweat in 99% water combined...</p>
                                 </div>
-                                <div className="footer-emailing">
+                                <div className="footer-emailing-2">
                                     <ul>
 
                                         <li><img src={require("../img/rah-assets/fi_mail.png").default}/><span className="footer-span">info@examplemedical.com</span></li>
                                         <li><img src={require("../img/rah-assets/folder.png").default}/><span className="footer-span">examplemedical.com</span></li>
-                                        <li><img src={require("../img/rah-assets/plus.png").default}/><span className="footer-span">227 Marion Street, Columbia</span></li>
+                                        <li><img src={require("../img/rah-assets/plus.png").default}/><span className="footer-span">227 Marion Street,Columbia</span></li>
 
                                     </ul>
                                 </div>
@@ -75,7 +75,7 @@ function footer() {
                 </div>
             </div>
             </div> 
-        </div>
+        </>
     )
 }
 
