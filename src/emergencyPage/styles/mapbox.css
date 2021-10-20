@@ -130,5 +130,16 @@
         width: 100%;
         align-items: center;
     }
+    .map-box-main .map-box-child .map-box-left{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    .map-box-main .map-box-child .map-box-right{
+        display: flex;
+        width:90%;
+        margin :auto;
+        flex-direction: column;
+    }
 
 }
