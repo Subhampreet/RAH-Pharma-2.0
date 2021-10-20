@@ -24,7 +24,7 @@ import Facilities from './hospitalPage/components/facilities';
 import Hospital from './hospitalPage/components/hospital';
 import main_page from './landingPage/components/main_page';
 import main_hospital from './hospitalPage/components/main_hospital';
-
+import table from './emergencyPage/components/table';
 
 function App() {
   return (
@@ -55,7 +55,7 @@ function App() {
       <Route exact path="/main" component={main_page} />
       <Route exact path="/mainhos" component={main_hospital}/>
 
-
+<Route exact path="/table" component={table}/>
      
        
     </div>
