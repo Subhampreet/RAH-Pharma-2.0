@@ -185,6 +185,7 @@ color: #263544;
 	.emergency-outer-box .container{
 		padding: 0px;
 		width: 95%;		
+        margin-left:8.5%;
 	}
 	
 	.emergency-outer-box .container .service-box{
@@ -280,7 +281,8 @@ color: #263544;
 	
 	.emergency-outer-box .container{
 		padding: 0px;
-		width: 95%;		
+		width: 95%;	
+        margin-left: 3%;	
 	}
 	
 	.emergency-outer-box .container .service-box{
@@ -374,7 +376,8 @@ color: #263544;
 	
 	.emergency-outer-box .container{
 		padding: 0px;
-		width: 90%;		
+		width: 90%;	
+        margin-left: 6%;	
 	}
 	
 	.emergency-outer-box .container .service-box{
