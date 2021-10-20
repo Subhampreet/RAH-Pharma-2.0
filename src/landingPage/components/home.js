@@ -29,7 +29,7 @@ function Home() {
                             <a href="/">Blood Banks</a>
                             <a href="/">Diagnostics</a>
                             <a href="/">Ambulance</a>
-                            <a href="/">Emergency</a>
+                            <a href="/emergency">Emergency</a>
                             {/* <a><button class="search-btn"> <i class="fas fa-search"></i></button></a> */}
                             <a> <button href="#" className="login-btn">Login / Signup</button></a>
                     </div>:    
@@ -42,7 +42,7 @@ function Home() {
                             <a href="/">Blood Banks</a>
                             <a href="/">Diagnostics</a>
                             <a href="/">Ambulance</a>
-                            <a href="/">Emergency</a>
+                            <a href="/emergency">Emergency</a>
                         </div>
                        
 
