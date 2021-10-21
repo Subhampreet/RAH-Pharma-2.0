@@ -1,6 +1,6 @@
 import './App.css';
 import {Route, Link} from "react-router-dom";
-
+import AdminHs from './Admin/Admin';
 import Footer from './landingPage/components/footer';
 import Latest from './landingPage/components/latest'
 import Counter from './landingPage/components/counter'
@@ -65,7 +65,7 @@ function App() {
 <Route exact path="/searchbox" component={SearchBox}/>
      <Route exact path="/map"component={Mapbox}/>
      <Route exact path="/search" component={SearchMain}/>
-       
+       <Route exact path ="/admin" component={AdminHs}/>
     </div>
   );
 }
