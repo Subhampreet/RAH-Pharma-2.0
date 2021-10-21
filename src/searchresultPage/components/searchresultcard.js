@@ -5,11 +5,11 @@ return(
     <>
     <div class="container-fluid d-flex">
     <div class="row m-auto">
-        <div class="col-12 mt-3">
+        <div class="col-12 col-sm-12 mt-3">
             <div class="card">
                 <div class="card-horizontal">
                     <div class="img-square-wrapper">
-                        <img class="" src="http://via.placeholder.com/300x180" alt="Card image cap"/>
+                        <img class="" src="http://via.placeholder.com/" style={{width:"35%"}}  alt="Card image cap"/>
                     </div>
                     <div class="card-body">
                         <h4 class="card-title">Card title</h4>
