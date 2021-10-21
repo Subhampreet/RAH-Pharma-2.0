@@ -7,6 +7,7 @@ function SearchMain(){
         <>
         <NavBar/>
         <SearchBanner/>
+        
         <Footer />
         </>
     )
