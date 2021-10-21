@@ -86,4 +86,19 @@
         align-items: center;
         justify-content: space-between;
     }
+    .search-result .search-body .search-item textarea {
+        height: 25px;
+        width: 100%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 17px;
+        color: #B0B0B0;
+        text-align: left;
+        overflow: hidden;
+        border: none;
+        resize: none;
+    }
+
 }
