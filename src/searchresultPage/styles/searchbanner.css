@@ -86,6 +86,10 @@
         align-items: center;
         justify-content: space-between;
     }
+    .search-result .search-body .search-item {
+        width: 80%;
+        margin: auto;
+    }
     .search-result .search-body .search-item textarea {
         height: 25px;
         width: 100%;
