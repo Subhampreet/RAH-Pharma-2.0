@@ -1,4 +1,7 @@
-
+.search-result{
+    width: 90%;
+    margin: auto;
+}
 
 .search-result .search-body {
     width: 790px;

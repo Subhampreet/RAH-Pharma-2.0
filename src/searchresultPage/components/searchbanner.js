@@ -6,6 +6,7 @@ function SearchBanner(){
     return(
         <>
         <div className="search-result">
+        <h5>Search Results</h5>
             <div className="dummy">
             Why do we use it?
 It is a long established fact that a reader will be distracted by the
@@ -49,7 +50,7 @@ It is a long established fact that a reader will be distracted by the
                 </div>
 
                 <div className="results">
-                    <h5>Search Results</h5>
+                  
                     <ResultCard/>
                 </div>
                 </div>
