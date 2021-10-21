@@ -121,7 +121,7 @@ function Home() {
                                 </div>
                             
                                     <div className="card-search-button">
-                                        <button  className="card-button">Search</button>                                    
+                                        <button onClick={()=>{history.push('/search')}} className="card-button">Search</button>                                    
                                     </div>
 
                             </div>
