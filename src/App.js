@@ -28,6 +28,7 @@ import table from './emergencyPage/components/table';
 import Mapbox from './emergencyPage/components/map-box';
 import SearchBox from './emergencyPage/components/search-box';
 import MainEmergency from './emergencyPage/components/main-emergency';
+import SearchMain from './searchresultPage/components/search-main';
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
 <Route exact path="/table" component={table}/>
 <Route exact path="/searchbox" component={SearchBox}/>
      <Route exact path="/map"component={Mapbox}/>
+     <Route exact path="/search" component={SearchMain}/>
        
     </div>
   );
