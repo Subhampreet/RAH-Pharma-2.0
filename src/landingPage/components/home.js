@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState} from 'react'
+import { useHistory } from 'react-router';
 import '../styles/home.css'
 import '../styles/nice-select.css'
 import Emergency_call from './emergency_call';
@@ -6,6 +7,7 @@ import { Link } from "react-router-dom";
 
 
 function Home() {
+    const history=useHistory();
     const [openLinks, setOpenLinks] = useState(false);
 
   const toggleNavbar = () => {
@@ -18,7 +20,9 @@ function Home() {
             <div className="home__container">
                 <div className="Navbar">
                     <div className="logo">
+                        <Link to="/">
                         <img src={require("../img/rah-assets/logo.png").default} />
+                        </Link>
                     </div>
 
                 <div className="Nav-menu">
@@ -48,7 +52,7 @@ function Home() {
 
                        <div className="login-section">
 
-                           <button class="search-btn"> <i class="fas fa-search"></i></button>
+                           <button class="search-btn" onClick={()=>{history.push('/search')}}> <i class="fas fa-search"></i></button>
                            <button href="#" className="login-btn">Login / Signup</button>
 
                        </div>

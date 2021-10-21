@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import '../styles/hospital.css'
+import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
@@ -10,11 +11,13 @@ import Modal from "@mui/material/Modal";
 // mui icons
 import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
+import { useHistory } from "react-router";
 
 // modal css
 
 
 export default function NavBar() {
+  const history=useHistory();
   const [openLinks, setOpenLinks] = useState(false);
 
   const toggleNavbar = () => {
@@ -29,7 +32,9 @@ export default function NavBar() {
     <div className="Navbar navbar-dark">
     
             <div className="logo">
+              <Link to='/'>
                 <img src={require("../img/rah-assets/logo.png").default} />
+                </Link>
             </div>
 
                 <div className="Nav-menu">
@@ -58,7 +63,7 @@ export default function NavBar() {
 
                        <div className="login-section">
 
-                           <button class="search-btn"> <i class="fas fa-search"></i></button>
+                           <button class="search-btn"  onClick={()=>{history.push('/search')}}> <i class="fas fa-search"></i></button>
                            <button href="#" className="login-btn">Login / Signup</button>
 
                        </div>
