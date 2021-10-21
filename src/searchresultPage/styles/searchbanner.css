@@ -3,7 +3,29 @@
     margin: auto;
 }
 
+.search-result .body{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.search-result .body h1{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.search-result .body p{
+    font-family: Inter;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    margin-top: 20px;
+}
+
 .search-result .search-body {
+    margin-top: 50px;
     width: 790px;
     height: 70px;
     margin: auto;
