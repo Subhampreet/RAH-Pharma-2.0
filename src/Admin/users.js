@@ -6,20 +6,8 @@ export const UserList = (props) => {
     const isSmall = useMediaQuery(theme => theme.breakpoints.down('sm'));
     return (
         <List {...props}>
-            {isSmall ? (
-                <SimpleList
-                   
-                primaryText={record =>record.HospitalName}
-                secondaryText={record => record.ICU }
-                tertiaryText={record=>record.TotalSeats}
-
-
-                    
-                    
-                    
-                />
-            ) : (
-                <Datagrid>
+           
+                <Datagrid rowClick="edit">
                    <TextField source="id" />
             <TextField source="HospitalName"/>
             <TextField source="Hospital Type" />
@@ -29,9 +17,9 @@ export const UserList = (props) => {
             <NumberField source="ICU"/>
             <TextField source="Departments"/>
             <TextField source="Facilities"/>
-                    <EditButton />
+                
                 </Datagrid>
-            )}
+          
         </List>
     );
 }
