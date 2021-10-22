@@ -17,6 +17,9 @@
     border: 1px solid #F4F4F4;
 box-sizing: border-box;
 }
+.service-2{
+    margin-top:10%;
+}
 
 .service-2 .title{
     width: 100%;
