@@ -1,7 +1,7 @@
 import * as React from "react";
 import { List, Datagrid,NumberField, TextField, EditButton ,SimpleList} from 'react-admin';
 import { useMediaQuery } from '@material-ui/core';
-
+import UserEdit from "./UserEdit";
 export const UserList = (props) => {
     const isSmall = useMediaQuery(theme => theme.breakpoints.down('sm'));
     return (
@@ -17,7 +17,7 @@ export const UserList = (props) => {
             <NumberField source="ICU"/>
             <TextField source="Departments"/>
             <TextField source="Facilities"/>
-                
+            <EditButton basePath='./Hospital' record={UserEdit}/>
                 </Datagrid>
           
         </List>
