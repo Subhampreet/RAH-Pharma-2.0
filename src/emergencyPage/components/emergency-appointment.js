@@ -59,7 +59,7 @@ function EmergencyApppointment() {
                                 </div>
 
                                 <div className="row pl-20 pt-30">
-                                    <button className="appoint-button">BECOME A RAHI</button>
+                                    <button className="appoint-button-2">BECOME A RAHI</button>
                                 </div>
 
                             </div>
