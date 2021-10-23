@@ -6,12 +6,12 @@ import { UserList } from "./users";
 import './styles.css'
 import UserEdit from './UserEdit'
 
-const dataProvider = jsonServerProvider('https://my-json-server.typicode.com/Ayushmina-20/HospitalSignup');
+const dataProvider = jsonServerProvider('https://my-json-server.typicode.com/Ayushmina-20/HospitalSignup/');
  function AdminHs(){
    return(
      <div className="Admin-dash">
-      <Admin dataProvider={(dataProvider)}>
-         <Resource  name="Hospital" list={UserList} edit={UserEdit} />
+       <Admin dataProvider={(dataProvider)}>
+         <Resource name="hospital" list={ListGuesser}/>
      </Admin>
      </div>
    )
