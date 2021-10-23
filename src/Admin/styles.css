@@ -5,3 +5,10 @@
     
             
              }
+             @media (max-width:1400px) and (min-width :900px){
+                .Admin-dash{
+                    overflow-x:auto;
+                }
+                
+                        
+                         }
