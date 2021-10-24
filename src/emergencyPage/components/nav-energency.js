@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import '../styles/navemergency.css'
+import {Link} from 'react-router-dom'
 function NavEmergency(){
     const [openLinks, setOpenLinks] = useState(false);
 
@@ -11,7 +12,9 @@ function NavEmergency(){
         <>
          <div className="NavEmergency">
                     <div className="logo">
+                        <Link to="/">
                         <img src={require("../img/logo.png").default} />
+                        </Link>
                     </div>
 
                 <div className="Nav-menu-emergency">
