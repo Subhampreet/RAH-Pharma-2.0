@@ -71,9 +71,9 @@ function latest() {
                     </div>
                 </div>
             </div>
-            <div className="mk-call-btn f-right mb-30">
+            {/* <div className="mk-call-btn f-right mb-30">
                             <a data-animation="fadeInLeft" data-delay=".6s" href="contact.html" className="btn btn-icon btn-icon-green ml-0 make_call"><span><img src={require('../img/rah-assets/phonecall Green.png').default} alt="" /></span>make call</a>
-                        </div>
+                        </div> */}
         </div>
     )
 }

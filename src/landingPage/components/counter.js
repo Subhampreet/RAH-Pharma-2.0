@@ -6,21 +6,21 @@ function counter() {
         <>
             <div class="counter-1">
                 <div class="content row justify-content-around">
-                    <div class="col-lg-2 col-md-3">
+                    <div class="col-lg-2 col-md-3 mt-3">
                         <div class="single-couter-1 counter-box-1 text-center mb-180">
                             <img src={require('../img/rah-assets/patientserved.png').default} alt="" />
                             <h1><span class="counter-1">780</span>+</h1>
                             <h6 class="green-color">patients served</h6>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3">
+                    <div class="col-lg-2 col-md-3 mt-3">
                         <div class="single-couter-1 counter-box-1 text-center mb-180">
                             <img src={require('../img/rah-assets/registeredhospitals.png').default} alt="" />
                             <h1><span class="counter-1">300</span>+</h1>
                             <h6 class="green-color">registered hospitals</h6>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3">
+                    <div class="col-lg-2 col-md-3 mt-3">
                         <div class="single-couter-1 counter-box-1 text-center mb-180">
                             <img src={require('../img/rah-assets/member.png').default} alt="" />
                             <h1><span class="counter-1">200</span>+</h1>
@@ -42,7 +42,7 @@ function counter() {
                                         <img src={require('../img/rah-assets/entername.png').default} alt="" />
                                         <form class="" action="#">
                                             <label for="input">Your name</label>
-                                            <input type="text" placeholder="Enter Your Name" />
+                                            <input type="text" placeholder="Enter Your Name" style={{width:"93%"}} />
                                         </form>
 
                                     </div>
@@ -50,7 +50,7 @@ function counter() {
                                         <img src={require('../img/rah-assets/entermail.png').default} alt="" />
                                         <form class="" action="#">
                                             <label for="input">Your Email ID</label>
-                                            <input type="text" placeholder="Enter Email Address" />
+                                            <input type="text" placeholder="Enter Email Address"  style={{width:"111%"}} />
                                         </form>
 
                                     </div>

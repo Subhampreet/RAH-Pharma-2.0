@@ -6,6 +6,10 @@ function Emergency_call() {
         <div>
          <div className="emergency_call">
           <img src={require('../img/rah-assets/phonecall White.png').default}/>
+          <div className="overlay" style={{width:"400%",height:"auto"}}>
+              Helpline Number<br/>
+              0987654321
+          </div>
          </div> 
         </div>
     )
