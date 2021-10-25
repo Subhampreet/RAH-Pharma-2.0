@@ -12,8 +12,8 @@ function Services2() {
                         </div>
                         <div className="right">
                             <p>All the neccessary details & features to rely upon 
-                                    during critical times. All the neccessary details & 
-                                    features to rely upon during critical times. All the 
+                                    during critical times.<br/>All the neccessary details & 
+                                    features to rely upon during critical times.<br/> All the 
                                     neccessary details.</p>
                         </div>
                     </div>

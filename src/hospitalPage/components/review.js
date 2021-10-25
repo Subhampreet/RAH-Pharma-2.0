@@ -7,7 +7,7 @@ import StarRatings from "react-star-ratings";
 
 function review() {
   return (
-    <div class="testimonials-area pt-115 pb-120">
+    <div class="testimonials-area">
       <div class="container">
         <div class="row">
           <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1 col-md-10 offset-md-1">

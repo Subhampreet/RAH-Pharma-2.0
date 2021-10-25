@@ -73,6 +73,7 @@ export default function HeroSection() {
           <div className="title">AIIMS Hospital</div>
         </div>
         <div className="middle">
+          <div className="middle-left">
           <p className="description">
             ICUs and OPDs 24x7 COVID-19 testing available Speciality in
             Neurology, Orthopedics..
@@ -81,6 +82,8 @@ export default function HeroSection() {
             ICUs and OPDs 24x7 COVID-19 testing available Speciality in
             Neurology, Orthopedics..
           </p>
+          </div>
+         
         </div>
         <div className="bottom">
           <div className="title1">Features:</div>
@@ -119,6 +122,9 @@ export default function HeroSection() {
             <div className="contactText1">Mail us at</div>
           </button>
         </div>
+        <div className="middle-right">
+            <img style={{width:"95%",height:"120px",marginTop:"3%"}} src="https://via.placeholder.com/"/>
+          </div>
       </div>
     </div>
   );

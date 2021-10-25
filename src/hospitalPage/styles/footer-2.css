@@ -196,10 +196,12 @@
   margin-top: 20px !important;
 }
 .footer {
-  margin-top: 5rem;
+  margin-top: 8%;
 }
 @media (min-width: 250px) and (max-width: 660px) {
-
+.footer{
+  margin-top: 33%;
+}
 	.footer .container .row{
 		padding: 0px !important;
 	}
@@ -235,4 +237,9 @@
 		height: 40px !important;
 	}
 
+}
+@media (min-width: 661px) and (max-width: 800px) {
+  .footer{
+    margin-top: 25%;
+  }
 }
