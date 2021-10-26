@@ -78,7 +78,8 @@
     align-items: center;
     width: 20%;
     color: #FFFFFF;
-    margin-left: 6%;
+    margin-left: 7%;
+    height: 40px;
 }
 
 .search-result .search-body .search-button h4 {
