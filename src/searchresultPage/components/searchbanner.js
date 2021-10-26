@@ -7,19 +7,23 @@ function SearchBanner(){
         <>
         <div className="search-result">
 
-            <div className="body">
+            
+            <div className="body-bar">
+            <div class="bar">
+      <input class="searchbar" type="text" title="Search"></input>
+     
+      <button div className="search-button">search</button>
+    
+      </div>
+   
+    </div>
+    <div className="body">
                 <h1>Search Result</h1>
                 <p>Bringing you the best medical facilities near you</p>
             </div>
-            
-            <div class="bar">
-      <input class="searchbar" type="text" title="Search"></input>
-      </div>
-    <button div className="search-button">search</button>
-
                 <div className="results">
                   
-                    {/* <ResultCard/> */}
+                    <ResultCard/>
                 </div>
                 </div>
         </>

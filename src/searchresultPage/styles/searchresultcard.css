@@ -1,4 +1,138 @@
-.card-horizontal {
+.searchresult_card {
     display: flex;
-    flex: 1 1 auto;
+    width:96%;
+    margin:auto;
+    justify-content: space-between;
+}
+.searchresult_card .card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 30%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+.searchresult_card .card-1 .banner-img {
+	position: relative;
+	background-image: url('../../landingPage/img/rah-assets/sumhospital.png');
+	height: 15rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -10px;
+}
+.searchresult_card .card-1 .profile-img {
+	position: relative;
+	border: none;
+	align-items: center;
+	width: auto;
+	padding: 2px 10px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 0.08rem;
+	background-color: #00ACB2;
+	margin-left: 2rem;
+	margin-top: -20px;
+	color: white;
+}
+.searchresult_card .card-1 .name{
+    margin-top: 20px;
+	margin-left: 2rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+
+}
+.searchresult_card .card-1 .card-content {
+	margin-left: 2rem;
+	display: flex;
+	flex: 100%;
+	height: min-content;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.searchresult_card .card-1 .card-content  .active{
+    color:#00ACB2 ;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+}
+.searchresult_card .card-1 .card-content img {
+	Width: 8%;
+	display: flex;
+	flex: 5%;
+	justify-content: flex-start;
+	
+}
+
+.searchresult_card .card-1 .card-content .text {
+	display: flex;
+	flex: 92%;
+	justify-content: flex-start;
+	font-size: 15px;
+}
+.searchresult_card .card-1 .button {
+	text-decoration: none;
+	margin-left: 2rem;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	/* identical to box height, or 29px */
+	color: #707070;
+}
+@media screen and (max-width: 1150px) {
+    .searchresult_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+	.searchresult_card .card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 46.5%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
+@media screen and (max-width: 758px) {
+.searchresult_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+	.searchresult_card .card-1 {
+	flex: 0 0 auto;
+	background-color: white;
+	text-align: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-left: 1rem;
+	padding-bottom: 30px;
+}
+}
+@media (min-width: 250px) and (max-width: 660px) {
+    .searchresult_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .searchresult_card .card-1 {
+		flex: 0 0 auto;
+		background-color: white;
+		text-align: left;
+		position: relative;
+		width: 100%;
+		height: auto;
+		margin-left: 1rem;
+		padding-bottom: 30px;
+	}
 }
