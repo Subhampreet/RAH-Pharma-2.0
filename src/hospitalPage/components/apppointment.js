@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function apppointment() {
+function Apppointment() {
     return (
         <section className="outer-box pos-rel">
                 <div class="container">
@@ -188,4 +188,4 @@ function apppointment() {
     )
 }
 
-export default apppointment
+export default Apppointment

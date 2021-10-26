@@ -12,36 +12,10 @@ function SearchBanner(){
                 <p>Bringing you the best medical facilities near you</p>
             </div>
             
-          <div className="search-body">
-                    <div className="search-item">
-                        <div className="left">
-                            <h3>Your Location</h3>
-                            <textarea>Search your area</textarea>
-                        </div>
-                        <div className="right"></div>
-                    </div>
-
-                    <div className="search-item">
-                        <div className="left">
-                            <h3>Your Location</h3>
-                            <textarea>Search your area</textarea>
-                        </div>
-                        <div className="right"></div>
-                    </div>
-
-                    <div className="search-item">
-                        <div className="left">
-                            <h3>Your Location</h3>
-                            <textarea>Search your area</textarea>
-                        </div>
-                        <div className="right"></div>
-                    </div>
-
-                    <div className="search-button">
-                        <h4>Search</h4>
-                        <SearchIcon className="search-icon" />
-                    </div>
-                </div>
+            <div class="bar">
+      <input class="searchbar" type="text" title="Search"></input>
+      </div>
+    <button div className="search-button">search</button>
 
                 <div className="results">
                   
