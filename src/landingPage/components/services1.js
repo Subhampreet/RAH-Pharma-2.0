@@ -45,7 +45,7 @@ function Services1() {
           <a className="button" style={{width:"54%",marginLeft:"8%",marginTop:"1%"}} href="/">Explore</a> <img src={require("../img/rah-assets/arrow-down.png").default} alt="" />
           <div className="card-content" style={{marginTop:"4%",width:"45%"}}>
             <img className="" src={require("../img/rah-assets/location.png").default} alt="" />
-            <div className="text" >4.36 kms away</div>
+            <div className="text" style={{fontWeight:"bold"}}>4.36 kms away</div>
             </div>
            
           </div>
