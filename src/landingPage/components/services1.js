@@ -39,7 +39,7 @@ function Services1() {
           </div>
           <div className="card-content">
             <img className="active" src={require("../img/rah-assets/call.png").default} alt="" />
-            <div className="text active">+91 9000000000</div>
+            <div className="text active"><a href="tel:5551234567">Call (555)123-4567</a></div>
           </div>
           <div className="card-partition" style={{width:"100%",alignItems:"center",justifyContent:"center",display:"flex"}}>
           <a className="button" style={{width:"54%",marginLeft:"8%",marginTop:"1%"}} href="/">Explore</a> <img src={require("../img/rah-assets/arrow-down.png").default} alt="" />
