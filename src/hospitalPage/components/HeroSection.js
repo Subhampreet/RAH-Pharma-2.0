@@ -125,6 +125,9 @@ export default function HeroSection() {
         <div className="middle-right">
             <img style={{width:"95%",height:"120px",marginTop:"3%"}} src="https://via.placeholder.com/"/>
           </div>
+          <div className="middle-right">
+            <p>At Gopabandhunagar</p>
+          </div>
       </div>
     </div>
   );
